@@ -151,28 +151,59 @@ const updateStreak = () => {
     document.body.removeChild(link);
     URL.revokeObjectURL(url);
   };
+const handleBulkImport = (newEntries: WordEntry[]) => {
+    // 1. Tiền xử lý: Đảm bảo giữ lại timestamp gốc từ dữ liệu JSON
+    const sanitizedEntries = newEntries.map(entry => {
+      // Ép kiểu timestamp về số (number) để tránh lỗi so sánh ngày tháng
+      const originalTimestamp = entry.timestamp ? Number(entry.timestamp) : Date.now();
+      
+      return {
+        ...entry,
+        id: entry.id || crypto.randomUUID(),
+        timestamp: originalTimestamp
+      };
+    });
 
-  const handleBulkImport = (newEntries: WordEntry[]) => {
-    const sanitizedEntries = newEntries.map(entry => ({
-      ...entry,
-      id: entry.id || crypto.randomUUID(),
-      timestamp: entry.timestamp || Date.now()
-    }));
-
+    // 2. Lọc bỏ các từ đã tồn tại để tránh trùng lặp dữ liệu
     const uniqueEntries = sanitizedEntries.filter(
         newW => !words.some(existW => existW.word.toLowerCase() === newW.word.toLowerCase())
     );
 
     if (uniqueEntries.length < sanitizedEntries.length) {
-        alert(`Skipped ${sanitizedEntries.length - uniqueEntries.length} duplicates.`);
+        alert(`Đã bỏ qua ${sanitizedEntries.length - uniqueEntries.length} từ bị trùng lặp.`);
     }
 
+    // 3. Cập nhật danh sách từ vựng vào State
     setWords(prev => [...uniqueEntries, ...prev]);
     
+    // 4. CHỖ QUAN TRỌNG: Không tự động setSelectedDate về "hôm nay" 
+    // Nếu bạn muốn thấy từ vựng vừa import, hãy chuyển đến ngày của từ đầu tiên trong danh sách nạp vào
     if (uniqueEntries.length > 0) {
-        setSelectedDate(getLocalDateString(uniqueEntries[0].timestamp));
+        const firstEntryDate = getLocalDateString(uniqueEntries[0].timestamp);
+        setSelectedDate(firstEntryDate);
     }
-  };
+};
+  // const handleBulkImport = (newEntries: WordEntry[]) => {
+  //   const sanitizedEntries = newEntries.map(entry => ({
+  //     ...entry,
+  //     id: entry.id || crypto.randomUUID(),
+  //     timestamp: entry.timestamp || Date.now()
+  //   }));
+
+  //   const uniqueEntries = sanitizedEntries.filter(
+  //       newW => !words.some(existW => existW.word.toLowerCase() === newW.word.toLowerCase())
+  //   );
+
+  //   if (uniqueEntries.length < sanitizedEntries.length) {
+  //       alert(`Skipped ${sanitizedEntries.length - uniqueEntries.length} duplicates.`);
+  //   }
+
+  //   setWords(prev => [...uniqueEntries, ...prev]);
+    
+  //   if (uniqueEntries.length > 0) {
+  //       setSelectedDate(getLocalDateString(uniqueEntries[0].timestamp));
+  //   }
+  // };
 
   const handleAddWord = (e?: React.FormEvent) => {
     if (e) e.preventDefault();
