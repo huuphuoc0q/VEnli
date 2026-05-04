@@ -1,0 +1,5154 @@
+[
+  {
+    "id": "ba41302a-0c7b-4f4b-bc5e-42a416606020",
+    "word": "unwind",
+    "type": "Verb",
+    "meaning": "tháo ra/ trải ra/ thư giãn",
+    "example": "",
+    "timestamp": 1777772104405
+  },
+  {
+    "id": "9e6037e4-373e-4a51-9200-c84c4139600c",
+    "word": "somewhat",
+    "type": "Adverb",
+    "meaning": "hơi có phần/ hơi hơi",
+    "example": "",
+    "timestamp": 1777771581550
+  },
+  {
+    "id": "8b067e01-ac0d-4c03-b78b-4a67ba345897",
+    "word": "sincere",
+    "type": "Adjective",
+    "meaning": "chân thành/ thành thật",
+    "example": "",
+    "timestamp": 1777771384016
+  },
+  {
+    "id": "1db08b3d-1393-4f8e-8c40-ba6928ff0138",
+    "word": "suble",
+    "type": "Adjective",
+    "meaning": "Tinh tế/ tế nhị",
+    "example": "",
+    "timestamp": 1777771106514
+  },
+  {
+    "id": "90bfb0ce-d5e0-49fd-b65f-01b722beffa0",
+    "word": "date back to",
+    "type": "Phrase",
+    "meaning": "Có từ + thời gian",
+    "example": "",
+    "timestamp": 1777770855152
+  },
+  {
+    "id": "85dd37d6-5e18-4997-afbc-9b02efeb0f1e",
+    "word": "A work of art",
+    "type": "Noun",
+    "meaning": "Tác phẩm nghệ thuật",
+    "example": "",
+    "timestamp": 1777770568179
+  },
+  {
+    "id": "5c901296-8b0d-4b31-9994-9633beb54552",
+    "word": "balance out",
+    "type": "Phrase",
+    "meaning": "Cân bằng/ bù trừ",
+    "example": "",
+    "timestamp": 1777770459791
+  },
+  {
+    "id": "9952fb5f-0d39-4c3b-9f9c-9757b72446af",
+    "word": "for some",
+    "type": "Phrase",
+    "meaning": "Đối với một số người/ vật",
+    "example": "",
+    "timestamp": 1777770364954
+  },
+  {
+    "id": "3c705915-5680-4717-945b-e98c185b9e1d",
+    "word": "take up",
+    "type": "Phrase",
+    "meaning": "bắt đầu một sở thích/ thói quen",
+    "example": "",
+    "timestamp": 1777651510585
+  },
+  {
+    "id": "a1b1a375-6b1b-4fe0-8d2f-ff5b12fc87a4",
+    "word": "jogging",
+    "type": "Noun",
+    "meaning": "chạy bộ nhẹ nhàng",
+    "example": "",
+    "timestamp": 1777651454727
+  },
+  {
+    "id": "c33a1366-68c4-4beb-9ebc-91b41e485646",
+    "word": "handicraft",
+    "type": "Noun",
+    "meaning": "thủ công",
+    "example": "",
+    "timestamp": 1777651406281
+  },
+  {
+    "id": "22f51598-cb4d-4b39-a611-429be28485b2",
+    "word": "antique",
+    "type": "Noun",
+    "meaning": "đồ cổ",
+    "example": "",
+    "timestamp": 1777651342780
+  },
+  {
+    "id": "01d82814-4cdc-4817-b46c-8f017904d9fc",
+    "word": "leisure",
+    "type": "Noun",
+    "meaning": "lúc rãnh rỗi",
+    "example": "",
+    "timestamp": 1777651306151
+  },
+  {
+    "id": "6fbc3335-85c1-42cc-9282-b20672c721f8",
+    "word": "first off",
+    "type": "Phrase",
+    "meaning": "trước hết",
+    "example": "",
+    "timestamp": 1777651024361
+  },
+  {
+    "id": "5705b34f-b93d-48c9-9539-5f564305841e",
+    "word": "meticulously",
+    "type": "Adverb",
+    "meaning": "một cách tỉ mỉ",
+    "example": "",
+    "timestamp": 1777638054654
+  },
+  {
+    "id": "1e907709-f512-4877-84c8-be26aa347a0e",
+    "word": "palpable",
+    "type": "Adjective",
+    "meaning": "sờ được/ thấy được",
+    "example": "",
+    "timestamp": 1777637998374
+  },
+  {
+    "id": "b807d4eb-4e7b-47ef-9d5a-c4c6cf7c5974",
+    "word": "constant",
+    "type": "Adjective",
+    "meaning": "liên tục/ không đổi/ quen thuộc",
+    "example": "",
+    "timestamp": 1777637903568
+  },
+  {
+    "id": "d233bcb4-7f4f-4b09-8091-0c69cf4f1118",
+    "word": "formulation",
+    "type": "Noun",
+    "meaning": "sự diễn đạt/ sự trình bày",
+    "example": "",
+    "timestamp": 1777637593523
+  },
+  {
+    "id": "2460f228-4f8e-492b-9dff-4846f689cf8b",
+    "word": "fuel",
+    "type": "Verb",
+    "meaning": "tiếp thêm nhiên liệu",
+    "example": "",
+    "timestamp": 1777637474952
+  },
+  {
+    "id": "2fabc274-d31b-4406-9181-e407c084fd71",
+    "word": "proper",
+    "type": "Adjective",
+    "meaning": "đúng/ đàng hoàng/ thích hợp",
+    "example": "",
+    "timestamp": 1777637197559
+  },
+  {
+    "id": "8c11cc82-3a7e-40e8-b434-a9ed289f2c2f",
+    "word": "genuine",
+    "type": "Adjective",
+    "meaning": "đích thực/ thật sự",
+    "example": "",
+    "timestamp": 1777636824748
+  },
+  {
+    "id": "4453022b-37dc-4a99-9610-e913fe4153d4",
+    "word": "eager",
+    "type": "Adjective",
+    "meaning": "hăm hở/ háo hức/ hăng hái",
+    "example": "",
+    "timestamp": 1777636779907
+  },
+  {
+    "id": "b8cd3768-9ea9-4660-937e-95a5516fc5eb",
+    "word": "tactical",
+    "type": "Adjective",
+    "meaning": "chiến thuật",
+    "example": "",
+    "timestamp": 1777448117837
+  },
+  {
+    "id": "76fb1bb0-79cf-4f07-90f0-4d9acbfbe066",
+    "word": "enthusiasm",
+    "type": "Noun",
+    "meaning": "sự nhiệt tình",
+    "example": "",
+    "timestamp": 1777448099805
+  },
+  {
+    "id": "0c6b235f-4fde-48fd-9eb8-f4eac701caa0",
+    "word": "dispatch",
+    "type": "Verb",
+    "meaning": "Phái đi/ gửi đi",
+    "example": "",
+    "timestamp": 1777447849815
+  },
+  {
+    "id": "42b58183-681f-4ea1-a529-73d11c8060ee",
+    "word": "Precede",
+    "type": "Verb",
+    "meaning": "đi trước/ đến trước",
+    "example": "",
+    "timestamp": 1777447257488
+  },
+  {
+    "id": "425d6104-f5b8-41b7-b842-568c470805ae",
+    "word": "extinction",
+    "type": "Noun",
+    "meaning": "sự tuyệt chủng",
+    "example": "",
+    "timestamp": 1777303359106
+  },
+  {
+    "id": "b9238ef5-4061-4076-917b-9863d3a238b0",
+    "word": "wane",
+    "type": "Verb",
+    "meaning": "giảm/ suy yếu",
+    "example": "",
+    "timestamp": 1777302933455
+  },
+  {
+    "id": "4c5a6d23-5c66-4ab6-a818-7848f5b137bb",
+    "word": "in person",
+    "type": "Phrase",
+    "meaning": "trực tiếp",
+    "example": "",
+    "timestamp": 1777302909360
+  },
+  {
+    "id": "7d322e94-5c4f-4272-9de5-ce06f982f3a3",
+    "word": "meantime",
+    "type": "Adverb",
+    "meaning": "trong lúc đó",
+    "example": "",
+    "timestamp": 1777302866730
+  },
+  {
+    "id": "bce503f1-0ee2-481e-8c71-35bbbce9c149",
+    "word": "out of stock",
+    "type": "Phrase",
+    "meaning": "hết hàng",
+    "example": "",
+    "timestamp": 1777302833274
+  },
+  {
+    "id": "3e74a27b-585b-4902-bc59-b5c65c2fd4f9",
+    "word": "in stock",
+    "type": "Phrase",
+    "meaning": "còn hàng/ còn sẵn trong khoa",
+    "example": "",
+    "timestamp": 1777302814427
+  },
+  {
+    "id": "e5347bd0-c70e-441c-91e8-117b5a3edd22",
+    "word": "sophisticated",
+    "type": "Adjective",
+    "meaning": "tinh vi/ tinh xảo",
+    "example": "",
+    "timestamp": 1777254623276
+  },
+  {
+    "id": "f71554aa-a7d6-40ba-b9d7-1e666cd338fe",
+    "word": "unprecedented",
+    "type": "Adjective",
+    "meaning": "chưa từng thấy trước đây",
+    "example": "",
+    "timestamp": 1777254434510
+  },
+  {
+    "id": "28824ae5-a395-47b3-9489-8166caf7d000",
+    "word": "autonomous",
+    "type": "Adjective",
+    "meaning": "tự trị",
+    "example": "",
+    "timestamp": 1777254325997
+  },
+  {
+    "id": "5ea23c65-e412-4418-b50d-5536380f2a38",
+    "word": "harness",
+    "type": "Verb",
+    "meaning": "khai thác",
+    "example": "",
+    "timestamp": 1777187981572
+  },
+  {
+    "id": "7fc7edaf-54f9-40a6-ad1c-0a4622a71b4e",
+    "word": "statistical",
+    "type": "Adjective",
+    "meaning": "thống kê",
+    "example": "",
+    "timestamp": 1777187933676
+  },
+  {
+    "id": "fe24dbec-b35e-460f-963c-86ec48c8b9d5",
+    "word": "tight",
+    "type": "Adjective",
+    "meaning": "chặt",
+    "example": "",
+    "timestamp": 1777081727414
+  },
+  {
+    "id": "ee9684ec-f8eb-4d11-8d99-b7495c363830",
+    "word": "slam",
+    "type": "Verb",
+    "meaning": "đóng sầm",
+    "example": "",
+    "timestamp": 1777081602996
+  },
+  {
+    "id": "d91e2a4f-d5b2-4785-b030-66ab789fbc63",
+    "word": "greed",
+    "type": "Noun",
+    "meaning": "lòng tham",
+    "example": "",
+    "timestamp": 1777081523675
+  },
+  {
+    "id": "4cf3704a-5324-40d3-8409-28fa88aa75a4",
+    "word": "renown",
+    "type": "Noun",
+    "meaning": "danh tiếng/ tiếng tăm",
+    "example": "",
+    "timestamp": 1777081444245
+  },
+  {
+    "id": "c61832ec-7ec0-4d9c-9d68-4935f4433450",
+    "word": "thick",
+    "type": "Adjective",
+    "meaning": "dày",
+    "example": "",
+    "timestamp": 1777081402906
+  },
+  {
+    "id": "071bd5e6-a8b9-40c1-a69a-36deb6f4c647",
+    "word": "immense",
+    "type": "Adjective",
+    "meaning": "rộng lớn",
+    "example": "",
+    "timestamp": 1777081378325
+  },
+  {
+    "id": "63bf3f1e-e5e3-4df3-8a80-f59ef79de085",
+    "word": "synonym",
+    "type": "Noun",
+    "meaning": "từ đồng nghĩa",
+    "example": "",
+    "timestamp": 1777013652381
+  },
+  {
+    "id": "35b267d5-ea71-4485-84ff-f305f6185501",
+    "word": "integration",
+    "type": "Noun",
+    "meaning": "sự hợp nhất/ sự hội nhập",
+    "example": "",
+    "timestamp": 1776992757812
+  },
+  {
+    "id": "34e0997e-7fcb-4cd8-8704-7411da0b3a92",
+    "word": "constrain",
+    "type": "Verb",
+    "meaning": "cưỡng ép/ ép buộc",
+    "example": "",
+    "timestamp": 1776912429659
+  },
+  {
+    "id": "6f9ad9a1-4818-43fa-970f-e9b45cdf07ab",
+    "word": "discard",
+    "type": "Verb",
+    "meaning": "bỏ đi/ vứt bỏ đi",
+    "example": "",
+    "timestamp": 1776912277843
+  },
+  {
+    "id": "21816d3f-a6a1-4d5c-bfaa-e3535f22cd33",
+    "word": "parsing",
+    "type": "Noun",
+    "meaning": "sự phân tích ngữ pháp",
+    "example": "",
+    "timestamp": 1776912122894
+  },
+  {
+    "id": "8aedf5b1-e87a-44d6-b0da-966bc605a4c2",
+    "word": "moderation",
+    "type": "Noun",
+    "meaning": "điều độ/ tiết chế",
+    "example": "",
+    "timestamp": 1776906938507
+  },
+  {
+    "id": "c840f276-5b02-41c8-9a69-35a9915ebfe2",
+    "word": "awe",
+    "type": "Verb",
+    "meaning": "làm kinh sợ",
+    "example": "",
+    "timestamp": 1776906686424
+  },
+  {
+    "id": "430d225c-3ea5-47b9-9c4e-33c9e68b7a3e",
+    "word": "flawless",
+    "type": "Adjective",
+    "meaning": "hoàn hảo",
+    "example": "",
+    "timestamp": 1776906658052
+  },
+  {
+    "id": "8709827f-b926-44d7-bcd8-a1f46e6a7e63",
+    "word": "worth",
+    "type": "Noun",
+    "meaning": "giá trị",
+    "example": "",
+    "timestamp": 1776906612884
+  },
+  {
+    "id": "9ecde481-5fe4-4956-bb54-c6cb2fe3279d",
+    "word": "grab",
+    "type": "Verb",
+    "meaning": "chộp/ giật/ vớ lấy",
+    "example": "",
+    "timestamp": 1776906455423
+  },
+  {
+    "id": "efab94ee-7bf0-48d1-a33c-f0f7dd7bcaba",
+    "word": "dice",
+    "type": "Noun",
+    "meaning": "cục xúc sắt",
+    "example": "",
+    "timestamp": 1776870343451
+  },
+  {
+    "id": "f5582d02-adec-4842-b24a-2231550ff9ec",
+    "word": "pagination",
+    "type": "Noun",
+    "meaning": "sự phân trang",
+    "example": "",
+    "timestamp": 1776784159818
+  },
+  {
+    "id": "9e80a8bd-bae2-4248-83e1-ce5ba3d00828",
+    "word": "capacity",
+    "type": "Adverb",
+    "meaning": "năng suất",
+    "example": "",
+    "timestamp": 1776784143645
+  },
+  {
+    "id": "e845ffb1-c29e-4d98-8a43-e4eea05e5f18",
+    "word": "condese",
+    "type": "Verb",
+    "meaning": "viết cô động lại",
+    "example": "",
+    "timestamp": 1776685212471
+  },
+  {
+    "id": "4e96718a-2fa8-4973-8ad0-7d8dfbf9717f",
+    "word": "underappreciated",
+    "type": "Adjective",
+    "meaning": "đánh giá thấp/ bị coi thường",
+    "example": "",
+    "timestamp": 1776683949773
+  },
+  {
+    "id": "fccc187a-fa4e-4564-aeaf-61040d34e4b3",
+    "word": "shy",
+    "type": "Adjective",
+    "meaning": "nhút nhát/ e thẹn/ bẽn lẽn",
+    "example": "",
+    "timestamp": 1776683774657
+  },
+  {
+    "id": "d20372e0-073b-436a-97a7-1e11349305ed",
+    "word": "outgoing",
+    "type": "Adjective",
+    "meaning": "hướng ngoại",
+    "example": "",
+    "timestamp": 1776683743143
+  },
+  {
+    "id": "16c359b3-dde0-428d-a3a5-7461d193f414",
+    "word": "outperform",
+    "type": "Verb",
+    "meaning": "vượi trội/ out trình",
+    "example": "",
+    "timestamp": 1776683215638
+  },
+  {
+    "id": "cc739130-a95a-4b54-bb2d-42eab73e5ef8",
+    "word": "contestant",
+    "type": "Noun",
+    "meaning": "thí sinh/ người dự thi",
+    "example": "",
+    "timestamp": 1776682899639
+  },
+  {
+    "id": "b5730fa4-f886-4cab-85f2-9cfb4862753c",
+    "word": "outstanding",
+    "type": "Adjective",
+    "meaning": "xuất sắc",
+    "example": "",
+    "timestamp": 1776682677489
+  },
+  {
+    "id": "037ad653-8414-46f1-a829-818543987f73",
+    "word": "otherwise",
+    "type": "Adverb",
+    "meaning": "theo cách khác",
+    "example": "",
+    "timestamp": 1776682654598
+  },
+  {
+    "id": "13df3f13-8b4c-465f-944c-33b515e32b5a",
+    "word": "contrary",
+    "type": "Adjective",
+    "meaning": "trái nghịch",
+    "example": "",
+    "timestamp": 1776682627604
+  },
+  {
+    "id": "e7a0ae64-7d5e-43b8-abbe-31d4bdbabf14",
+    "word": "nevertheless",
+    "type": "Adverb",
+    "meaning": "tuy nhiên",
+    "example": "",
+    "timestamp": 1776682596888
+  },
+  {
+    "id": "149808c5-9212-4b88-9087-0457d19cf6de",
+    "word": "sponsorship",
+    "type": "Noun",
+    "meaning": "sự bảo lãnh/ sự bảo trợ",
+    "example": "",
+    "timestamp": 1776682267943
+  },
+  {
+    "id": "e776cfe0-3969-49be-b5f9-21c9ad6c5f33",
+    "word": "compensate",
+    "type": "Verb",
+    "meaning": "bù đắp/ đền bù",
+    "example": "",
+    "timestamp": 1776682016145
+  },
+  {
+    "id": "aff45039-4da7-4957-9662-937c1bea1109",
+    "word": "Admire",
+    "type": "Verb",
+    "meaning": "cảm phục/ thán phục",
+    "example": "",
+    "timestamp": 1776681949797
+  },
+  {
+    "id": "9852c801-cbf5-42dd-abd4-f5393e00ae4e",
+    "word": "fidelity",
+    "type": "Noun",
+    "meaning": "sự trung thành/ sự trung thực",
+    "example": "",
+    "timestamp": 1776513585350
+  },
+  {
+    "id": "a5f05b5e-8084-4bac-a36b-06c35067f33d",
+    "word": "provided that/ providing",
+    "type": "Phrase",
+    "meaning": "miễn là",
+    "example": "",
+    "timestamp": 1776488213163
+  },
+  {
+    "id": "350b4d1c-e305-411e-bb77-4aa2ab1f2104",
+    "word": "concentrate",
+    "type": "Verb",
+    "meaning": "tập trung",
+    "example": "",
+    "timestamp": 1776487808744
+  },
+  {
+    "id": "be8efc32-ebe2-48f9-bd25-d93277df5128",
+    "word": "guilty",
+    "type": "Adjective",
+    "meaning": "có tội",
+    "example": "",
+    "timestamp": 1776487514054
+  },
+  {
+    "id": "5eada971-b6de-4863-ae49-41797d6c4599",
+    "word": "urgent",
+    "type": "Adjective",
+    "meaning": "khẩn cấp",
+    "example": "",
+    "timestamp": 1776487427337
+  },
+  {
+    "id": "9ba3f787-1459-419b-9de0-255248b0c0b7",
+    "word": "Be due + thời gian",
+    "type": "Phrase",
+    "meaning": "đến hạn vào",
+    "example": "",
+    "timestamp": 1776486684104
+  },
+  {
+    "id": "39104664-86ae-4f78-bf52-29bbf18b3d1b",
+    "word": "picky",
+    "type": "Adjective",
+    "meaning": "kén chọn/ khó tính",
+    "example": "",
+    "timestamp": 1776486575720
+  },
+  {
+    "id": "75d552b2-346e-486f-8026-f76a3eb05cd8",
+    "word": "cosmetic",
+    "type": "Noun",
+    "meaning": "mỹ phẩm",
+    "example": "",
+    "timestamp": 1776486506806
+  },
+  {
+    "id": "d444c7a4-9de3-4fca-b26a-e9a70dc5eb51",
+    "word": "drought",
+    "type": "Noun",
+    "meaning": "hạn hán",
+    "example": "",
+    "timestamp": 1776477044270
+  },
+  {
+    "id": "a2876233-3fcb-4a44-a961-3ffc2bbdb3ca",
+    "word": "persist",
+    "type": "Noun",
+    "meaning": "khăng khăng/ cố chấp",
+    "example": "",
+    "timestamp": 1776477032917
+  },
+  {
+    "id": "2b951115-e254-429e-9089-453c46961108",
+    "word": "excessively",
+    "type": "Adverb",
+    "meaning": "một cách thái hoá",
+    "example": "",
+    "timestamp": 1776476956985
+  },
+  {
+    "id": "05736db2-77bd-4874-b1c6-47e04bda07b3",
+    "word": "exemplary",
+    "type": "Adjective",
+    "meaning": "gương mẫu/ mẫu mực",
+    "example": "",
+    "timestamp": 1776347771012
+  },
+  {
+    "id": "d562aaca-aaf8-4a30-b86d-e36ace8f790a",
+    "word": "formally",
+    "type": "Adverb",
+    "meaning": "một cách chính thức",
+    "example": "",
+    "timestamp": 1776347579027
+  },
+  {
+    "id": "7b9cd954-77bf-4126-81cd-ccfc9c736634",
+    "word": "readily",
+    "type": "Adverb",
+    "meaning": "một cách sẵn lòng",
+    "example": "",
+    "timestamp": 1776347496485
+  },
+  {
+    "id": "54f3c360-a9d5-4e59-968b-df3de9b476a2",
+    "word": "irrelevant",
+    "type": "Adjective",
+    "meaning": "không thích hợp/ không liên quan tới",
+    "example": "",
+    "timestamp": 1776345531733
+  },
+  {
+    "id": "457fcff0-dc59-433d-a41d-96866e29f039",
+    "word": "withstand",
+    "type": "Verb",
+    "meaning": "chống lại/ chịu đựng",
+    "example": "",
+    "timestamp": 1776306998883
+  },
+  {
+    "id": "70b91fb7-ef02-472c-8034-98fc84624a63",
+    "word": "verdict",
+    "type": "Noun",
+    "meaning": "đưa ra phán quyết",
+    "example": "",
+    "timestamp": 1776306874095
+  },
+  {
+    "id": "dfb1229c-6337-4ebd-9c2b-2f266a34ff6a",
+    "word": "objective",
+    "type": "Noun",
+    "meaning": "mục tiêu",
+    "example": "",
+    "timestamp": 1776306828149
+  },
+  {
+    "id": "bb760832-effb-47a8-bb6f-29b2bb39aedc",
+    "word": "ambition",
+    "type": "Noun",
+    "meaning": "tham vọng/ hoài bão",
+    "example": "",
+    "timestamp": 1776306808633
+  },
+  {
+    "id": "9d01f5c9-39a7-4e5d-a685-a6ab98c0ff59",
+    "word": "pursue",
+    "type": "Verb",
+    "meaning": "theo đuổi/ đuổi theo",
+    "example": "",
+    "timestamp": 1776306790289
+  },
+  {
+    "id": "4d404a5a-0d3d-45b4-a8da-36fbc976d350",
+    "word": "engagement",
+    "type": "Noun",
+    "meaning": "cuộc hợp",
+    "example": "",
+    "timestamp": 1776306749014
+  },
+  {
+    "id": "39e899bd-eb63-416c-9431-b24ed0fa668d",
+    "word": "adversity",
+    "type": "Noun",
+    "meaning": "nghịch cảnh",
+    "example": "",
+    "timestamp": 1776306480973
+  },
+  {
+    "id": "282282ac-f295-4f42-a5e4-35db4346b48b",
+    "word": "obligation",
+    "type": "Noun",
+    "meaning": "Nghĩa vụ",
+    "example": "",
+    "timestamp": 1776306299541
+  },
+  {
+    "id": "f492e07c-694a-4781-ae2a-766b85239eec",
+    "word": "rally",
+    "type": "Verb",
+    "meaning": "tập hợp",
+    "example": "",
+    "timestamp": 1776306255166
+  },
+  {
+    "id": "da4fd61a-d901-4083-be76-cf18168b34f4",
+    "word": "prejudice",
+    "type": "Noun",
+    "meaning": "thiên kiến/ thành kiến",
+    "example": "",
+    "timestamp": 1776306203473
+  },
+  {
+    "id": "d1ffa931-863f-43dc-9276-94f76adfa065",
+    "word": "discrimination",
+    "type": "Noun",
+    "meaning": "sự phân biệt đối xử",
+    "example": "",
+    "timestamp": 1776306179045
+  },
+  {
+    "id": "1b2d6a06-71ed-4763-bec4-8044268ae977",
+    "word": "allegation",
+    "type": "Noun",
+    "meaning": "cáo buộc/ lời tố cáo",
+    "example": "",
+    "timestamp": 1776305951123
+  },
+  {
+    "id": "ea3206fb-3e8d-400f-9c9e-a91b7710e8ec",
+    "word": "dismiss",
+    "type": "Verb",
+    "meaning": "sa thải/ bác bỏ",
+    "example": "",
+    "timestamp": 1776305911144
+  },
+  {
+    "id": "29220e7d-1846-4f53-ab21-3a89ee76315d",
+    "word": "praise",
+    "type": "Noun",
+    "meaning": "sự khen ngợi/ tán thưởng",
+    "example": "",
+    "timestamp": 1776305881527
+  },
+  {
+    "id": "6bcc7533-38c9-4e23-938e-d07ce8a7a8a0",
+    "word": "deserve",
+    "type": "Verb",
+    "meaning": "đáng/ xứng đáng",
+    "example": "",
+    "timestamp": 1776305845418
+  },
+  {
+    "id": "9c20ca11-a8e5-4b30-be69-a098162a72a3",
+    "word": "conclude",
+    "type": "Verb",
+    "meaning": "quyết định/ kí kết",
+    "example": "",
+    "timestamp": 1776305792434
+  },
+  {
+    "id": "125fbbc8-4f47-4d27-9fbc-3119e0c5f9d6",
+    "word": "chair",
+    "type": "Verb",
+    "meaning": "chủ trì",
+    "example": "",
+    "timestamp": 1776305769247
+  },
+  {
+    "id": "c19b47a0-5608-4097-870f-e4215b97b78d",
+    "word": "rebate",
+    "type": "Noun",
+    "meaning": "chiếc khấu",
+    "example": "",
+    "timestamp": 1776305690827
+  },
+  {
+    "id": "b4420b34-e598-4ed1-af8e-e3178a61e6c0",
+    "word": "recruit",
+    "type": "Verb",
+    "meaning": "chiêu mộ",
+    "example": "",
+    "timestamp": 1776157006902
+  },
+  {
+    "id": "1d9b399c-8652-4c12-b3a7-b071bf232604",
+    "word": "regularize",
+    "type": "Adverb",
+    "meaning": "hợp thức hoá",
+    "example": "",
+    "timestamp": 1776156841430
+  },
+  {
+    "id": "453c9daa-77f0-4c38-9d23-46036609b0da",
+    "word": "regulary",
+    "type": "Adverb",
+    "meaning": "một cách đều đặn",
+    "example": "",
+    "timestamp": 1776156753590
+  },
+  {
+    "id": "89eb254e-9d8d-4206-8dd3-15481b78d0ef",
+    "word": "severe",
+    "type": "Adjective",
+    "meaning": "khắc nghiệt/ nghiêm khắc",
+    "example": "",
+    "timestamp": 1776156515150
+  },
+  {
+    "id": "42211e3f-7d2b-484b-b1a0-c5d685d4ac39",
+    "word": "assure",
+    "type": "Adverb",
+    "meaning": "cam đoan",
+    "example": "",
+    "timestamp": 1776156363574
+  },
+  {
+    "id": "7367403b-e189-4d24-95d2-cd73a23f837b",
+    "word": "capable",
+    "type": "Adjective",
+    "meaning": "có tài/ có năng lực",
+    "example": "",
+    "timestamp": 1776156291301
+  },
+  {
+    "id": "b3e51050-29d4-4bc4-897a-c3038e7aaac6",
+    "word": "variable",
+    "type": "Adjective",
+    "meaning": "hay thay đổi",
+    "example": "",
+    "timestamp": 1776156265711
+  },
+  {
+    "id": "b6f2f980-862b-43a2-8bde-aa4d4a88ec8a",
+    "word": "transported",
+    "type": "Adjective",
+    "meaning": "xúc động",
+    "example": "",
+    "timestamp": 1776156008326
+  },
+  {
+    "id": "d1134a6f-23ab-4b3b-9c86-8b76c87fe141",
+    "word": "tremedous",
+    "type": "Adjective",
+    "meaning": "rất lớn",
+    "example": "",
+    "timestamp": 1776155781863
+  },
+  {
+    "id": "3c5f6bd1-f188-4f65-8427-3d4c8d18babf",
+    "word": "utmost",
+    "type": "Adjective",
+    "meaning": "cùng cực/ tối đa/ cực kỳ",
+    "example": "",
+    "timestamp": 1776155674736
+  },
+  {
+    "id": "66ac7be0-f0d5-433c-a6f7-4fed984013ed",
+    "word": "seemingly",
+    "type": "Adverb",
+    "meaning": "tưởng chừng như",
+    "example": "",
+    "timestamp": 1776049384193
+  },
+  {
+    "id": "057b37cc-4873-4c60-991b-233e431c906a",
+    "word": "nurture",
+    "type": "Verb",
+    "meaning": "nuôi dưỡng",
+    "example": "",
+    "timestamp": 1775962706671
+  },
+  {
+    "id": "70298205-2fa0-4647-adc8-22a601fb82ee",
+    "word": "enforcement",
+    "type": "Noun",
+    "meaning": "sự buộc thi hành",
+    "example": "",
+    "timestamp": 1775962458932
+  },
+  {
+    "id": "67bcb970-36b8-4a92-b5d2-1336eb01153d",
+    "word": "witness",
+    "type": "Noun",
+    "meaning": "nhân chứng",
+    "example": "",
+    "timestamp": 1775920538045
+  },
+  {
+    "id": "5f0e3c82-64dc-49d6-b832-a81555861dbf",
+    "word": "manner",
+    "type": "Noun",
+    "meaning": "lối/ cách",
+    "example": "",
+    "timestamp": 1775920151390
+  },
+  {
+    "id": "655b165e-4d92-4fd1-9169-1ba4ffba5c85",
+    "word": "frantically",
+    "type": "Adverb",
+    "meaning": "một cách điên cuồng",
+    "example": "",
+    "timestamp": 1775918837835
+  },
+  {
+    "id": "b6f61bd5-9e5b-4dd9-877a-7d9fb864b9f8",
+    "word": "diligently",
+    "type": "Adverb",
+    "meaning": "chuyên cần/ cần cù",
+    "example": "",
+    "timestamp": 1775918805515
+  },
+  {
+    "id": "5ea5b25d-f96c-47a8-b8bb-2bda04183bc1",
+    "word": "reserved",
+    "type": "Adjective",
+    "meaning": "dè dặt/ kín đáo",
+    "example": "",
+    "timestamp": 1775918761151
+  },
+  {
+    "id": "6641ea1c-e58d-45ff-82c0-569963f00cdc",
+    "word": "object",
+    "type": "Verb",
+    "meaning": "phản đối",
+    "example": "",
+    "timestamp": 1775918719163
+  },
+  {
+    "id": "bd8b4c20-628d-44c7-844c-b63e7bf1de92",
+    "word": "steadily",
+    "type": "Adverb",
+    "meaning": "một cách đều đặn",
+    "example": "",
+    "timestamp": 1775918622212
+  },
+  {
+    "id": "3d04a278-79fc-4ace-b90b-5eab6f9937ad",
+    "word": "reluctantly",
+    "type": "Adverb",
+    "meaning": "một cách miễn cưỡng",
+    "example": "",
+    "timestamp": 1775918513354
+  },
+  {
+    "id": "a5bfc34b-d1fc-4865-8f70-e86d55cf2215",
+    "word": "devastate",
+    "type": "Verb",
+    "meaning": "tàn phá",
+    "example": "",
+    "timestamp": 1775918102777
+  },
+  {
+    "id": "9e8f5690-a4fc-45ff-a292-d6a222af8c21",
+    "word": "absurd",
+    "type": "Adjective",
+    "meaning": "vô lý",
+    "example": "",
+    "timestamp": 1775918079514
+  },
+  {
+    "id": "366177c2-d785-4890-9872-8a564077ba2a",
+    "word": "ridiculous",
+    "type": "Adjective",
+    "meaning": "nực cười",
+    "example": "",
+    "timestamp": 1775918050694
+  },
+  {
+    "id": "b9151c67-c493-4ac9-af84-70baa24d5b40",
+    "word": "ashamed",
+    "type": "Adjective",
+    "meaning": "hổ thẹn",
+    "example": "",
+    "timestamp": 1775917884875
+  },
+  {
+    "id": "5024e672-a67a-409e-affc-080f483db9d9",
+    "word": "miserable",
+    "type": "Adjective",
+    "meaning": "khốn khổ",
+    "example": "",
+    "timestamp": 1775917867947
+  },
+  {
+    "id": "43978758-dee9-4b5a-9a9c-c94fa0791449",
+    "word": "pleasant",
+    "type": "Adjective",
+    "meaning": "dễ chịu",
+    "example": "",
+    "timestamp": 1775917845477
+  },
+  {
+    "id": "40e0fddc-3494-4dae-a04a-6193ebb33d05",
+    "word": "wound",
+    "type": "Noun",
+    "meaning": "vết thương/ thương tích",
+    "example": "",
+    "timestamp": 1775917800575
+  },
+  {
+    "id": "04334608-0958-41df-a388-2c63b4e90d66",
+    "word": "modest",
+    "type": "Adjective",
+    "meaning": "khiêm tốn",
+    "example": "",
+    "timestamp": 1775917762076
+  },
+  {
+    "id": "37d82cd4-9fa1-4e0c-b0ab-4647e005814a",
+    "word": "irregular",
+    "type": "Adjective",
+    "meaning": "không đều/ bất nguy tắc",
+    "example": "",
+    "timestamp": 1775917724656
+  },
+  {
+    "id": "64219cb1-ab7e-4605-959f-d1ee63d056c5",
+    "word": "controversial",
+    "type": "Adjective",
+    "meaning": "gây tranh cãi/ gây bàn luận",
+    "example": "",
+    "timestamp": 1775917689627
+  },
+  {
+    "id": "6ddee934-6219-463c-816d-478c6be0986e",
+    "word": "offensive",
+    "type": "Adjective",
+    "meaning": "nhục mạ",
+    "example": "",
+    "timestamp": 1775917577071
+  },
+  {
+    "id": "dbd3e47b-edc2-44d0-ae93-b71a0b654262",
+    "word": "moved",
+    "type": "Adjective",
+    "meaning": "xúc động",
+    "example": "",
+    "timestamp": 1775917554654
+  },
+  {
+    "id": "148f4d65-a997-4ca5-bbd4-640005acec5c",
+    "word": "confidential",
+    "type": "Adjective",
+    "meaning": "tuyệt mật",
+    "example": "",
+    "timestamp": 1775917522243
+  },
+  {
+    "id": "f454dc12-ba09-42b9-9f8f-61844d950c79",
+    "word": "furious",
+    "type": "Adjective",
+    "meaning": "điên tiết/ cuồng nộ",
+    "example": "",
+    "timestamp": 1775917404726
+  },
+  {
+    "id": "f00ead7c-ff71-4817-8fb6-3adfa2cde428",
+    "word": "delight",
+    "type": "Verb",
+    "meaning": "làm cho vui thích (danh từ là sự vui sướng)",
+    "example": "",
+    "timestamp": 1775917361305
+  },
+  {
+    "id": "1cb79b4e-bcb2-48e9-87b9-2e55823caf3d",
+    "word": "convince",
+    "type": "Verb",
+    "meaning": "thuyết phục",
+    "example": "",
+    "timestamp": 1775917331478
+  },
+  {
+    "id": "8dc46a8b-0c05-472e-aeca-b31f5dff30b7",
+    "word": "astonish",
+    "type": "Verb",
+    "meaning": "làm kinh ngạc",
+    "example": "",
+    "timestamp": 1775917307463
+  },
+  {
+    "id": "364b5042-14dc-4e15-94fa-9cb971827ce2",
+    "word": "appalled",
+    "type": "Adjective",
+    "meaning": "sốc/ phẫn nộ/ kinh hoàn",
+    "example": "",
+    "timestamp": 1775917276435
+  },
+  {
+    "id": "20a41b61-624c-4e09-9fa3-e425fe539f2e",
+    "word": "deepen",
+    "type": "Adjective",
+    "meaning": "sâu đậm",
+    "example": "",
+    "timestamp": 1775903411452
+  },
+  {
+    "id": "09ad5110-8842-437b-9508-71f8d442ee43",
+    "word": "conquer",
+    "type": "Verb",
+    "meaning": "chiếm/ chinh phục",
+    "example": "",
+    "timestamp": 1775903358606
+  },
+  {
+    "id": "4eb3ed77-097e-4a1f-813c-d1da84d48cc8",
+    "word": "reasoning",
+    "type": "Noun",
+    "meaning": "sự lập luận",
+    "example": "",
+    "timestamp": 1775903293241
+  },
+  {
+    "id": "a83ae6a5-e8b4-43ce-9914-dbb2d583c066",
+    "word": "fundamental",
+    "type": "Adjective",
+    "meaning": "cơ bản/ chủ yếu",
+    "example": "",
+    "timestamp": 1775903157397
+  },
+  {
+    "id": "2812055c-4539-4a20-9ee0-3e5c2aebb297",
+    "word": "excel",
+    "type": "Verb",
+    "meaning": "vượt trội",
+    "example": "",
+    "timestamp": 1775903125954
+  },
+  {
+    "id": "a2694b68-91ea-4ad4-865a-0c7a23077876",
+    "word": "enhance",
+    "type": "Verb",
+    "meaning": "làm tăng/ nâng cao",
+    "example": "",
+    "timestamp": 1775903070845
+  },
+  {
+    "id": "31df4984-1bed-4c9b-bad0-5f5b5f842fba",
+    "word": "spill",
+    "type": "Verb",
+    "meaning": "làm tràn/ làm đổ",
+    "example": "",
+    "timestamp": 1775821583594
+  },
+  {
+    "id": "4c7684e0-5029-4413-9e58-a738d94b0eae",
+    "word": "liquid",
+    "type": "Noun",
+    "meaning": "chất lỏng",
+    "example": "",
+    "timestamp": 1775821029650
+  },
+  {
+    "id": "d9be3179-6cce-4bd9-ad23-e22ee5c04da3",
+    "word": "incident",
+    "type": "Noun",
+    "meaning": "sự cố",
+    "example": "",
+    "timestamp": 1775820638506
+  },
+  {
+    "id": "35879414-e1b8-43f4-b79e-cf946ef35fa5",
+    "word": "desire",
+    "type": "Verb",
+    "meaning": "mong muốn/ khao khát",
+    "example": "",
+    "timestamp": 1775819690232
+  },
+  {
+    "id": "63ed78d1-0472-4caf-84ef-80e1fe411c88",
+    "word": "clarity",
+    "type": "Noun",
+    "meaning": "sự rõ ràng",
+    "example": "",
+    "timestamp": 1775819656870
+  },
+  {
+    "id": "66666428-efeb-408d-bafe-60f411a5b5a1",
+    "word": "foundation",
+    "type": "Noun",
+    "meaning": "sự thành lập",
+    "example": "",
+    "timestamp": 1775819527850
+  },
+  {
+    "id": "ca88e9a3-8534-4752-96ac-e5cd665b6989",
+    "word": "associative",
+    "type": "Adjective",
+    "meaning": "kết hợp/ liên kết",
+    "example": "",
+    "timestamp": 1775811145120
+  },
+  {
+    "id": "9ac1ecba-77f8-4137-b1c2-eb2458ed2e35",
+    "word": "deduce",
+    "type": "Verb",
+    "meaning": "suy ra",
+    "example": "",
+    "timestamp": 1775810612246
+  },
+  {
+    "id": "a01cc6f4-7a57-4d5c-9ed7-122b8c053fa4",
+    "word": "squential",
+    "type": "Adjective",
+    "meaning": "tuần tự",
+    "example": "",
+    "timestamp": 1775795700991
+  },
+  {
+    "id": "6d8c6ea5-dede-4c74-81a0-f4ffbb64abcb",
+    "word": "manipulation",
+    "type": "Noun",
+    "meaning": "sự thao tác/ sự thao túng - lôi kéo",
+    "example": "",
+    "timestamp": 1775794741030
+  },
+  {
+    "id": "4587441c-4f05-49ea-95a3-9b883b97cb69",
+    "word": "high - paying job",
+    "type": "Phrase",
+    "meaning": "công việc lương cao",
+    "example": "",
+    "timestamp": 1775779982889
+  },
+  {
+    "id": "8a2c0015-359e-48a0-98eb-3f670f705a3d",
+    "word": "excuse",
+    "type": "Noun",
+    "meaning": "lời bào chữa",
+    "example": "",
+    "timestamp": 1775779896656
+  },
+  {
+    "id": "44af31e3-c6f2-48b5-830c-9def3229a1a7",
+    "word": "testimony",
+    "type": "Noun",
+    "meaning": "lời khai",
+    "example": "",
+    "timestamp": 1775779834509
+  },
+  {
+    "id": "2c4883d3-2be6-48c9-9895-ea0fd20847c8",
+    "word": "terminate",
+    "type": "Verb",
+    "meaning": "kết thúc/ chấm dứt",
+    "example": "",
+    "timestamp": 1775744255461
+  },
+  {
+    "id": "9ccc3b81-4204-4c25-a12f-4527fed092dd",
+    "word": "properly",
+    "type": "Adverb",
+    "meaning": "một cách đúng đắn/ phù hộp",
+    "example": "",
+    "timestamp": 1775744163568
+  },
+  {
+    "id": "28968eef-7f19-4718-b791-49525c222de6",
+    "word": "exclusively",
+    "type": "Adverb",
+    "meaning": "một cách riêng biệt",
+    "example": "",
+    "timestamp": 1775743986369
+  },
+  {
+    "id": "d4535b27-e01d-4f17-982c-9f4cd4a46cd4",
+    "word": "closely",
+    "type": "Adverb",
+    "meaning": "cẩn thận",
+    "example": "",
+    "timestamp": 1775743921150
+  },
+  {
+    "id": "6002a0cc-358d-40ba-acd3-76b4fdbb24a7",
+    "word": "shortly",
+    "type": "Adverb",
+    "meaning": "trong một lúc nữa",
+    "example": "",
+    "timestamp": 1775743911092
+  },
+  {
+    "id": "859b323c-88f8-463d-8568-add613138fe0",
+    "word": "presumably",
+    "type": "Adverb",
+    "meaning": "có lẽ là/ hẳn là",
+    "example": "",
+    "timestamp": 1775743784762
+  },
+  {
+    "id": "d3afd583-7f3e-401d-aac2-71dff5f7a343",
+    "word": "Apparently",
+    "type": "Adverb",
+    "meaning": "có vẻ như",
+    "example": "",
+    "timestamp": 1775743748509
+  },
+  {
+    "id": "b283e97a-add0-484e-b277-8390622f9814",
+    "word": "accurately",
+    "type": "Adverb",
+    "meaning": "Một cách chính xác",
+    "example": "",
+    "timestamp": 1775743640554
+  },
+  {
+    "id": "006b41d2-b8af-4cea-9960-e4aa96efc899",
+    "word": "absorbent",
+    "type": "Adjective",
+    "meaning": "hút nước",
+    "example": "",
+    "timestamp": 1775737258364
+  },
+  {
+    "id": "1861b216-6935-4429-a539-fabf1a00a28b",
+    "word": "invent",
+    "type": "Verb",
+    "meaning": "bịa ra",
+    "example": "",
+    "timestamp": 1775736682548
+  },
+  {
+    "id": "5cf7f232-7a75-494c-8c8a-245887c9888c",
+    "word": "competent",
+    "type": "Adjective",
+    "meaning": "có năng lực",
+    "example": "",
+    "timestamp": 1775736351510
+  },
+  {
+    "id": "85dc0ca2-4c76-49a1-94e1-72480ed77d44",
+    "word": "conduct",
+    "type": "Verb",
+    "meaning": "chỉ đạo/ điều khiển",
+    "example": "",
+    "timestamp": 1775735392351
+  },
+  {
+    "id": "a997f722-9fe8-4d29-bf1f-32ae8ff79cbb",
+    "word": "beverage",
+    "type": "Noun",
+    "meaning": "đồ uống",
+    "example": "",
+    "timestamp": 1775735116366
+  },
+  {
+    "id": "7198a42e-6ffb-4c6b-bf73-6cdaf8cd79af",
+    "word": "warehouse",
+    "type": "Noun",
+    "meaning": "kho hàng/ nhà kho",
+    "example": "",
+    "timestamp": 1775735027220
+  },
+  {
+    "id": "077771df-0b0e-41d1-96f5-ceb5425b1f10",
+    "word": "consistent",
+    "type": "Adjective",
+    "meaning": "kiên định/ trước sau như một/ + with phù hợp với",
+    "example": "",
+    "timestamp": 1775571308621
+  },
+  {
+    "id": "1026b226-c9b3-40c6-b03e-1f20fbd0e107",
+    "word": "poison",
+    "type": "Noun",
+    "meaning": "thuốc động",
+    "example": "",
+    "timestamp": 1775571137901
+  },
+  {
+    "id": "311b9255-d407-4676-840c-f505c65bc0d6",
+    "word": "continual",
+    "type": "Adjective",
+    "meaning": "liên tục nhưng có ngắt quãng",
+    "example": "",
+    "timestamp": 1775571073085
+  },
+  {
+    "id": "ce9e5f53-64cd-4861-96bf-61a5530cc24e",
+    "word": "continuous (",
+    "type": "Adjective",
+    "meaning": "liên tục không ngừng nghỉ",
+    "example": "",
+    "timestamp": 1775571057916
+  },
+  {
+    "id": "a4398bc6-6a5d-4e70-a428-c52b964ddb0b",
+    "word": "impressive",
+    "type": "Adjective",
+    "meaning": "ấn tượng mạnh mẽ",
+    "example": "",
+    "timestamp": 1775570697542
+  },
+  {
+    "id": "90a6aee2-1830-4ae0-b424-d622da01ab18",
+    "word": "trained",
+    "type": "Adjective",
+    "meaning": "lành nghề/ có tay nghề",
+    "example": "",
+    "timestamp": 1775570290782
+  },
+  {
+    "id": "31eab321-7cd8-4cb5-87e4-81660dd8f17c",
+    "word": "compete",
+    "type": "Verb",
+    "meaning": "ganh đua/ cạnh tranh",
+    "example": "",
+    "timestamp": 1775570258646
+  },
+  {
+    "id": "5c2e5d59-7acb-4ce6-96a8-c7dff32e8669",
+    "word": "workforce",
+    "type": "Noun",
+    "meaning": "lực lượng công nhân",
+    "example": "",
+    "timestamp": 1775570233300
+  },
+  {
+    "id": "d6742797-2d8e-4519-bf8c-01a0b4995c0d",
+    "word": "partial",
+    "type": "Adjective",
+    "meaning": "một phần",
+    "example": "",
+    "timestamp": 1775570072308
+  },
+  {
+    "id": "cc4e3295-599f-438b-9fea-195705aef3df",
+    "word": "proficient",
+    "type": "Adjective",
+    "meaning": "thành thạo/ thông thạo",
+    "example": "",
+    "timestamp": 1775570045396
+  },
+  {
+    "id": "be9a31cf-4477-4211-8b04-e043b7e18531",
+    "word": "to be tired of (về tinh thần)/ from-with (về thể chất)",
+    "type": "Noun",
+    "meaning": "mệt mỏi về tinh thần/ thể chất",
+    "example": "",
+    "timestamp": 1775569935606
+  },
+  {
+    "id": "052f5286-de3e-4295-83b6-bc556026cad7",
+    "word": "to be + related to Sth",
+    "type": "Phrase",
+    "meaning": "liên quan đến gì đó",
+    "example": "",
+    "timestamp": 1775569858390
+  },
+  {
+    "id": "0b5637ac-7dc1-48a9-b41e-f8275a302180",
+    "word": "likely",
+    "type": "Adjective",
+    "meaning": "có khả năng có thể",
+    "example": "",
+    "timestamp": 1775569566070
+  },
+  {
+    "id": "6e94be19-e11d-4cfc-97e2-cf30daa71152",
+    "word": "silly",
+    "type": "Adjective",
+    "meaning": "ngớ ngẩn",
+    "example": "",
+    "timestamp": 1775569536846
+  },
+  {
+    "id": "aef24073-5bfb-4d3b-85a6-3069ed686614",
+    "word": "deadly",
+    "type": "Adjective",
+    "meaning": "chết người/ chí mạng",
+    "example": "",
+    "timestamp": 1775569502886
+  },
+  {
+    "id": "c01689c0-3e34-4e3a-8b7c-a15b4cffbd5c",
+    "word": "costly",
+    "type": "Adjective",
+    "meaning": "đắt tiền/ quý giá",
+    "example": "",
+    "timestamp": 1775569482111
+  },
+  {
+    "id": "f78918bc-f9be-4703-9302-fe81be09b527",
+    "word": "elderly",
+    "type": "Adjective",
+    "meaning": "cao tuổi",
+    "example": "",
+    "timestamp": 1775569458863
+  },
+  {
+    "id": "59f701d0-80a0-4ea2-9cfd-6327e19eaae3",
+    "word": "orderly",
+    "type": "Adjective",
+    "meaning": "thứ tự, ngăn nắp",
+    "example": "",
+    "timestamp": 1775569450574
+  },
+  {
+    "id": "965bb266-724d-48f4-911b-e7e835fa9caa",
+    "word": "timely",
+    "type": "Adjective",
+    "meaning": "đúng lúc/ hợp thời",
+    "example": "",
+    "timestamp": 1775569431678
+  },
+  {
+    "id": "1922c2c8-6e2d-4ab7-8861-387dba7dd0ab",
+    "word": "successive",
+    "type": "Adjective",
+    "meaning": "liên tục/ liên tiếp",
+    "example": "",
+    "timestamp": 1775569207380
+  },
+  {
+    "id": "39c77a3b-cdd7-4295-a91c-2f964295be59",
+    "word": "respective",
+    "type": "Adjective",
+    "meaning": "riêng của mỗi người/ riêng của mỗi vật tương ứng",
+    "example": "",
+    "timestamp": 1775569176350
+  },
+  {
+    "id": "c6bdc051-bfe6-459c-aee6-f21cae7f80fb",
+    "word": "sensible",
+    "type": "Adjective",
+    "meaning": "hợp lý/ nhạy bén",
+    "example": "",
+    "timestamp": 1775569128966
+  },
+  {
+    "id": "78e8722b-3b39-45bc-b100-64b99e0592be",
+    "word": "sensitive",
+    "type": "Adjective",
+    "meaning": "nhạy cảm/ dễ bị tổn thương",
+    "example": "",
+    "timestamp": 1775569093926
+  },
+  {
+    "id": "5ecdd68b-3ae0-408c-8a89-a0d582f9db8e",
+    "word": "responsive",
+    "type": "Adjective",
+    "meaning": "phản hồi một cách tích cực",
+    "example": "",
+    "timestamp": 1775569062062
+  },
+  {
+    "id": "800183c3-6afd-433f-8102-699d90bdbd4a",
+    "word": "momentous",
+    "type": "Adjective",
+    "meaning": "trọng đại/ mang tính lịch sử",
+    "example": "",
+    "timestamp": 1775569018111
+  },
+  {
+    "id": "ea535484-3ac4-4dc2-a759-6cc659e5eb1b",
+    "word": "momentary",
+    "type": "Adjective",
+    "meaning": "trong một thời gian ngắn",
+    "example": "",
+    "timestamp": 1775568985510
+  },
+  {
+    "id": "d462ecb8-75b3-4c9a-8386-42576fe55581",
+    "word": "memorial",
+    "type": "Adjective",
+    "meaning": "tưởng nhớ",
+    "example": "",
+    "timestamp": 1775568930334
+  },
+  {
+    "id": "9acb5aed-b9ec-4cd6-9d6e-5f68c29d84d0",
+    "word": "industrious",
+    "type": "Adjective",
+    "meaning": "chăm chỉ",
+    "example": "",
+    "timestamp": 1775568820358
+  },
+  {
+    "id": "1f9ca3f0-151f-4ad9-b263-ebeccfdc507b",
+    "word": "economical",
+    "type": "Adjective",
+    "meaning": "tiết kiệm",
+    "example": "",
+    "timestamp": 1775568767999
+  },
+  {
+    "id": "0c2db89e-f2d0-4f5c-94d3-8409d4754546",
+    "word": "considerate",
+    "type": "Adjective",
+    "meaning": "ân cần/ chu đáo",
+    "example": "",
+    "timestamp": 1775568737222
+  },
+  {
+    "id": "23460f74-ee4d-4d71-82f7-cc7093c19aac",
+    "word": "beneficent",
+    "type": "Adjective",
+    "meaning": "tốt bụng",
+    "example": "",
+    "timestamp": 1775568653229
+  },
+  {
+    "id": "1416cbbd-899e-4222-9b46-92c9c652d58a",
+    "word": "appreciative",
+    "type": "Adjective",
+    "meaning": "thưởng thức/ biết ơn",
+    "example": "",
+    "timestamp": 1775568538904
+  },
+  {
+    "id": "74c5c17a-09ff-4352-b168-47f0058fb469",
+    "word": "appreciable",
+    "type": "Adjective",
+    "meaning": "có thể cảm nhận/ đáng kể",
+    "example": "",
+    "timestamp": 1775568511776
+  },
+  {
+    "id": "853a954e-2ae1-4e72-9272-0bbeab08594e",
+    "word": "escalate",
+    "type": "Verb",
+    "meaning": "leo thang",
+    "example": "",
+    "timestamp": 1775479400423
+  },
+  {
+    "id": "01549172-6a07-4144-8484-eda0ab11bd5c",
+    "word": "stabilize",
+    "type": "Verb",
+    "meaning": "làm ổn định",
+    "example": "",
+    "timestamp": 1775478576734
+  },
+  {
+    "id": "faf4a349-28cb-4d95-bfce-487eb88dd06c",
+    "word": "intervene",
+    "type": "Verb",
+    "meaning": "can thiệp",
+    "example": "",
+    "timestamp": 1775478545480
+  },
+  {
+    "id": "395690ba-4170-4386-a6bb-6adc9b262566",
+    "word": "deterioration",
+    "type": "Noun",
+    "meaning": "sự hư hỏng, sự xấu đi",
+    "example": "",
+    "timestamp": 1775476721533
+  },
+  {
+    "id": "23e67546-dca5-4956-a923-1b113cd5a5e1",
+    "word": "reinforcement",
+    "type": "Noun",
+    "meaning": "sự củng cố",
+    "example": "",
+    "timestamp": 1775476675618
+  },
+  {
+    "id": "08ddcaf9-27ee-4f5b-b7fd-5a692a656fdb",
+    "word": "breakthrough",
+    "type": "Noun",
+    "meaning": "bước đột phá",
+    "example": "",
+    "timestamp": 1775476613986
+  },
+  {
+    "id": "55a129b8-1c1d-4efe-866f-9f22460b3507",
+    "word": "temporary measure",
+    "type": "Phrase",
+    "meaning": "giải pháp tạm thời",
+    "example": "",
+    "timestamp": 1775476234307
+  },
+  {
+    "id": "4b88258c-710d-4d47-a538-367605bb972a",
+    "word": "indication",
+    "type": "Noun",
+    "meaning": "dấu hiệu",
+    "example": "",
+    "timestamp": 1775048332226
+  },
+  {
+    "id": "83e9372a-7bed-4a07-9ed0-ac3dd9de9f91",
+    "word": "tough",
+    "type": "Adjective",
+    "meaning": "khó khăn",
+    "example": "",
+    "timestamp": 1775048231647
+  },
+  {
+    "id": "be792787-b1da-4710-b28c-f1531b32e5e0",
+    "word": "interest",
+    "type": "Noun",
+    "meaning": "lãi suất/ sự quan tâm/ sự chú ý",
+    "example": "",
+    "timestamp": 1775048093547
+  },
+  {
+    "id": "e77b8a7d-9531-49ea-81f7-3b2b317a4c4a",
+    "word": "inflation",
+    "type": "Noun",
+    "meaning": "sự lạm phát",
+    "example": "",
+    "timestamp": 1775048000237
+  },
+  {
+    "id": "df10ae08-2fa4-4fb4-9e28-fe9a5f612a3c",
+    "word": "unrest",
+    "type": "Noun",
+    "meaning": "tình trạng rối ren",
+    "example": "",
+    "timestamp": 1775047902064
+  },
+  {
+    "id": "94e8feb4-8661-429e-a670-6f2f21d09950",
+    "word": "tension",
+    "type": "Noun",
+    "meaning": "sự căng thẳng",
+    "example": "",
+    "timestamp": 1775047884131
+  },
+  {
+    "id": "7c75ba5b-f34c-44ac-8b40-cdb723b82799",
+    "word": "consensus",
+    "type": "Noun",
+    "meaning": "sự nhất trí/ đồng thuận",
+    "example": "",
+    "timestamp": 1775047825128
+  },
+  {
+    "id": "fd227ef6-6707-4e07-b1cb-4be704b76112",
+    "word": "conviction",
+    "type": "Noun",
+    "meaning": "lời kết tội/ kết án chắc chắn",
+    "example": "",
+    "timestamp": 1775047800184
+  },
+  {
+    "id": "ec10eb8d-a2d4-4e50-b178-f5c96481f2e4",
+    "word": "firm",
+    "type": "Adjective",
+    "meaning": "rắn chắc/ vững vàng/ kiên quyết/ dứt khoác",
+    "example": "",
+    "timestamp": 1775047770160
+  },
+  {
+    "id": "7a5bcb92-999d-4c25-8a5c-0d29d710eb20",
+    "word": "emergency",
+    "type": "Noun",
+    "meaning": "tình huống khẩn cấp",
+    "example": "",
+    "timestamp": 1775047727616
+  },
+  {
+    "id": "9e9fbba0-73ee-4108-ae84-44091a199752",
+    "word": "deterrence",
+    "type": "Noun",
+    "meaning": "sự ngăn chặn/ sự răn đe",
+    "example": "",
+    "timestamp": 1775047690107
+  },
+  {
+    "id": "c6d9da00-fae5-4bfc-805f-f74142ebf479",
+    "word": "with all due respect",
+    "type": "Phrase",
+    "meaning": "Không có ý vô phép/ dựa trên sự tôn trọng",
+    "example": "With all due respect, sir, i think your plan is going to fail",
+    "timestamp": 1775047549623
+  },
+  {
+    "id": "8d60ec35-aa34-4d42-8c91-fbd7683c933f",
+    "word": "intervention",
+    "type": "Noun",
+    "meaning": "sự can thiệp vào",
+    "example": "",
+    "timestamp": 1775047060828
+  },
+  {
+    "id": "eb253816-562f-435b-a63a-c0eec30e18fa",
+    "word": "annual turnover",
+    "type": "Phrase",
+    "meaning": "doanh thu thường niên",
+    "example": "",
+    "timestamp": 1775046279291
+  },
+  {
+    "id": "84cbae02-3fa3-4035-969c-f8d70daf5610",
+    "word": "to be at risk of Ving/ sth",
+    "type": "Phrase",
+    "meaning": "Có nguy cơ gì đó",
+    "example": "",
+    "timestamp": 1772181791067
+  },
+  {
+    "id": "c9b720d3-b0f9-4f10-8e55-efa937b46bc7",
+    "word": "opposition",
+    "type": "Noun",
+    "meaning": "sự phản đối",
+    "example": "",
+    "timestamp": 1772030933832
+  },
+  {
+    "id": "6efd8b45-2809-4b0e-b0d6-f208482d93b4",
+    "word": "adequate",
+    "type": "Adjective",
+    "meaning": "đầy đủ/ thích đáng",
+    "example": "",
+    "timestamp": 1771946684077
+  },
+  {
+    "id": "7d9dc92e-3e47-46ad-8018-056c42ab8919",
+    "word": "to be unaware of sth",
+    "type": "Phrase",
+    "meaning": "không ý thức được gi đó",
+    "example": "",
+    "timestamp": 1770899678044
+  },
+  {
+    "id": "aeed318c-1339-452e-b888-c490268eee94",
+    "word": "utterly",
+    "type": "Adverb",
+    "meaning": "một cách hoàn toàn/ tuyệt đối",
+    "example": "",
+    "timestamp": 1770899470979
+  },
+  {
+    "id": "f568c499-d167-47cb-947b-6ef71780a8b8",
+    "word": "completely",
+    "type": "Adverb",
+    "meaning": "hoàn toàn/ đầy đủ trọn vẹn",
+    "example": "",
+    "timestamp": 1770898247868
+  },
+  {
+    "id": "06b982fa-5718-4e20-8b39-d1dfc9204d2a",
+    "word": "viable",
+    "type": "Adjective",
+    "meaning": "có thể đứng vững",
+    "example": "",
+    "timestamp": 1770871489780
+  },
+  {
+    "id": "b5b6f008-2467-4dcf-bcba-15c52d5e8f28",
+    "word": "patent",
+    "type": "Noun",
+    "meaning": "bằng sáng chế/ (tính từ là hiển nhiên/ rõ ràng)",
+    "example": "",
+    "timestamp": 1770871348850
+  },
+  {
+    "id": "68f0904f-25e6-48a8-881e-4ca9d3a60a26",
+    "word": "involve",
+    "type": "Verb",
+    "meaning": "đòi hỏi phải",
+    "example": "",
+    "timestamp": 1770871309267
+  },
+  {
+    "id": "48002839-3f66-4dc8-86fe-378e135b167e",
+    "word": "in place of",
+    "type": "Phrase",
+    "meaning": "thay thế cho",
+    "example": "",
+    "timestamp": 1770823593162
+  },
+  {
+    "id": "acbae0c8-f845-49fb-af58-1350851bb4b4",
+    "word": "in accordance with",
+    "type": "Phrase",
+    "meaning": "phù hợp với/ dựa theo/ đúng với",
+    "example": "",
+    "timestamp": 1770822945332
+  },
+  {
+    "id": "5209088e-277c-4d52-9873-49fffb913199",
+    "word": "authorize",
+    "type": "Verb",
+    "meaning": "cho phép/ uỷ quyền",
+    "example": "",
+    "timestamp": 1770822858213
+  },
+  {
+    "id": "0a7a0664-8c2e-4e86-b376-dd3df30e4873",
+    "word": "coordinate",
+    "type": "Verb",
+    "meaning": "phối hợp/ điều phối",
+    "example": "",
+    "timestamp": 1770822474204
+  },
+  {
+    "id": "7480a98c-c29d-4b88-8fec-6c2194ee7bb5",
+    "word": "responbility for",
+    "type": "Phrase",
+    "meaning": "chịu trách nhiệm cho",
+    "example": "",
+    "timestamp": 1770822269261
+  },
+  {
+    "id": "a72d60f2-635e-42c3-ba11-943858cec939",
+    "word": "aid",
+    "type": "Noun",
+    "meaning": "sự giúp đỡ",
+    "example": "",
+    "timestamp": 1770822031487
+  },
+  {
+    "id": "58bd1647-b2b0-457e-b9bb-3951579457b2",
+    "word": "to be eligible for",
+    "type": "Phrase",
+    "meaning": "đủ tư cách/ phù hợp cho cái gì đó",
+    "example": "",
+    "timestamp": 1770821805127
+  },
+  {
+    "id": "79650fe6-2d15-4c95-83e9-4a70623d5145",
+    "word": "deduction",
+    "type": "Noun",
+    "meaning": "sự suy ra",
+    "example": "",
+    "timestamp": 1770734210862
+  },
+  {
+    "id": "13ad82f0-34f5-4499-b625-74d930b671ca",
+    "word": "proportion",
+    "type": "Noun",
+    "meaning": "tỉ lệ",
+    "example": "",
+    "timestamp": 1770734197285
+  },
+  {
+    "id": "6fa35c90-5be1-4b64-815b-d48f5b102142",
+    "word": "fare",
+    "type": "Noun",
+    "meaning": "tiền xe/ tiền đò/ tiền vé",
+    "example": "",
+    "timestamp": 1770733883468
+  },
+  {
+    "id": "6e0a83e1-e32b-4336-8736-3db52d93f5ad",
+    "word": "wealth",
+    "type": "Noun",
+    "meaning": "sự giàu có về vật chất",
+    "example": "",
+    "timestamp": 1770733780665
+  },
+  {
+    "id": "551743cf-1e66-4269-8b75-b47cd663c36f",
+    "word": "force",
+    "type": "Noun",
+    "meaning": "sức mạnh / sức lực",
+    "example": "",
+    "timestamp": 1770733607427
+  },
+  {
+    "id": "ed56805d-6bf9-42b4-9e7f-f734a4f8e8e2",
+    "word": "crunch",
+    "type": "Verb",
+    "meaning": "nhai gặm",
+    "example": "",
+    "timestamp": 1770733322955
+  },
+  {
+    "id": "9838fc4b-026a-4ad6-9330-9e7349d8d57c",
+    "word": "estimate",
+    "type": "Verb",
+    "meaning": "ước lượng/ định tính",
+    "example": "",
+    "timestamp": 1770733213569
+  },
+  {
+    "id": "dddc5b37-50e2-4a69-a15a-9877c7475b21",
+    "word": "substantial",
+    "type": "Adjective",
+    "meaning": "nhiều/ đáng kể",
+    "example": "",
+    "timestamp": 1770727583622
+  },
+  {
+    "id": "28fcbcd1-091f-441e-8377-e38bf75cef7e",
+    "word": "substantive",
+    "type": "Adjective",
+    "meaning": "thực/ có thật",
+    "example": "",
+    "timestamp": 1770727538722
+  },
+  {
+    "id": "f64fc3c6-6b1f-4a58-839d-f2ef4fd92042",
+    "word": "fierce",
+    "type": "Adjective",
+    "meaning": "gay gắt",
+    "example": "",
+    "timestamp": 1770727470655
+  },
+  {
+    "id": "91160913-6d8e-4cb6-9800-c282c8130012",
+    "word": "screw",
+    "type": "Noun",
+    "meaning": "Đinh vít",
+    "example": "",
+    "timestamp": 1770726579398
+  },
+  {
+    "id": "b5f13977-7e08-4865-b091-41e5ecca4399",
+    "word": "broadcast",
+    "type": "Verb",
+    "meaning": "phát thanh/ truyền hình",
+    "example": "",
+    "timestamp": 1770647516668
+  },
+  {
+    "id": "536548b6-6256-4ab7-9458-14120dd32773",
+    "word": "commission",
+    "type": "Noun",
+    "meaning": "nhiệm vụ/ phận sự",
+    "example": "",
+    "timestamp": 1770647190554
+  },
+  {
+    "id": "8377926d-b0a4-4976-89ec-6851ff53705c",
+    "word": "revolution",
+    "type": "Noun",
+    "meaning": "cuộc cách mạng",
+    "example": "",
+    "timestamp": 1770647051432
+  },
+  {
+    "id": "ea20254c-a334-4669-8f8e-f9c0e3ad4aa0",
+    "word": "cusp",
+    "type": "Noun",
+    "meaning": "mũi",
+    "example": "",
+    "timestamp": 1770647040484
+  },
+  {
+    "id": "a25d1a86-8164-4fde-95b7-af39c1a8e6a6",
+    "word": "stride",
+    "type": "Verb",
+    "meaning": "đi bước dài",
+    "example": "",
+    "timestamp": 1770647001149
+  },
+  {
+    "id": "b0fac251-9922-4c01-9752-8ea4ee293fe9",
+    "word": "phenomenon",
+    "type": "Noun",
+    "meaning": "hiện tượng",
+    "example": "",
+    "timestamp": 1770646977185
+  },
+  {
+    "id": "26573bf9-437c-4206-ab83-dc4794d59a65",
+    "word": "tighten",
+    "type": "Verb",
+    "meaning": "thắt chặt",
+    "example": "",
+    "timestamp": 1770646888214
+  },
+  {
+    "id": "ba04acad-9ac7-4c06-ae6d-101a62798f24",
+    "word": "exceed",
+    "type": "Verb",
+    "meaning": "vượt quá",
+    "example": "",
+    "timestamp": 1770646858787
+  },
+  {
+    "id": "97d7a6c8-0bd8-40f0-a452-cc13d6599571",
+    "word": "substantially",
+    "type": "Adverb",
+    "meaning": "rất nhiều",
+    "example": "",
+    "timestamp": 1770646778746
+  },
+  {
+    "id": "e4bcaa12-e107-48e9-88c7-7d0afb49c74b",
+    "word": "tide",
+    "type": "Noun",
+    "meaning": "thuỷ triều",
+    "example": "",
+    "timestamp": 1770520590716
+  },
+  {
+    "id": "c3794a90-061b-40e9-9603-301851f7b476",
+    "word": "thrive",
+    "type": "Verb",
+    "meaning": "phát triển thịnh vượng",
+    "example": "",
+    "timestamp": 1770520557126
+  },
+  {
+    "id": "8ced72d4-0bc4-4588-9238-9f24bbeabad6",
+    "word": "blend",
+    "type": "Verb",
+    "meaning": "pha trộn",
+    "example": "",
+    "timestamp": 1770520528498
+  },
+  {
+    "id": "865d15f0-3a1f-4a0e-aa57-933939b5af56",
+    "word": "testament",
+    "type": "Noun",
+    "meaning": "chứng cứ/ bằng chứng",
+    "example": "",
+    "timestamp": 1770520492717
+  },
+  {
+    "id": "066f3d4f-2aec-4a10-b7c1-73f4b6dd7857",
+    "word": "appeal",
+    "type": "Noun",
+    "meaning": "sức lôi cuốn",
+    "example": "",
+    "timestamp": 1770520438577
+  },
+  {
+    "id": "0406fe87-2495-43af-9846-152b2bb99e5d",
+    "word": "spirit",
+    "type": "Noun",
+    "meaning": "tinh thần",
+    "example": "",
+    "timestamp": 1770520376085
+  },
+  {
+    "id": "85c21a6e-4da5-4254-86d3-ed5c18215775",
+    "word": "fade",
+    "type": "Verb",
+    "meaning": "phôi phai/ tàn phai",
+    "example": "",
+    "timestamp": 1770520349172
+  },
+  {
+    "id": "6e66bf1c-3da4-402f-8ded-1b9c5d798195",
+    "word": "captivate",
+    "type": "Verb",
+    "meaning": "làm say đắm/ quyến rũ",
+    "example": "",
+    "timestamp": 1770520282592
+  },
+  {
+    "id": "5858543f-b205-4558-8ce1-e249dd693ae8",
+    "word": "hiccup",
+    "type": "Noun",
+    "meaning": "trục trặt/ nấc cục",
+    "example": "",
+    "timestamp": 1770520219943
+  },
+  {
+    "id": "0507e6b7-7f0a-4362-85f7-4f739529145c",
+    "word": "unforseen",
+    "type": "Adjective",
+    "meaning": "không thể lường trước",
+    "example": "",
+    "timestamp": 1770520032163
+  },
+  {
+    "id": "b26140c3-5608-44f0-8166-17d2114f2151",
+    "word": "rely",
+    "type": "Verb",
+    "meaning": "cậy vào/ dựa vào",
+    "example": "",
+    "timestamp": 1770519966699
+  },
+  {
+    "id": "a836dab6-aea5-47bc-a8b6-3db4190ac6f9",
+    "word": "solely",
+    "type": "Other",
+    "meaning": "độc nhất/ duy nhất/ một mình",
+    "example": "",
+    "timestamp": 1770519931642
+  },
+  {
+    "id": "7946ee0a-4fb9-4c22-8404-d406f2e21076",
+    "word": "sufficient",
+    "type": "Adjective",
+    "meaning": "đủ (tương tự như enough nhưng trang trọng hơn)",
+    "example": "This amount of food is sufficient for your family.",
+    "timestamp": 1770519748199
+  },
+  {
+    "id": "14b7133d-698b-42f1-a065-78919f4847db",
+    "word": "concide",
+    "type": "Verb",
+    "meaning": "(nội động từ) trùng nhau",
+    "example": "",
+    "timestamp": 1770519550950
+  },
+  {
+    "id": "9a362e81-f185-46fb-a2bc-8645522784a8",
+    "word": "vibrant",
+    "type": "Adjective",
+    "meaning": "sôi động",
+    "example": "",
+    "timestamp": 1770519476892
+  },
+  {
+    "id": "336436a3-650a-4715-963a-c0dc27b52f69",
+    "word": "itnerary",
+    "type": "Noun",
+    "meaning": "lịch trình / hành trình",
+    "example": "",
+    "timestamp": 1770519424095
+  },
+  {
+    "id": "c5e989f3-d97d-4d68-ae96-6b385216e384",
+    "word": "charm",
+    "type": "Noun",
+    "meaning": "sức mê hoặc/ sự quyến rũ",
+    "example": "",
+    "timestamp": 1770519336693
+  },
+  {
+    "id": "cc073087-5323-484d-afea-32574a299643",
+    "word": "tirelessly",
+    "type": "Adverb",
+    "meaning": "một cách không mệt mỏi",
+    "example": "",
+    "timestamp": 1770519241659
+  },
+  {
+    "id": "6757a4ff-65b8-4fbd-8d1a-1ecbff1d2104",
+    "word": "illuminate",
+    "type": "Verb",
+    "meaning": "chiếu sáng",
+    "example": "",
+    "timestamp": 1770519207433
+  },
+  {
+    "id": "b308be72-9601-4f15-aff9-48fc3cb4246b",
+    "word": "lantern",
+    "type": "Noun",
+    "meaning": "đèn lồng",
+    "example": "",
+    "timestamp": 1770519158445
+  },
+  {
+    "id": "79a009df-dc2b-48b0-b357-e2e3f423450a",
+    "word": "obstacle",
+    "type": "Noun",
+    "meaning": "chướng ngại vật",
+    "example": "",
+    "timestamp": 1770473101039
+  },
+  {
+    "id": "87efab37-a975-4f89-ad7e-a6c7d55fd484",
+    "word": "burden",
+    "type": "Noun",
+    "meaning": "gánh nặng",
+    "example": "",
+    "timestamp": 1770473075830
+  },
+  {
+    "id": "1d545127-6ca7-4c35-969e-489b7f38d7df",
+    "word": "pay off",
+    "type": "Phrase",
+    "meaning": "trả hết nợ nần",
+    "example": "",
+    "timestamp": 1770472540824
+  },
+  {
+    "id": "d0bb7302-f9b3-400f-b9d0-ae3187ee37e7",
+    "word": "errand",
+    "type": "Noun",
+    "meaning": "sự chạy việc vặt",
+    "example": "",
+    "timestamp": 1770472414264
+  },
+  {
+    "id": "f9635f6b-a370-4e4f-b393-169f5c05a55d",
+    "word": "treaty",
+    "type": "Noun",
+    "meaning": "hiệp ước",
+    "example": "",
+    "timestamp": 1770470610690
+  },
+  {
+    "id": "6dc6411d-16b2-4743-b063-3e08f7bf6bf9",
+    "word": "deem",
+    "type": "Verb",
+    "meaning": "tưởng rằng",
+    "example": "",
+    "timestamp": 1770448476228
+  },
+  {
+    "id": "04ccdc3d-8f7c-4c50-8668-44f693c1bda4",
+    "word": "asset",
+    "type": "Noun",
+    "meaning": "phẩm chất có giá trị",
+    "example": "",
+    "timestamp": 1770448281095
+  },
+  {
+    "id": "87202266-339e-4b2c-9711-af73f8f72837",
+    "word": "reputation",
+    "type": "Noun",
+    "meaning": "tiếng (mang tiếng)",
+    "example": "",
+    "timestamp": 1770448220707
+  },
+  {
+    "id": "8244dc6b-7563-4c7b-b1c6-f446fc1b4fc8",
+    "word": "mattress",
+    "type": "Noun",
+    "meaning": "cái niệm",
+    "example": "",
+    "timestamp": 1770448118482
+  },
+  {
+    "id": "86f20a4a-d381-4b04-ab5e-a1f2c013683b",
+    "word": "coverage",
+    "type": "Noun",
+    "meaning": "sự tường thuật/ đưa tin",
+    "example": "",
+    "timestamp": 1770447966411
+  },
+  {
+    "id": "df0c1694-befb-451a-83a2-b9881d220e30",
+    "word": "insurance",
+    "type": "Noun",
+    "meaning": "hợp đồng bảo hiểm",
+    "example": "",
+    "timestamp": 1770447891165
+  },
+  {
+    "id": "cf35ef76-1d00-4068-9cdd-6887f7c37052",
+    "word": "warranty",
+    "type": "Noun",
+    "meaning": "giấy bảo hành/ quyền",
+    "example": "",
+    "timestamp": 1770447798421
+  },
+  {
+    "id": "67718c54-91fc-4226-b546-7e6fe9e919f4",
+    "word": "convey",
+    "type": "Verb",
+    "meaning": "truyền tải",
+    "example": "",
+    "timestamp": 1770447634432
+  },
+  {
+    "id": "5b44729e-a3e0-48d2-8de1-da71bb415528",
+    "word": "passing",
+    "type": "Adjective",
+    "meaning": "thoáng qua/ bất chợc",
+    "example": "",
+    "timestamp": 1770447508681
+  },
+  {
+    "id": "e66bd93e-6af5-46a5-85c6-91c469a0fea8",
+    "word": "to be + here to stay",
+    "type": "Phrase",
+    "meaning": "tồn tại lâu dài",
+    "example": "",
+    "timestamp": 1770446924153
+  },
+  {
+    "id": "224bdad4-771f-408d-989d-30cb531d6345",
+    "word": "unique",
+    "type": "Adjective",
+    "meaning": "độc nhất",
+    "example": "",
+    "timestamp": 1770446697924
+  },
+  {
+    "id": "b8a175ea-ec33-4e0e-b536-1bf7b43f42da",
+    "word": "worthwhile",
+    "type": "Adjective",
+    "meaning": "đáng làm/ đáng bỏ công",
+    "example": "",
+    "timestamp": 1770446609599
+  },
+  {
+    "id": "3026b75c-6f27-49d0-a990-f48ff75fb6d8",
+    "word": "recession",
+    "type": "Noun",
+    "meaning": "sự suy thoái/ rút nước của lũ",
+    "example": "",
+    "timestamp": 1770446321083
+  },
+  {
+    "id": "86207dda-7fc3-428d-9581-fd2262deae53",
+    "word": "crowd",
+    "type": "Noun",
+    "meaning": "đám đông",
+    "example": "",
+    "timestamp": 1770445821319
+  },
+  {
+    "id": "ed0826e6-9250-4bb8-8dbf-880c79ca4f4a",
+    "word": "clerk",
+    "type": "Noun",
+    "meaning": "nhân viên giao hàng/ thư kí",
+    "example": "",
+    "timestamp": 1770445701324
+  },
+  {
+    "id": "b48d1720-dadf-40b9-be75-76d369a955bb",
+    "word": "coupon",
+    "type": "Noun",
+    "meaning": "phiếu vé",
+    "example": "",
+    "timestamp": 1770306056509
+  },
+  {
+    "id": "291db354-85c9-4797-9f29-94f5be0251a3",
+    "word": "competitive",
+    "type": "Adjective",
+    "meaning": "mang tính cạnh tranh",
+    "example": "",
+    "timestamp": 1770305242495
+  },
+  {
+    "id": "34b2ad16-3fa8-414a-a81d-de1ae0259ec4",
+    "word": "similar",
+    "type": "Adjective",
+    "meaning": "giống nhau tương tự",
+    "example": "",
+    "timestamp": 1770305006965
+  },
+  {
+    "id": "d0800135-f1eb-4fd7-90e5-e11759995ce3",
+    "word": "extensive",
+    "type": "Adjective",
+    "meaning": "rộnglớn",
+    "example": "",
+    "timestamp": 1770304933976
+  },
+  {
+    "id": "6b496c3e-7e0f-423d-b80a-ab5d0af6577c",
+    "word": "inability to do sth",
+    "type": "Phrase",
+    "meaning": "thiếu khả năng làm gì",
+    "example": "",
+    "timestamp": 1770304151746
+  },
+  {
+    "id": "9a8481d2-f4cb-44be-8cc1-1650de5b360c",
+    "word": "dispute",
+    "type": "Noun",
+    "meaning": "sự tranh cãi",
+    "example": "",
+    "timestamp": 1770304050715
+  },
+  {
+    "id": "63c19a39-1d02-4c0d-b789-3f0c9ba010db",
+    "word": "bidding",
+    "type": "Noun",
+    "meaning": "mệnh lệnh",
+    "example": "",
+    "timestamp": 1770295899985
+  },
+  {
+    "id": "42fe4dd7-ce6b-40e3-acab-6c29edf1e059",
+    "word": "innovation",
+    "type": "Noun",
+    "meaning": "sự đổi mới/ canh tân",
+    "example": "",
+    "timestamp": 1770295595039
+  },
+  {
+    "id": "d3a475be-a325-4cc0-9603-9d52facf69a6",
+    "word": "cooperate",
+    "type": "Verb",
+    "meaning": "hợp tác/ cộng tác",
+    "example": "",
+    "timestamp": 1770295574608
+  },
+  {
+    "id": "904fa0b6-aea0-4fe1-8ee8-6535ae08f659",
+    "word": "relative",
+    "type": "Noun",
+    "meaning": "họ hàng",
+    "example": "",
+    "timestamp": 1770295277423
+  },
+  {
+    "id": "e7f64873-13a9-42fb-95ba-c4f4ee381f92",
+    "word": "perspective",
+    "type": "Noun",
+    "meaning": "viễn cảnh",
+    "example": "",
+    "timestamp": 1770295268164
+  },
+  {
+    "id": "9b808ede-0260-4d59-9a9e-2080a49cf5a4",
+    "word": "afford",
+    "type": "Verb",
+    "meaning": "cấp cho ban cho",
+    "example": "",
+    "timestamp": 1770295167734
+  },
+  {
+    "id": "e33e3988-5357-466b-9357-4deb0cdd668a",
+    "word": "approach",
+    "type": "Verb",
+    "meaning": "tiếp cận",
+    "example": "",
+    "timestamp": 1770294724163
+  },
+  {
+    "id": "afb454f1-380f-4e9b-91a2-67cc18dc79bd",
+    "word": "alternative",
+    "type": "Noun",
+    "meaning": "sự lựa chọn",
+    "example": "",
+    "timestamp": 1770294651461
+  },
+  {
+    "id": "0fbb011e-a5ef-4242-82df-c4bd24f21ea5",
+    "word": "specialty",
+    "type": "Noun",
+    "meaning": "chuyên khoa/ lĩnh vực chuyên môn",
+    "example": "",
+    "timestamp": 1770294588437
+  },
+  {
+    "id": "997cc2fd-44e5-47ad-bd2f-31107eaf3e00",
+    "word": "assembly",
+    "type": "Noun",
+    "meaning": "cuộc họp",
+    "example": "",
+    "timestamp": 1770294287128
+  },
+  {
+    "id": "1fdc8e8a-2029-4c96-9233-8c2567d75e8c",
+    "word": "reunion",
+    "type": "Noun",
+    "meaning": "sự họp mặt/ sự sum họp",
+    "example": "",
+    "timestamp": 1770199614044
+  },
+  {
+    "id": "7fa96185-0e9f-4ba1-9100-a09122b9418e",
+    "word": "finalize",
+    "type": "Verb",
+    "meaning": "hoàn thành/ kết thú",
+    "example": "",
+    "timestamp": 1770199215297
+  },
+  {
+    "id": "26e3fe5d-8494-40ab-8c1f-61629fdd2206",
+    "word": "state",
+    "type": "Verb",
+    "meaning": "trình bày",
+    "example": "",
+    "timestamp": 1770198712810
+  },
+  {
+    "id": "c8eb5319-5b5a-4f45-8015-188743625959",
+    "word": "specify",
+    "type": "Verb",
+    "meaning": "nêu rõ",
+    "example": "",
+    "timestamp": 1770198510834
+  },
+  {
+    "id": "c5794a16-9fda-4683-9069-5897c7771269",
+    "word": "integral",
+    "type": "Adjective",
+    "meaning": "trọn vẹn/ đầy đủ",
+    "example": "",
+    "timestamp": 1770197965962
+  },
+  {
+    "id": "dffc3da0-45b4-4d9c-87a8-df5de8feb1db",
+    "word": "specific",
+    "type": "Adjective",
+    "meaning": "chi tiết/ chính xác/ đặc trưng/ rieng biệt",
+    "example": "",
+    "timestamp": 1770180976609
+  },
+  {
+    "id": "03c92aa7-f27d-46fe-92b2-d3aa0cd42615",
+    "word": "declare",
+    "type": "Verb",
+    "meaning": "tuyên bố/ công bố",
+    "example": "",
+    "timestamp": 1770180874349
+  },
+  {
+    "id": "26c096be-d18b-42d1-a49c-9df0674d51be",
+    "word": "provision",
+    "type": "Noun",
+    "meaning": "sự cung cấp/ đồ dự phòng",
+    "example": "",
+    "timestamp": 1770180706337
+  },
+  {
+    "id": "8f8fd8a6-f9e7-4ecc-9a46-3566cbcf8ee2",
+    "word": "settlement",
+    "type": "Noun",
+    "meaning": "sự sắp xếp/ sự thoả thuận",
+    "example": "",
+    "timestamp": 1770180570078
+  },
+  {
+    "id": "cc0b1339-8dd3-4840-b4fe-a3043d75db24",
+    "word": "exercise",
+    "type": "Verb",
+    "meaning": "sử dụng",
+    "example": "",
+    "timestamp": 1770180453259
+  },
+  {
+    "id": "984854f8-e465-44a0-8ebd-9073b09da7c7",
+    "word": "contractor",
+    "type": "Noun",
+    "meaning": "bên ký kết",
+    "example": "",
+    "timestamp": 1770180379797
+  },
+  {
+    "id": "9c039bbd-b726-41de-937e-7ba27e6f52ed",
+    "word": "bind",
+    "type": "Verb",
+    "meaning": "buộc trói/ bắt buộc",
+    "example": "",
+    "timestamp": 1770180350711
+  },
+  {
+    "id": "c39373ef-e7ce-4054-9d45-ba0d2e48d674",
+    "word": "obligate",
+    "type": "Verb",
+    "meaning": "bắt buộc",
+    "example": "",
+    "timestamp": 1770180306979
+  },
+  {
+    "id": "2aa2369f-6eac-488c-8c15-b2d97fc92d93",
+    "word": "permanently",
+    "type": "Adverb",
+    "meaning": "một cách bền lâu/ vĩnh cửu",
+    "example": "",
+    "timestamp": 1770180176004
+  },
+  {
+    "id": "c6ca0ee2-b91d-476c-a3c8-fd53ce94f9f4",
+    "word": "fascinating",
+    "type": "Adjective",
+    "meaning": "quyến rũ/ hấp dẫn/ mê hồn",
+    "example": "",
+    "timestamp": 1770180034204
+  },
+  {
+    "id": "c86c2316-62fe-4cef-bf2e-eec2d1694624",
+    "word": "thorough",
+    "type": "Adjective",
+    "meaning": "kỹ lưỡng/ tỉ mỉ",
+    "example": "",
+    "timestamp": 1770179987848
+  },
+  {
+    "id": "7baf9418-bdfc-478a-bebf-877f831c131e",
+    "word": "engage",
+    "type": "Verb",
+    "meaning": "thuê",
+    "example": "",
+    "timestamp": 1770179944515
+  },
+  {
+    "id": "2168c6b2-a5b9-4df7-b79a-2607b65b279a",
+    "word": "liable for",
+    "type": "Phrase",
+    "meaning": "chịu trách nhiệm về",
+    "example": "",
+    "timestamp": 1770179733968
+  },
+  {
+    "id": "de86869e-02b9-411d-b7f4-a4d97efac667",
+    "word": "determine",
+    "type": "Verb",
+    "meaning": "xác định rõ",
+    "example": "",
+    "timestamp": 1770179625651
+  },
+  {
+    "id": "03c4d54d-0b4c-4570-9c87-ead2266fc8f6",
+    "word": "annulment",
+    "type": "Noun",
+    "meaning": "sự huỷ bỏ",
+    "example": "",
+    "timestamp": 1770179566942
+  },
+  {
+    "id": "f0d73984-a9d7-4dec-b927-c533dfd6ea49",
+    "word": "associate",
+    "type": "Verb",
+    "meaning": "kết hợp/ gắn liền",
+    "example": "",
+    "timestamp": 1770179412443
+  },
+  {
+    "id": "d162f350-42bb-4dbe-beed-1f6316139ec1",
+    "word": "guarantee",
+    "type": "Verb",
+    "meaning": "bảo đảm/ bảo lãnh",
+    "example": "",
+    "timestamp": 1770179360044
+  },
+  {
+    "id": "06bb8eb0-bf36-4621-8071-b430ce0e9707",
+    "word": "supply",
+    "type": "Verb",
+    "meaning": "cung cấp/ cung ứng",
+    "example": "",
+    "timestamp": 1770179316728
+  },
+  {
+    "id": "2051e50b-282f-493f-897d-1d9652b4a919",
+    "word": "caterer",
+    "type": "Noun",
+    "meaning": "người phục vụ",
+    "example": "",
+    "timestamp": 1770179296141
+  },
+  {
+    "id": "f25c8be6-e7a1-4621-bb2a-ca908fed6fbf",
+    "word": "tenant",
+    "type": "Noun",
+    "meaning": "người thuê",
+    "example": "",
+    "timestamp": 1770179195866
+  },
+  {
+    "id": "80e58f1f-dd58-4d0c-bba4-df9dc713caa2",
+    "word": "mutual",
+    "type": "Adjective",
+    "meaning": "lẫn nhau/ qua lại",
+    "example": "",
+    "timestamp": 1770179161762
+  },
+  {
+    "id": "6b02c96a-2f63-49d4-b80e-517e2ad19728",
+    "word": "commitment",
+    "type": "Noun",
+    "meaning": "sự tận tuỵ/ lời cam kết",
+    "example": "",
+    "timestamp": 1770179107222
+  },
+  {
+    "id": "9c5277cd-beb3-4181-bc19-e00e9fef862f",
+    "word": "judge",
+    "type": "Verb",
+    "meaning": "xét xử",
+    "example": "",
+    "timestamp": 1770178968176
+  },
+  {
+    "id": "f0346ca4-dcbb-4f8d-88b1-6dfc0dbb37ab",
+    "word": "abide by",
+    "type": "Verb",
+    "meaning": "thuân theo",
+    "example": "",
+    "timestamp": 1770178930341
+  },
+  {
+    "id": "a843db7b-7a29-406b-b1b7-8891f4a9235b",
+    "word": "comform (with/ to)",
+    "type": "Verb",
+    "meaning": "phù hợp với",
+    "example": "",
+    "timestamp": 1770178921810
+  },
+  {
+    "id": "fe4f9d6f-e411-4559-8c65-6a77ab3f89b8",
+    "word": "available",
+    "type": "Adjective",
+    "meaning": "có thể dùng được",
+    "example": "",
+    "timestamp": 1770115967702
+  },
+  {
+    "id": "ff36fd2b-7952-48c1-9c8a-6989d7cbdc8a",
+    "word": "eliminate",
+    "type": "Verb",
+    "meaning": "loại bỏ/ loại ra",
+    "example": "",
+    "timestamp": 1770115787710
+  },
+  {
+    "id": "3ea3adc0-9bd4-4956-8b66-82b2cec68a93",
+    "word": "fond of",
+    "type": "Phrase",
+    "meaning": "thích cái gì đấy",
+    "example": "",
+    "timestamp": 1770044712658
+  },
+  {
+    "id": "dc4bc813-481b-4066-82cb-3d7780e641bf",
+    "word": "dominate",
+    "type": "Verb",
+    "meaning": "lấn ác",
+    "example": "",
+    "timestamp": 1770044610414
+  },
+  {
+    "id": "12cf6067-b36e-4a16-a511-b06502887e27",
+    "word": "allowance",
+    "type": "Noun",
+    "meaning": "tiền trợ cấp",
+    "example": "",
+    "timestamp": 1770043863681
+  },
+  {
+    "id": "1d6961e2-52a2-4b5e-a164-18223a411586",
+    "word": "demonstrate",
+    "type": "Verb",
+    "meaning": "chứng minh",
+    "example": "",
+    "timestamp": 1770042272607
+  },
+  {
+    "id": "b8271a39-1366-4b20-90ed-ba8846f00a3f",
+    "word": "monument",
+    "type": "Noun",
+    "meaning": "di tích",
+    "example": "",
+    "timestamp": 1770038034343
+  },
+  {
+    "id": "93656a6f-df67-4653-abbb-897127f4b89b",
+    "word": "revitalise",
+    "type": "Verb",
+    "meaning": "đem lại sức sống",
+    "example": "",
+    "timestamp": 1770037908837
+  },
+  {
+    "id": "5c70623c-6523-4341-8e0c-c2eeba81a2cc",
+    "word": "despair",
+    "type": "Noun",
+    "meaning": "sự thất vọng/ sự tuyệt vọng",
+    "example": "",
+    "timestamp": 1770037845097
+  },
+  {
+    "id": "903680ea-2edc-4066-9b98-62024eaefebf",
+    "word": "futile",
+    "type": "Adjective",
+    "meaning": "vô nghĩa/ vô ích / vô tích sự",
+    "example": "",
+    "timestamp": 1770037591256
+  },
+  {
+    "id": "061cec37-5b77-41cf-afbb-80b5c11effb3",
+    "word": "vanished",
+    "type": "Adjective",
+    "meaning": "biến mất/ không còn nữa",
+    "example": "",
+    "timestamp": 1770037511014
+  },
+  {
+    "id": "b23c8bae-1404-4d65-b3ea-1c68f4e17478",
+    "word": "as though",
+    "type": "Phrase",
+    "meaning": "như thể là",
+    "example": "",
+    "timestamp": 1770037475653
+  },
+  {
+    "id": "703396f5-b7fa-46ea-bd01-d6f57e7e8b97",
+    "word": "leading to",
+    "type": "Phrase",
+    "meaning": "dẫn đến",
+    "example": "",
+    "timestamp": 1770037406125
+  },
+  {
+    "id": "7a924083-4e7b-431c-8ecd-c9efd3b6a126",
+    "word": "commerce",
+    "type": "Noun",
+    "meaning": "thương mại",
+    "example": "",
+    "timestamp": 1770037350457
+  },
+  {
+    "id": "db2ef928-95a2-4692-bdb3-5fc108daed15",
+    "word": "bustling",
+    "type": "Adjective",
+    "meaning": "hối hả/ nhộp nhịp",
+    "example": "",
+    "timestamp": 1770037265602
+  },
+  {
+    "id": "d85985c7-dd14-490a-88e7-100b785cda2c",
+    "word": "virtually",
+    "type": "Adverb",
+    "meaning": "hầu như/ gần như",
+    "example": "",
+    "timestamp": 1770037200525
+  },
+  {
+    "id": "d3cb90af-fcad-4228-bce7-0e831ef13522",
+    "word": "deny",
+    "type": "Verb",
+    "meaning": "phủ nhận",
+    "example": "",
+    "timestamp": 1770037016713
+  },
+  {
+    "id": "3e934436-82fd-470c-8232-fbf2a1452fed",
+    "word": "blame",
+    "type": "Verb",
+    "meaning": "đổ lỗi",
+    "example": "",
+    "timestamp": 1770036993583
+  },
+  {
+    "id": "0d52e08c-cbf0-4bfb-b678-4ad53e59d256",
+    "word": "inquiry",
+    "type": "Noun",
+    "meaning": "sự điều tra",
+    "example": "",
+    "timestamp": 1770036926879
+  },
+  {
+    "id": "98640c09-70ae-4bc0-8f59-db0bd14d8dd8",
+    "word": "intruder",
+    "type": "Noun",
+    "meaning": "người xâm nhập",
+    "example": "",
+    "timestamp": 1770036168292
+  },
+  {
+    "id": "fd99b192-641c-4a5c-95b4-f2bd16a4eabd",
+    "word": "staff",
+    "type": "Verb",
+    "meaning": "bố trí nhân sự",
+    "example": "",
+    "timestamp": 1769959772512
+  },
+  {
+    "id": "fb3cce25-b382-4528-916d-bfb635ed34ed",
+    "word": "alternate",
+    "type": "Verb",
+    "meaning": "để xen kẽ nhau",
+    "example": "",
+    "timestamp": 1769958964519
+  },
+  {
+    "id": "2c6036d8-79f5-4d15-b888-ad2615e3d553",
+    "word": "permit",
+    "type": "Verb",
+    "meaning": "cho phép",
+    "example": "",
+    "timestamp": 1769958930093
+  },
+  {
+    "id": "eb764460-2212-41db-a40a-ffb3dbdcdbdc",
+    "word": "be intended for",
+    "type": "Phrase",
+    "meaning": "Được dành cho/ được dùng để",
+    "example": "",
+    "timestamp": 1769958545062
+  },
+  {
+    "id": "81414eb7-81a8-4f85-86f0-9a0b2f7d4c04",
+    "word": "intend",
+    "type": "Verb",
+    "meaning": "định/ có ý định",
+    "example": "",
+    "timestamp": 1769958496266
+  },
+  {
+    "id": "af985c27-476a-437f-bc21-81b12a5ef7ee",
+    "word": "remuneration",
+    "type": "Noun",
+    "meaning": "sự trả công/ sự trả thù lao/ tiền công/ tiền thù lao",
+    "example": "",
+    "timestamp": 1769958444824
+  },
+  {
+    "id": "0d8a778d-61a8-4e41-8e86-997f577acbcf",
+    "word": "expense",
+    "type": "Noun",
+    "meaning": "sự tiêu tốn",
+    "example": "",
+    "timestamp": 1769958323329
+  },
+  {
+    "id": "86aa2144-d67e-4610-96d2-948139914981",
+    "word": "assume",
+    "type": "Verb",
+    "meaning": "cho rằng/ thừa nhận",
+    "example": "",
+    "timestamp": 1769958273159
+  },
+  {
+    "id": "6b21e090-a120-4426-8dbc-5509ee5161eb",
+    "word": "nomination",
+    "type": "Noun",
+    "meaning": "sự chỉ định/ sự bổ nhiệm",
+    "example": "",
+    "timestamp": 1769911762412
+  },
+  {
+    "id": "a383fbd7-ddc5-491b-9265-05585da4a898",
+    "word": "accommodation",
+    "type": "Noun",
+    "meaning": "chỗ ở",
+    "example": "",
+    "timestamp": 1769911688752
+  },
+  {
+    "id": "b693cacc-403b-4833-88af-8b254dba222e",
+    "word": "switchboard",
+    "type": "Noun",
+    "meaning": "tổng đài",
+    "example": "",
+    "timestamp": 1769911393425
+  },
+  {
+    "id": "c7008ffd-5f89-4763-ad7c-af95177a9382",
+    "word": "reserve",
+    "type": "Verb",
+    "meaning": "dành riêng/ dành trước",
+    "example": "",
+    "timestamp": 1769911197078
+  },
+  {
+    "id": "1b826f83-bbe5-4aa7-8774-129075fea16d",
+    "word": "registration",
+    "type": "Noun",
+    "meaning": "sự đăng kí",
+    "example": "",
+    "timestamp": 1769911001002
+  },
+  {
+    "id": "9e969a41-2bd8-4dc2-9d4b-393c7d0a5532",
+    "word": "suspect",
+    "type": "Verb",
+    "meaning": "nghi ngờ",
+    "example": "",
+    "timestamp": 1769910563885
+  },
+  {
+    "id": "d837632b-ba40-4b0b-8d7d-492cbd7a57bc",
+    "word": "outburst",
+    "type": "Noun",
+    "meaning": "sự nổ",
+    "example": "",
+    "timestamp": 1769910445584
+  },
+  {
+    "id": "e8d451e1-4645-45f7-a848-1f65a75db795",
+    "word": "speculate in",
+    "type": "Phrase",
+    "meaning": "đầu cơ",
+    "example": "",
+    "timestamp": 1769701219018
+  },
+  {
+    "id": "ceb44f53-8e9e-4b69-878b-f0da70ef7f4b",
+    "word": "venture",
+    "type": "Verb",
+    "meaning": "mạo hiểm",
+    "example": "",
+    "timestamp": 1769701123500
+  },
+  {
+    "id": "2cb9e9ac-ab25-4654-a9aa-7eccd414f084",
+    "word": "anticipate",
+    "type": "Verb",
+    "meaning": "lường trước/ dự tính",
+    "example": "",
+    "timestamp": 1769701086053
+  },
+  {
+    "id": "5d4f905f-e821-4a27-af98-36c2b74f6faf",
+    "word": "disseminate",
+    "type": "Verb",
+    "meaning": "truyền bá",
+    "example": "",
+    "timestamp": 1769701016813
+  },
+  {
+    "id": "d7df6f6f-09de-46a0-b963-98ed93e4a9d1",
+    "word": "retail",
+    "type": "Noun",
+    "meaning": "sự bán lẻ",
+    "example": "",
+    "timestamp": 1769700790575
+  },
+  {
+    "id": "e582ff78-69a0-4579-978a-584b948b4c10",
+    "word": "surpass",
+    "type": "Verb",
+    "meaning": "trội hơn",
+    "example": "",
+    "timestamp": 1769700707261
+  },
+  {
+    "id": "fac5f64b-43f0-43e0-b00f-3bf8c20e542c",
+    "word": "vital",
+    "type": "Adjective",
+    "meaning": "quan trọng/ trọng yếu",
+    "example": "",
+    "timestamp": 1769700674996
+  },
+  {
+    "id": "93e06ee5-075b-466c-a229-c6bc2b09c096",
+    "word": "toward",
+    "type": "Adjective",
+    "meaning": "dễ dạy/ dễ bảo/ ngoan",
+    "example": "",
+    "timestamp": 1769699954411
+  },
+  {
+    "id": "62f5ab07-4b62-49fe-bb8a-428c3ff5d21e",
+    "word": "examine",
+    "type": "Verb",
+    "meaning": "nghiên cứu/ xem xét",
+    "example": "",
+    "timestamp": 1769699470433
+  },
+  {
+    "id": "36751dc2-9c33-4e73-94dc-87e2fcc7513e",
+    "word": "fence",
+    "type": "Noun",
+    "meaning": "hàng rào",
+    "example": "",
+    "timestamp": 1769699135129
+  },
+  {
+    "id": "89b1ca7c-559e-49cb-a566-ac779770b5df",
+    "word": "ruin",
+    "type": "Noun",
+    "meaning": "sự đổ nát/ sự suy đồi",
+    "example": "",
+    "timestamp": 1769614593495
+  },
+  {
+    "id": "0ea31214-112b-4908-a180-1f8b42dbd9ed",
+    "word": "efficient",
+    "type": "Adjective",
+    "meaning": "có khả năng",
+    "example": "",
+    "timestamp": 1769614201648
+  },
+  {
+    "id": "59395314-6e42-47e5-8d4a-08742c71769e",
+    "word": "council",
+    "type": "Noun",
+    "meaning": "hội đồng",
+    "example": "",
+    "timestamp": 1769613462515
+  },
+  {
+    "id": "57c12946-1247-4772-98cf-31b38654ac6c",
+    "word": "arid",
+    "type": "Adjective",
+    "meaning": "khô cằn/ khô khan",
+    "example": "",
+    "timestamp": 1769612958463
+  },
+  {
+    "id": "0bde8604-e4ed-4107-90e2-c30e978294be",
+    "word": "specialist",
+    "type": "Noun",
+    "meaning": "chuyên gia",
+    "example": "",
+    "timestamp": 1769612344249
+  },
+  {
+    "id": "81ffcc37-6ba2-4b7a-9dab-dd7d636c1676",
+    "word": "bitter",
+    "type": "Adjective",
+    "meaning": "đắng",
+    "example": "",
+    "timestamp": 1769609012004
+  },
+  {
+    "id": "193528bf-867a-4ebb-b3e0-d9f83b11eb06",
+    "word": "sudden",
+    "type": "Adjective",
+    "meaning": "đột ngột",
+    "example": "",
+    "timestamp": 1769608698839
+  },
+  {
+    "id": "4c6735c8-e188-4ac4-9ac7-9bebb6790bd4",
+    "word": "closure",
+    "type": "Noun",
+    "meaning": "sự đóng cửa",
+    "example": "",
+    "timestamp": 1769608671118
+  },
+  {
+    "id": "fa644281-03c0-4c9b-9026-3df8e051efbe",
+    "word": "civilization",
+    "type": "Noun",
+    "meaning": "nền văn minh",
+    "example": "",
+    "timestamp": 1769608209675
+  },
+  {
+    "id": "f7d69642-4324-4e2b-a334-cc5b93c1f0e7",
+    "word": "consumption",
+    "type": "Noun",
+    "meaning": "sự tiêu dùng",
+    "example": "",
+    "timestamp": 1769604540350
+  },
+  {
+    "id": "db488e6d-0a45-44d7-a4e8-2b601db54eed",
+    "word": "incentive",
+    "type": "Adjective",
+    "meaning": "khuyến khích động vinê",
+    "example": "",
+    "timestamp": 1769604458316
+  },
+  {
+    "id": "6ba42085-58a5-4051-919e-0659c75247c9",
+    "word": "vast",
+    "type": "Adjective",
+    "meaning": "rộng lớn",
+    "example": "",
+    "timestamp": 1769604224424
+  },
+  {
+    "id": "3c8a3825-90af-40a3-8460-99e23985b700",
+    "word": "surround",
+    "type": "Verb",
+    "meaning": "bao quanh bao vây",
+    "example": "",
+    "timestamp": 1769604188900
+  },
+  {
+    "id": "aafc63db-cbcc-4d4d-935b-b3f5edd67077",
+    "word": "meet",
+    "type": "Verb",
+    "meaning": "gặp gỡ/ đáp ứng",
+    "example": "",
+    "timestamp": 1769604158437
+  },
+  {
+    "id": "049d2988-c19e-4d09-85e8-b75afb921e21",
+    "word": "certify",
+    "type": "Verb",
+    "meaning": "chứng thực",
+    "example": "",
+    "timestamp": 1769604115659
+  },
+  {
+    "id": "b80dc212-8f99-46e2-bfae-652072d26610",
+    "word": "abandon",
+    "type": "Verb",
+    "meaning": "từ bỏ/ ruồng bỏ",
+    "example": "",
+    "timestamp": 1769600019919
+  },
+  {
+    "id": "2d53668b-548f-43b7-97d4-3e8e76687521",
+    "word": "orphan",
+    "type": "Noun",
+    "meaning": "trẻ mồ côi",
+    "example": "",
+    "timestamp": 1769599993974
+  },
+  {
+    "id": "c719b61d-d879-4063-a2ce-4f56c755d10e",
+    "word": "qualify",
+    "type": "Verb",
+    "meaning": "làm cho đủ khả năng/ đủ tư cách",
+    "example": "",
+    "timestamp": 1769599803443
+  },
+  {
+    "id": "d1a5cc2a-9ad6-46ff-b354-1bd8271a38f3",
+    "word": "turn in",
+    "type": "Phrase",
+    "meaning": "nộp bài/ đi ngủ/ tự thú",
+    "example": "",
+    "timestamp": 1769598946775
+  },
+  {
+    "id": "4d6ccb4d-73df-4da5-ad6b-81319540398e",
+    "word": "virtual",
+    "type": "Adjective",
+    "meaning": "thật sự/ thực tế",
+    "example": "",
+    "timestamp": 1769598829389
+  },
+  {
+    "id": "2e4cce72-030b-4692-a01c-595c20686e81",
+    "word": "make room for",
+    "type": "Phrase",
+    "meaning": "nhường chỗ cho (không gian)",
+    "example": "",
+    "timestamp": 1769598727099
+  },
+  {
+    "id": "756f8373-4895-48c0-877c-590d0e6054b0",
+    "word": "inventory",
+    "type": "Noun",
+    "meaning": "hàng tồn kho",
+    "example": "",
+    "timestamp": 1769598670742
+  },
+  {
+    "id": "2fbec494-3416-4f2c-b9c4-b5fbbbc67028",
+    "word": "fair",
+    "type": "Noun",
+    "meaning": "hội chợ",
+    "example": "",
+    "timestamp": 1769598598044
+  },
+  {
+    "id": "2f7ac0ca-7f1a-4ffa-bcec-dd56090d677a",
+    "word": "outdate",
+    "type": "Verb",
+    "meaning": "làm lỗi thời",
+    "example": "",
+    "timestamp": 1769598466954
+  },
+  {
+    "id": "b9952ccb-cfaf-4c15-b818-b8e49ad21398",
+    "word": "resourcefulness",
+    "type": "Noun",
+    "meaning": "tháo vát/ tài năng xoay sở",
+    "example": "",
+    "timestamp": 1769592524269
+  },
+  {
+    "id": "404fff35-f2cd-4eda-a440-93b16c5d3b10",
+    "word": "loan",
+    "type": "Noun",
+    "meaning": "tiền vay",
+    "example": "",
+    "timestamp": 1769592148066
+  },
+  {
+    "id": "675f565f-6217-4ec5-99f2-5ee61575f8fc",
+    "word": "hurdle",
+    "type": "Noun",
+    "meaning": "trở ngại",
+    "example": "",
+    "timestamp": 1769592126041
+  },
+  {
+    "id": "5733e4eb-6204-4bfe-8f13-6c8c7123d116",
+    "word": "credit",
+    "type": "Noun",
+    "meaning": "khoản tiền vay/ công trạng",
+    "example": "",
+    "timestamp": 1769591080677
+  },
+  {
+    "id": "ba426f3e-7ccf-4659-aad9-4b236e3265f5",
+    "word": "collective",
+    "type": "Adjective",
+    "meaning": "tập thể/ chung",
+    "example": "",
+    "timestamp": 1769591015851
+  },
+  {
+    "id": "3867e092-1d57-49f6-be14-79479023090c",
+    "word": "bother",
+    "type": "Verb",
+    "meaning": "làm phiền/ quấy rầy",
+    "example": "",
+    "timestamp": 1769590733018
+  },
+  {
+    "id": "d8a01bd1-4e1e-4f17-8a31-426f76fc736e",
+    "word": "skeptical",
+    "type": "Adjective",
+    "meaning": "hoài nghi",
+    "example": "",
+    "timestamp": 1769527503574
+  },
+  {
+    "id": "6bdad4b1-3f34-46cc-9059-2bcad6e76fbb",
+    "word": "intrigued",
+    "type": "Verb",
+    "meaning": "kích thích/ hứng thú",
+    "example": "",
+    "timestamp": 1769527354440
+  },
+  {
+    "id": "0957f379-78d4-4fe4-84ab-3f65abe31f2a",
+    "word": "discouraged",
+    "type": "Adjective",
+    "meaning": "nản lòng",
+    "example": "",
+    "timestamp": 1769527167147
+  },
+  {
+    "id": "58fc0dfc-7ad1-4186-aca3-94543750df7e",
+    "word": "initially",
+    "type": "Adverb",
+    "meaning": "ban đầu/ lúc đầu",
+    "example": "",
+    "timestamp": 1769527077758
+  },
+  {
+    "id": "ae298bc6-4cf2-4f4e-b3b8-1e8f99eed369",
+    "word": "fascinated",
+    "type": "Verb",
+    "meaning": "quyến rũ/ hấp dẫn",
+    "example": "",
+    "timestamp": 1769527002141
+  },
+  {
+    "id": "3b23ac3e-e0b7-48e9-b3b5-4661ad0c4590",
+    "word": "barely",
+    "type": "Adverb",
+    "meaning": "chỉ/ vừa mới",
+    "example": "",
+    "timestamp": 1769526508030
+  },
+  {
+    "id": "b41ebea5-4253-42d5-b8d8-d098b44fda43",
+    "word": "rival",
+    "type": "Noun",
+    "meaning": "kẻ tình địch/ đối thủ",
+    "example": "",
+    "timestamp": 1769526140651
+  },
+  {
+    "id": "090c25b7-530f-4bf9-a38a-27ce19e00afc",
+    "word": "make use of",
+    "type": "Phrase",
+    "meaning": "tận dụng (đồ vật, công cụ,...) cái gì đó",
+    "example": "",
+    "timestamp": 1769526131237
+  },
+  {
+    "id": "a8bbedb1-3014-4b5a-b2c4-d9f1c08b7ac0",
+    "word": "intricate",
+    "type": "Adjective",
+    "meaning": "phức tạp/ rắc rối",
+    "example": "",
+    "timestamp": 1769525477452
+  },
+  {
+    "id": "426ae3e7-c80e-497a-93b5-e144037979de",
+    "word": "hesitate",
+    "type": "Verb",
+    "meaning": "do dự/ chần chừ",
+    "example": "",
+    "timestamp": 1769525335255
+  },
+  {
+    "id": "77c8527e-21fa-4879-bf16-53856e1f063b",
+    "word": "principle",
+    "type": "Noun",
+    "meaning": "nguyên lý/ nguyên tắc",
+    "example": "",
+    "timestamp": 1769523765702
+  },
+  {
+    "id": "41436c8a-ed70-4106-9386-e8a8fa1279e0",
+    "word": "take advantage of sth",
+    "type": "Phrase",
+    "meaning": "tận dụng/ lợi dụng cái gì đấy",
+    "example": "if i were you, i would take advantage of chance to be a good teacher.",
+    "timestamp": 1769522656794
+  },
+  {
+    "id": "d5de576c-e920-4272-b6e2-06c39425c582",
+    "word": "overjoyed",
+    "type": "Adjective",
+    "meaning": "vui mừng khôn xiết",
+    "example": "",
+    "timestamp": 1769522499745
+  },
+  {
+    "id": "57865128-471a-4fed-8977-f400717818c6",
+    "word": "arise",
+    "type": "Verb",
+    "meaning": "nảy sinh/ nổi lên",
+    "example": "",
+    "timestamp": 1769522116526
+  },
+  {
+    "id": "855cf65e-5def-4798-b375-c7d2b869636f",
+    "word": "assistance",
+    "type": "Noun",
+    "meaning": "sự giúp đỡ",
+    "example": "",
+    "timestamp": 1769522095927
+  },
+  {
+    "id": "07c5fdbd-8b39-4673-844f-7cfbc157126a",
+    "word": "promptly",
+    "type": "Noun",
+    "meaning": "một cách mau lẹ/ nhanh chóng",
+    "example": "",
+    "timestamp": 1769521986787
+  },
+  {
+    "id": "1562c59d-9bff-4c1c-a499-67ae6cce31d1",
+    "word": "securely",
+    "type": "Adverb",
+    "meaning": "một cách chắc chắn",
+    "example": "",
+    "timestamp": 1769391457327
+  },
+  {
+    "id": "91e13e48-6b2b-43a7-94da-fc85da74ee63",
+    "word": "monitor",
+    "type": "Verb",
+    "meaning": "quan sát theo dõi",
+    "example": "",
+    "timestamp": 1769391386140
+  },
+  {
+    "id": "22a265c6-0eb6-4a03-a0fc-687695e1afaf",
+    "word": "oppose",
+    "type": "Verb",
+    "meaning": "chống đối / phản đối",
+    "example": "",
+    "timestamp": 1769354743409
+  },
+  {
+    "id": "c65f6a57-c7a9-40c1-8cbd-c78eb2541d4d",
+    "word": "reject",
+    "type": "Verb",
+    "meaning": "bác bỏ",
+    "example": "",
+    "timestamp": 1769354720422
+  },
+  {
+    "id": "33d834b7-b258-4a21-94c2-ee9768634300",
+    "word": "annuity",
+    "type": "Noun",
+    "meaning": "tiền trợ cấp hằng năm",
+    "example": "",
+    "timestamp": 1769354134482
+  },
+  {
+    "id": "a4460e09-7f48-4d0d-9e9c-72922af8f0c9",
+    "word": "incredulous",
+    "type": "Adverb",
+    "meaning": "hoài nghi/ ngờ vực",
+    "example": "",
+    "timestamp": 1769337582273
+  },
+  {
+    "id": "320d9c00-13b3-49a8-bac7-be588ea39209",
+    "word": "collapse",
+    "type": "Verb",
+    "meaning": "đổ sập",
+    "example": "",
+    "timestamp": 1769337227303
+  },
+  {
+    "id": "d3fa9bff-e2aa-4a46-9e81-30a9b849651e",
+    "word": "courage",
+    "type": "Noun",
+    "meaning": "sự dũng cảm",
+    "example": "",
+    "timestamp": 1769337055728
+  },
+  {
+    "id": "c3c3e77e-c72f-4bd6-b563-91a1dfffcfbe",
+    "word": "enterprising",
+    "type": "Adjective",
+    "meaning": "táo bạo, dám làm",
+    "example": "",
+    "timestamp": 1769337031401
+  },
+  {
+    "id": "1a971923-67c8-4e30-a618-4842b6eae5b4",
+    "word": "loyal to sb/ sth",
+    "type": "Phrase",
+    "meaning": "Trung thành với ai đó/ cái gì đó",
+    "example": "",
+    "timestamp": 1769336923268
+  },
+  {
+    "id": "24faaeb3-89eb-4ad8-9db8-4c9c87509684",
+    "word": "transmission",
+    "type": "Noun",
+    "meaning": "sự truyền",
+    "example": "",
+    "timestamp": 1769336850244
+  },
+  {
+    "id": "1ede837e-e77c-4bee-95d3-242a754f49ce",
+    "word": "strictly",
+    "type": "Adverb",
+    "meaning": "một cách hoàn toàn, tuyệt đối",
+    "example": "",
+    "timestamp": 1769336778576
+  },
+  {
+    "id": "0a5cbe2b-9948-4bd0-90b5-cc97611b7a2c",
+    "word": "accuse",
+    "type": "Verb",
+    "meaning": "kết tội",
+    "example": "",
+    "timestamp": 1769336634758
+  },
+  {
+    "id": "12752a51-ba75-4704-a30b-55aa0435eb17",
+    "word": "send up",
+    "type": "Phrase",
+    "meaning": "châm biếm",
+    "example": "",
+    "timestamp": 1769335206428
+  },
+  {
+    "id": "d74ead18-ef3c-4a86-9178-f87ada77797e",
+    "word": "send away",
+    "type": "Phrase",
+    "meaning": "yêu cầu ai đó rời đi",
+    "example": "",
+    "timestamp": 1769335143214
+  },
+  {
+    "id": "3a54e296-9c5f-40ba-b8aa-e2dcd977bf04",
+    "word": "send off",
+    "type": "Phrase",
+    "meaning": "tiễn đưa",
+    "example": "",
+    "timestamp": 1769335066141
+  },
+  {
+    "id": "e1260a79-25dc-467c-8fa3-5d442b070ec2",
+    "word": "shareholder",
+    "type": "Noun",
+    "meaning": "cổ đông",
+    "example": "",
+    "timestamp": 1769334816385
+  },
+  {
+    "id": "f24914d7-f774-42f9-961d-ea00094c74d3",
+    "word": "invitation",
+    "type": "Noun",
+    "meaning": "sự mời/ lời mời/ giấy mời",
+    "example": "",
+    "timestamp": 1769334719706
+  },
+  {
+    "id": "494359ae-87cb-4949-ac0f-44b0ac47d9e5",
+    "word": "married to sb",
+    "type": "Phrase",
+    "meaning": "kết hôn với ai đó",
+    "example": "",
+    "timestamp": 1769330571234
+  },
+  {
+    "id": "4c6019c3-974e-4452-8572-c8ae25a6abc0",
+    "word": "orientation",
+    "type": "Noun",
+    "meaning": "sự định hướng",
+    "example": "",
+    "timestamp": 1769330341919
+  },
+  {
+    "id": "7b547735-bd60-4c02-838a-25fc6c614cff",
+    "word": "keen on Ving/ sth",
+    "type": "Phrase",
+    "meaning": "đam mê/ hứng thú về cái gì",
+    "example": "",
+    "timestamp": 1769330019779
+  },
+  {
+    "id": "7d5e80e0-9d4c-422d-aca6-aff5910980f3",
+    "word": "minimize",
+    "type": "Verb",
+    "meaning": "giảm đến mức tối thiểu",
+    "example": "",
+    "timestamp": 1769329915317
+  },
+  {
+    "id": "70207afa-9a8d-4b65-a848-f8737c22617e",
+    "word": "exhibition",
+    "type": "Noun",
+    "meaning": "cuộc triển lãm",
+    "example": "",
+    "timestamp": 1769329821662
+  },
+  {
+    "id": "457c75fd-101e-4e77-b0f3-d133d29ebaf1",
+    "word": "incredibly",
+    "type": "Adverb",
+    "meaning": "một cách khó tin",
+    "example": "",
+    "timestamp": 1769329766578
+  },
+  {
+    "id": "2c48ddd6-6834-4b05-a28a-66ea39746df9",
+    "word": "privilege",
+    "type": "Noun",
+    "meaning": "đặc quyền/ đặc huệ",
+    "example": "",
+    "timestamp": 1769329536912
+  },
+  {
+    "id": "16be523b-90ef-47b3-85ba-842074a2c6aa",
+    "word": "actress",
+    "type": "Noun",
+    "meaning": "nữ diễn viên",
+    "example": "",
+    "timestamp": 1769329447612
+  },
+  {
+    "id": "4da9f629-2847-4cbf-9a3f-c7b9958e7ff4",
+    "word": "anniversary",
+    "type": "Noun",
+    "meaning": "lễ kỷ niệm/ ngày kỷ niệm",
+    "example": "",
+    "timestamp": 1769329394664
+  },
+  {
+    "id": "fd498fd6-13b8-4a41-943b-4089a1c1d31d",
+    "word": "purchase",
+    "type": "Verb",
+    "meaning": "mua sắm/ tậu",
+    "example": "",
+    "timestamp": 1769328966189
+  },
+  {
+    "id": "0105ad52-fee5-4988-98b3-55100d485e34",
+    "word": "possess",
+    "type": "Verb",
+    "meaning": "sở hữu",
+    "example": "",
+    "timestamp": 1769328860593
+  },
+  {
+    "id": "93d0aaf8-9a71-43e0-a1ee-d665ea6e8d12",
+    "word": "devote to Ving/ sth",
+    "type": "Phrase",
+    "meaning": "Cống hiến cho việc gì",
+    "example": "",
+    "timestamp": 1769328527739
+  },
+  {
+    "id": "781d0263-9259-4494-a1f9-82a807152d91",
+    "word": "objected to Ving/ sth",
+    "type": "Phrase",
+    "meaning": "phản đối làm gì/ cái gì",
+    "example": "",
+    "timestamp": 1769328472379
+  },
+  {
+    "id": "d9bdad71-583a-439b-b6ee-110e7411ca8a",
+    "word": "opposed to Ving/ sth",
+    "type": "Noun",
+    "meaning": "phản đối làm gì/ cái gì",
+    "example": "",
+    "timestamp": 1769328453422
+  },
+  {
+    "id": "afa9d7a4-c52a-444f-97d1-add7a45a30f0",
+    "word": "used to Ving/ sth",
+    "type": "Phrase",
+    "meaning": "Quen làm gì/ cái gì",
+    "example": "",
+    "timestamp": 1769328406836
+  },
+  {
+    "id": "8d9681ca-901a-499f-8acf-326deb5b8c22",
+    "word": "Dedicate to Ving/ sth",
+    "type": "Phrase",
+    "meaning": "Nhiệt tình khi làm cái gì/ cái gì",
+    "example": "",
+    "timestamp": 1769328378690
+  },
+  {
+    "id": "f9c826ed-ce1e-4f3b-8d68-a0027eab5d79",
+    "word": "accustomed to Ving/ sth",
+    "type": "Phrase",
+    "meaning": "Quen làm gì/ cái gì",
+    "example": "",
+    "timestamp": 1769328352898
+  },
+  {
+    "id": "6fc8c09c-a120-42e5-82ce-54e3c8bb7af2",
+    "word": "accustomed",
+    "type": "Verb",
+    "meaning": "quen thuộc/ thường lệ",
+    "example": "",
+    "timestamp": 1769328150787
+  },
+  {
+    "id": "db5825b6-68cd-43bb-9419-3a359b11fe78",
+    "word": "gradually",
+    "type": "Adverb",
+    "meaning": "một cách tuần tự",
+    "example": "",
+    "timestamp": 1769327973918
+  },
+  {
+    "id": "3cf64a1d-279e-4e3d-8240-882de75c6266",
+    "word": "pleased with sth/ sb",
+    "type": "Phrase",
+    "meaning": "Hài lòng với ai/ cái gì",
+    "example": "",
+    "timestamp": 1769327945063
+  },
+  {
+    "id": "e8aa0833-fd5b-40de-9909-b1b7976b44e1",
+    "word": "satisfied with sth/ sb",
+    "type": "Phrase",
+    "meaning": "Hài lòng với ai/ cái gì",
+    "example": "",
+    "timestamp": 1769327930911
+  },
+  {
+    "id": "4f5a010e-04c7-4088-829d-32cdc736080a",
+    "word": "filled with sth",
+    "type": "Phrase",
+    "meaning": "đầy cái gì",
+    "example": "",
+    "timestamp": 1769327907948
+  },
+  {
+    "id": "13f52a5f-7534-4d20-bde8-5a7b678f1aec",
+    "word": "bored with sth/ sb",
+    "type": "Noun",
+    "meaning": "chán ai với cái gì",
+    "example": "",
+    "timestamp": 1769327882828
+  },
+  {
+    "id": "890b53c3-aa58-41c7-a7a5-64fe0ba3ed2a",
+    "word": "tired of sth/ sb",
+    "type": "Noun",
+    "meaning": "chán/ mệt mỏi với ai/ cái gì",
+    "example": "",
+    "timestamp": 1769327867492
+  },
+  {
+    "id": "aaf2713d-b952-4208-be2c-ff372b632369",
+    "word": "be made of sth",
+    "type": "Noun",
+    "meaning": "được làm từ cái gì",
+    "example": "",
+    "timestamp": 1769327731081
+  },
+  {
+    "id": "62a760c2-bf0b-4468-a4bb-cead6c2b544d",
+    "word": "composed of sth",
+    "type": "Noun",
+    "meaning": "cấu tạo gồm cái gì",
+    "example": "",
+    "timestamp": 1769327718289
+  },
+  {
+    "id": "f167644c-11a5-4ebc-888e-6686e4e66028",
+    "word": "absorbed in",
+    "type": "Noun",
+    "meaning": "đắm chìm về ai/ cái gì đó",
+    "example": "",
+    "timestamp": 1769327698675
+  },
+  {
+    "id": "a1cecdf6-e208-4c6e-9a1c-6f26b45cb873",
+    "word": "involved in",
+    "type": "Noun",
+    "meaning": "liên quan/ dính dáng đến ai/ cái gì",
+    "example": "",
+    "timestamp": 1769327680005
+  },
+  {
+    "id": "d616fe4a-1012-4024-b167-2a96547d045f",
+    "word": "engaged in",
+    "type": "Noun",
+    "meaning": "liên quan về ai/ cái gì",
+    "example": "",
+    "timestamp": 1769327665130
+  },
+  {
+    "id": "1040d6d2-f6a6-4024-b820-890218a3607b",
+    "word": "annoyed at",
+    "type": "Noun",
+    "meaning": "khó chịu về ai/ cái gì",
+    "example": "",
+    "timestamp": 1769327645851
+  },
+  {
+    "id": "ec2c8480-2b42-423c-bccd-0eae9acdf85b",
+    "word": "shocked at",
+    "type": "Noun",
+    "meaning": "ngạc nhiên về ai/ cái gì",
+    "example": "",
+    "timestamp": 1769327635154
+  },
+  {
+    "id": "56a62aa7-eb29-4ae4-b292-c2cd479d9b6c",
+    "word": "surprised at",
+    "type": "Noun",
+    "meaning": "ngạc nhiên về ai/ cái gì",
+    "example": "",
+    "timestamp": 1769327625842
+  },
+  {
+    "id": "156a99d8-6231-4b3a-ae3c-13c8b29cbe50",
+    "word": "frightended at",
+    "type": "Noun",
+    "meaning": "sợ ai/ cái gì",
+    "example": "",
+    "timestamp": 1769327606110
+  },
+  {
+    "id": "19495b1a-6975-4703-8499-141542ed9828",
+    "word": "disappointed at",
+    "type": "Phrase",
+    "meaning": "thất vọng về ai/ cái gì",
+    "example": "",
+    "timestamp": 1769327579972
+  },
+  {
+    "id": "08e1f447-53cc-47f2-939a-fee8381e2467",
+    "word": "enclose",
+    "type": "Verb",
+    "meaning": "bị gửi kèm theo/ đính kèm",
+    "example": "",
+    "timestamp": 1769327138846
+  },
+  {
+    "id": "c8cf4554-d392-4ea0-93ee-075599f67cfb",
+    "word": "struggling",
+    "type": "Adjective",
+    "meaning": "sống chật vật/ vật lộn/ đấu tranh",
+    "example": "",
+    "timestamp": 1769326993643
+  },
+  {
+    "id": "a8d8ce13-7fa0-4143-ae08-8d61660a9210",
+    "word": "numerous",
+    "type": "Adjective",
+    "meaning": "rất nhiều/ rất đông",
+    "example": "",
+    "timestamp": 1769326960335
+  },
+  {
+    "id": "c4ecdbe8-4f9d-420a-a546-d89ee1951776",
+    "word": "cargo",
+    "type": "Noun",
+    "meaning": "chuyến hàng",
+    "example": "",
+    "timestamp": 1769326908978
+  },
+  {
+    "id": "fdcbceb1-550b-4c70-950d-4c0f11b1a872",
+    "word": "entrepreneur",
+    "type": "Noun",
+    "meaning": "doanh nhân/ nhà doanh nghiệp",
+    "example": "",
+    "timestamp": 1769324058885
+  },
+  {
+    "id": "b575e178-1dbd-4bac-bc8a-97148bffe4fe",
+    "word": "actively",
+    "type": "Adverb",
+    "meaning": "một cách tích cực",
+    "example": "",
+    "timestamp": 1769315096831
+  },
+  {
+    "id": "2aad830e-4292-452a-8e98-d4e1aab57295",
+    "word": "send out",
+    "type": "Phrase",
+    "meaning": "toả ra/ phát ra",
+    "example": "",
+    "timestamp": 1769252061050
+  },
+  {
+    "id": "20d62163-03a4-470f-8db7-8ee689022696",
+    "word": "broker",
+    "type": "Noun",
+    "meaning": "người môi giới",
+    "example": "",
+    "timestamp": 1769252002427
+  },
+  {
+    "id": "7ee6c45e-7dd3-48fa-858f-17e9ff67970f",
+    "word": "estate",
+    "type": "Noun",
+    "meaning": "bất động sản",
+    "example": "",
+    "timestamp": 1769251981178
+  },
+  {
+    "id": "b7dde040-a8c1-4ba6-bf12-02b6dab9da96",
+    "word": "reveal",
+    "type": "Verb",
+    "meaning": "bộc lộ/ tiết lộ",
+    "example": "",
+    "timestamp": 1769251843646
+  },
+  {
+    "id": "15b18e3d-39ff-4408-a271-32efe0ad6157",
+    "word": "manipulate",
+    "type": "Verb",
+    "meaning": "vận động/ lôi kéo",
+    "example": "",
+    "timestamp": 1769251261820
+  },
+  {
+    "id": "7bb812f5-8470-418a-a656-3523cbc5b2c2",
+    "word": "prohibit",
+    "type": "Verb",
+    "meaning": "cấm",
+    "example": "",
+    "timestamp": 1769250767206
+  },
+  {
+    "id": "09f3595f-45c0-4812-91f7-1064ba2aa249",
+    "word": "transaction",
+    "type": "Noun",
+    "meaning": "giao dịch",
+    "example": "",
+    "timestamp": 1769250730191
+  },
+  {
+    "id": "8e54e29c-ba4f-4f07-88f8-795f1ff9a3ba",
+    "word": "loyal",
+    "type": "Adjective",
+    "meaning": "trung thành",
+    "example": "",
+    "timestamp": 1769250563349
+  },
+  {
+    "id": "aab3ea5f-9281-415a-b067-cedb5228c273",
+    "word": "restrict",
+    "type": "Verb",
+    "meaning": "hạn chế/ thu hẹp",
+    "example": "",
+    "timestamp": 1769250330523
+  },
+  {
+    "id": "ea2fca07-ad14-451a-b3ea-b2edafb145ba",
+    "word": "enterprise",
+    "type": "Noun",
+    "meaning": "hoạt động kinh doanh",
+    "example": "",
+    "timestamp": 1769249809864
+  },
+  {
+    "id": "5db6cb6d-38f3-4f11-8e8f-b6522a7e08d7",
+    "word": "enact",
+    "type": "Adverb",
+    "meaning": "ban hành, thông qua",
+    "example": "",
+    "timestamp": 1769249607755
+  },
+  {
+    "id": "ba46c63a-e6df-44fa-8c1b-3d0475d1f815",
+    "word": "fine",
+    "type": "Verb",
+    "meaning": "phạt tiền",
+    "example": "",
+    "timestamp": 1769249396935
+  },
+  {
+    "id": "2780aa6f-9450-40f2-bcdd-98f09fe03554",
+    "word": "rescue",
+    "type": "Noun",
+    "meaning": "sự giải cứu",
+    "example": "",
+    "timestamp": 1769249046633
+  },
+  {
+    "id": "a29db0fe-dc21-49e8-a1da-4816eeb7acc3",
+    "word": "satisfy",
+    "type": "Verb",
+    "meaning": "làm hài lòng/ đáp ứng",
+    "example": "",
+    "timestamp": 1769176717724
+  },
+  {
+    "id": "d8d796ab-1be1-4065-9b5e-cf51fa45a1f0",
+    "word": "supplier",
+    "type": "Noun",
+    "meaning": "nhà cung ứng",
+    "example": "",
+    "timestamp": 1769176510610
+  },
+  {
+    "id": "500ede79-d6da-4444-b897-9dbbe0ebdb62",
+    "word": "manufacture",
+    "type": "Verb",
+    "meaning": "chế tạo/ sản xuất",
+    "example": "",
+    "timestamp": 1769176370232
+  },
+  {
+    "id": "fcba706a-2cf2-45ba-87d8-9bb1161a91c4",
+    "word": "extraordinarily",
+    "type": "Adverb",
+    "meaning": "một cách lạ thường/ khác thường",
+    "example": "",
+    "timestamp": 1769176129636
+  },
+  {
+    "id": "9b956ca7-212f-458f-ac2d-1a025dd7ff37",
+    "word": "activist",
+    "type": "Noun",
+    "meaning": "phần tử tích cực/ cốt cán",
+    "example": "",
+    "timestamp": 1769175867844
+  },
+  {
+    "id": "20bc56bb-877d-4d67-b198-b0276006688e",
+    "word": "journalist",
+    "type": "Noun",
+    "meaning": "nhà báo/ phóng viên",
+    "example": "",
+    "timestamp": 1769175833982
+  },
+  {
+    "id": "1cc7692f-8487-4fcb-990a-13b3242cf5e7",
+    "word": "division",
+    "type": "Noun",
+    "meaning": "bộ phận",
+    "example": "",
+    "timestamp": 1769175748714
+  },
+  {
+    "id": "f1401e03-48d5-4a4b-aabd-2541f305cb57",
+    "word": "secretary",
+    "type": "Noun",
+    "meaning": "thư ký",
+    "example": "",
+    "timestamp": 1769175688325
+  },
+  {
+    "id": "3d81e8f6-f948-4c9d-b361-b0f42bcca4d4",
+    "word": "auditor",
+    "type": "Noun",
+    "meaning": "người kiểm tra sổ sách/ kế toná",
+    "example": "",
+    "timestamp": 1769175556380
+  },
+  {
+    "id": "cc1ea056-a85a-48bd-b350-94675562932b",
+    "word": "exclude",
+    "type": "Verb",
+    "meaning": "ngăn chặn",
+    "example": "",
+    "timestamp": 1769175276301
+  },
+  {
+    "id": "6b055912-86e9-4a76-ae16-66d730300d4c",
+    "word": "agency",
+    "type": "Noun",
+    "meaning": "hãng",
+    "example": "",
+    "timestamp": 1769175052687
+  },
+  {
+    "id": "96f00159-65d1-4ba9-a3f2-9b96e38cc92a",
+    "word": "mentor",
+    "type": "Noun",
+    "meaning": "người hướng dẫn",
+    "example": "",
+    "timestamp": 1769174613683
+  },
+  {
+    "id": "ac5344cd-a376-4beb-b53f-93ff7a666d34",
+    "word": "mausoleum",
+    "type": "Noun",
+    "meaning": "lăng",
+    "example": "",
+    "timestamp": 1769085371548
+  },
+  {
+    "id": "06a9f9f3-699c-4a6d-b44d-ee50d2c22324",
+    "word": "accompany",
+    "type": "Verb",
+    "meaning": "đi kèm/ hộ tống",
+    "example": "",
+    "timestamp": 1769085229526
+  },
+  {
+    "id": "0d32d448-3d97-4f56-b9c5-2c4b6486058c",
+    "word": "compensation",
+    "type": "Noun",
+    "meaning": "sự đền bù/ sự bồi thường",
+    "example": "",
+    "timestamp": 1769009275302
+  },
+  {
+    "id": "88e4c938-4754-4b2c-8992-cb31c4e23daf",
+    "word": "defective",
+    "type": "Adjective",
+    "meaning": "Khuyết tật",
+    "example": "",
+    "timestamp": 1769009250346
+  },
+  {
+    "id": "cbe602d5-6e6e-4725-a561-83e1e0162a53",
+    "word": "complicate",
+    "type": "Adjective",
+    "meaning": "làm phức tạp/ làm rắc rối",
+    "example": "",
+    "timestamp": 1769007454722
+  },
+  {
+    "id": "c00bdbb5-27f2-4d24-b9a0-786b2c6a9eda",
+    "word": "promotional",
+    "type": "Adjective",
+    "meaning": "quảng bá/ quảng cáo",
+    "example": "",
+    "timestamp": 1769007346985
+  },
+  {
+    "id": "aac692f7-fbb7-4c29-b8d2-519fd6929710",
+    "word": "uncertain",
+    "type": "Adjective",
+    "meaning": "không chắc chắn",
+    "example": "",
+    "timestamp": 1769007059320
+  },
+  {
+    "id": "5dce9c63-8355-42f1-b1c7-381bc17773a8",
+    "word": "assessment",
+    "type": "Noun",
+    "meaning": "sự đánh giá",
+    "example": "",
+    "timestamp": 1768986158361
+  },
+  {
+    "id": "86666362-0d80-4b95-8519-d03b8f55813d",
+    "word": "intensive",
+    "type": "Adjective",
+    "meaning": "tập trung sâu",
+    "example": "",
+    "timestamp": 1768986129421
+  },
+  {
+    "id": "4e3f050d-dedc-4f95-859d-286b95b3e150",
+    "word": "fraud",
+    "type": "Noun",
+    "meaning": "sự lừa đảo",
+    "example": "",
+    "timestamp": 1768985811393
+  },
+  {
+    "id": "0a574c2f-3460-4a93-902e-5b84e297e094",
+    "word": "deficit",
+    "type": "Noun",
+    "meaning": "sự thiếu hụt",
+    "example": "",
+    "timestamp": 1768985624614
+  },
+  {
+    "id": "63e1fece-d660-4ac7-af23-944c161807c5",
+    "word": "segmentation",
+    "type": "Noun",
+    "meaning": "sự phân đoạn/ sự cắt khúc",
+    "example": "",
+    "timestamp": 1768985539406
+  },
+  {
+    "id": "22574aef-fc4d-4ab4-86c4-d2f6be223072",
+    "word": "prospective",
+    "type": "Adjective",
+    "meaning": "có triển vọng/ có khả năng là",
+    "example": "",
+    "timestamp": 1768985326515
+  },
+  {
+    "id": "f6719848-8e2d-49ba-9249-cddda9498218",
+    "word": "influence",
+    "type": "Verb",
+    "meaning": "tác động đến/ ảnh hưởng đến",
+    "example": "",
+    "timestamp": 1768983552966
+  },
+  {
+    "id": "8faadb30-93ec-4711-8db2-15d74fa9b641",
+    "word": "considerably",
+    "type": "Adverb",
+    "meaning": "một cách rất lớn/ rất nhiều",
+    "example": "",
+    "timestamp": 1768983498929
+  },
+  {
+    "id": "ccea1da1-9652-44e1-a1ef-9aa0f6d21f7d",
+    "word": "fragile",
+    "type": "Adjective",
+    "meaning": "dễ vỡ/ mong manh",
+    "example": "",
+    "timestamp": 1768922127650
+  },
+  {
+    "id": "92144172-5a40-404c-a09f-280a69dde878",
+    "word": "denote",
+    "type": "Verb",
+    "meaning": "biểu thị",
+    "example": "",
+    "timestamp": 1768919434716
+  },
+  {
+    "id": "aa67ae46-c597-4594-9528-3ee25408845a",
+    "word": "luggage",
+    "type": "Noun",
+    "meaning": "hành lý",
+    "example": "",
+    "timestamp": 1768918774188
+  },
+  {
+    "id": "985849d5-12e3-4f25-a075-bff9d3321366",
+    "word": "investigate",
+    "type": "Verb",
+    "meaning": "điều tra dò xét",
+    "example": "",
+    "timestamp": 1768918769390
+  },
+  {
+    "id": "d2891651-89a6-4a67-b4fa-34a9c11e0693",
+    "word": "inhabitant",
+    "type": "Noun",
+    "meaning": "cư dân",
+    "example": "",
+    "timestamp": 1768914064527
+  },
+  {
+    "id": "1254771b-3b55-4c27-a3f5-491da72ae6c6",
+    "word": "unverified",
+    "type": "Adjective",
+    "meaning": "không được xác minh thẩm tra lại",
+    "example": "",
+    "timestamp": 1768914010617
+  },
+  {
+    "id": "b68d4dd6-b7cb-4cff-a36b-4b9410e3bb78",
+    "word": "controversy",
+    "type": "Noun",
+    "meaning": "cuộc tranh luận",
+    "example": "",
+    "timestamp": 1768913953243
+  },
+  {
+    "id": "234efb15-abdb-4bf0-a94d-406afbddfeac",
+    "word": "crisis",
+    "type": "Noun",
+    "meaning": "sự khủng hoảng",
+    "example": "",
+    "timestamp": 1768913806654
+  },
+  {
+    "id": "bbd51474-80bd-4baa-b466-df6c04070650",
+    "word": "malfunciton",
+    "type": "Noun",
+    "meaning": "sự chạy trục trặc",
+    "example": "",
+    "timestamp": 1768913618196
+  },
+  {
+    "id": "4d926a01-59a2-4ee9-ad9b-b824fc90d88a",
+    "word": "dump",
+    "type": "Verb",
+    "meaning": "đổ thành đống",
+    "example": "",
+    "timestamp": 1768913582538
+  },
+  {
+    "id": "b1eee6e0-fd33-463f-ba3e-b54c1e6913bb",
+    "word": "precisely",
+    "type": "Adverb",
+    "meaning": "một cách chính xác",
+    "example": "",
+    "timestamp": 1768913535406
+  },
+  {
+    "id": "3c421ecb-6a56-43e4-95fa-1fc85f6b621c",
+    "word": "persistently",
+    "type": "Adverb",
+    "meaning": "kiên trì, bền bỉ",
+    "example": "",
+    "timestamp": 1768913500318
+  },
+  {
+    "id": "b566ccad-dafc-4830-9306-3d040b8f61ac",
+    "word": "remarkable",
+    "type": "Adjective",
+    "meaning": "đáng chú ý",
+    "example": "",
+    "timestamp": 1768913192940
+  },
+  {
+    "id": "9719e90f-b272-4ff7-ac7d-d931ad318392",
+    "word": "sector",
+    "type": "Noun",
+    "meaning": "khu vực (ngành nhưng quy mô lớn)",
+    "example": "",
+    "timestamp": 1768913163033
+  },
+  {
+    "id": "8bbd1e90-00e3-475e-ac63-0d9e09de6098",
+    "word": "sailor",
+    "type": "Noun",
+    "meaning": "thuỷ thủ",
+    "example": "",
+    "timestamp": 1768912986634
+  },
+  {
+    "id": "65a6fb34-e85a-4cd8-bf6d-fc00b0c9d1d3",
+    "word": "ambiguity",
+    "type": "Noun",
+    "meaning": "sự mơ hồ",
+    "example": "",
+    "timestamp": 1768877219923
+  },
+  {
+    "id": "5489a936-5a12-4670-a535-211a4390306f",
+    "word": "exclusive",
+    "type": "Adjective",
+    "meaning": "dành riêng/ độc quyền/ duy nhất",
+    "example": "",
+    "timestamp": 1768798819037
+  },
+  {
+    "id": "1a9c6690-33eb-4106-b175-115643ff9f0c",
+    "word": "catastrophe",
+    "type": "Noun",
+    "meaning": "thảm hoạ",
+    "example": "",
+    "timestamp": 1768798755486
+  },
+  {
+    "id": "502c7308-cafd-4b6f-b3bc-da4bd1eca76c",
+    "word": "anxious",
+    "type": "Adjective",
+    "meaning": "lo lắng",
+    "example": "I'm very anxious about my girlfriend's healthy",
+    "timestamp": 1768798467715
+  },
+  {
+    "id": "71efe0af-9d6f-42c4-836a-8cbb440d7175",
+    "word": "grand",
+    "type": "Adjective",
+    "meaning": "tráng lệ/ huy hoàng",
+    "example": "",
+    "timestamp": 1768797642603
+  },
+  {
+    "id": "1edea3e8-5577-4f83-87f5-74f5a321f509",
+    "word": "plot",
+    "type": "Noun",
+    "meaning": "tình tiết/ cốt truyện/ kịch bản",
+    "example": "",
+    "timestamp": 1768796908932
+  },
+  {
+    "id": "37410b8a-aff9-4739-ae08-e9f5b1335d78",
+    "word": "courteous",
+    "type": "Adjective",
+    "meaning": "lịch sự/ nhã nhặn",
+    "example": "",
+    "timestamp": 1768796155599
+  },
+  {
+    "id": "e43c320f-a77a-4f5d-9b11-c8f9c37d1116",
+    "word": "rudely",
+    "type": "Noun",
+    "meaning": "vô sơ/ thô lễ",
+    "example": "",
+    "timestamp": 1768796120749
+  },
+  {
+    "id": "314241d3-be40-4fb4-b808-e653b2f61b54",
+    "word": "merchant",
+    "type": "Noun",
+    "meaning": "thương gia",
+    "example": "",
+    "timestamp": 1768796066460
+  },
+  {
+    "id": "ba39784e-6a8c-47e5-b2e7-4c8826a8b09b",
+    "word": "yet",
+    "type": "Other",
+    "meaning": "vậy mà/ tuy nhiên",
+    "example": "The movie received good reviews, yet the ticket sales were disappointing.",
+    "timestamp": 1768795966372
+  },
+  {
+    "id": "8bffc411-4da3-4b4e-9150-7e74fdd3adbc",
+    "word": "reform",
+    "type": "Noun",
+    "meaning": "cải tạo/ cải cách/ sửa đổi",
+    "example": "",
+    "timestamp": 1768795745776
+  },
+  {
+    "id": "a4aecf3e-8a89-4eb2-a0c8-667cef32b114",
+    "word": "cousin",
+    "type": "Noun",
+    "meaning": "anh em họ",
+    "example": "",
+    "timestamp": 1768795609641
+  },
+  {
+    "id": "37fe839c-b7b6-49c7-a191-3ff5e2e3b205",
+    "word": "nephew",
+    "type": "Noun",
+    "meaning": "cháu trai",
+    "example": "",
+    "timestamp": 1768795581349
+  },
+  {
+    "id": "310338ec-23e8-4c77-81a0-009874b98e19",
+    "word": "bulletin",
+    "type": "Noun",
+    "meaning": "thông báo (tin tức, cập nhật tin tức)",
+    "example": "",
+    "timestamp": 1768795432229
+  },
+  {
+    "id": "2a57019c-1148-4536-b3ea-166992fdff36",
+    "word": "velvet",
+    "type": "Noun",
+    "meaning": "được làm bằng nhung",
+    "example": "",
+    "timestamp": 1768795156012
+  },
+  {
+    "id": "2b331109-eee9-4beb-a575-5b2b97f0acb7",
+    "word": "crew",
+    "type": "Noun",
+    "meaning": "đội nhóm làm việc chân tay",
+    "example": "",
+    "timestamp": 1768794998457
+  },
+  {
+    "id": "02ea0a44-6a47-4382-8a24-da15fd7f882f",
+    "word": "pension",
+    "type": "Noun",
+    "meaning": "lương hưu",
+    "example": "",
+    "timestamp": 1768794767278
+  },
+  {
+    "id": "91c545b2-4aea-4c07-abc9-8107a163b3a6",
+    "word": "carpet",
+    "type": "Noun",
+    "meaning": "cái thảm",
+    "example": "",
+    "timestamp": 1768794615563
+  },
+  {
+    "id": "eb994b27-4b76-4f3a-b0ab-b78ffa7db257",
+    "word": "theater",
+    "type": "Noun",
+    "meaning": "rạp chiếu phim/ nhà hát/ ...",
+    "example": "",
+    "timestamp": 1768747298084
+  },
+  {
+    "id": "8ad0cdb5-f907-457e-a1f0-8bf610ccff9e",
+    "word": "wage",
+    "type": "Noun",
+    "meaning": "lương tuần",
+    "example": "",
+    "timestamp": 1768746731954
+  },
+  {
+    "id": "eef106c9-ec1b-490b-8efc-8376a1819867",
+    "word": "endlessly",
+    "type": "Adverb",
+    "meaning": "một cách vô tận",
+    "example": "",
+    "timestamp": 1768746604507
+  },
+  {
+    "id": "08c8123e-d159-4bac-a978-2180eeaf4719",
+    "word": "annoy",
+    "type": "Verb",
+    "meaning": "làm bực mình",
+    "example": "",
+    "timestamp": 1768746583475
+  },
+  {
+    "id": "fac3aba8-6aa7-4fd0-a47a-db63fb170986",
+    "word": "affluence",
+    "type": "Noun",
+    "meaning": "sự giàu có/ sự dồi dào/ sự sung túc",
+    "example": "",
+    "timestamp": 1768746529418
+  },
+  {
+    "id": "783ee13e-5dd1-4a59-8d2f-347324bbf3e5",
+    "word": "boast",
+    "type": "Verb",
+    "meaning": "Khoác lác",
+    "example": "",
+    "timestamp": 1768746472382
+  },
+  {
+    "id": "5233dad6-8b24-41ce-83ee-0bf3d6e712d9",
+    "word": "niece",
+    "type": "Noun",
+    "meaning": "con anh/ chị/ em",
+    "example": "",
+    "timestamp": 1768746077496
+  },
+  {
+    "id": "97ef49d1-c26f-49bf-b4cc-78e2b9e1f655",
+    "word": "inform",
+    "type": "Verb",
+    "meaning": "thông báo",
+    "example": "",
+    "timestamp": 1768745613641
+  },
+  {
+    "id": "0eaec51e-05c4-478d-b8d3-6410f6ba647c",
+    "word": "subordinate",
+    "type": "Adjective",
+    "meaning": "cấp dưới",
+    "example": "",
+    "timestamp": 1768745594192
+  },
+  {
+    "id": "ff36a5b3-0d17-4a7c-bf1e-6a4658d423f0",
+    "word": "courteously",
+    "type": "Adverb",
+    "meaning": "một cách lịch sự",
+    "example": "",
+    "timestamp": 1768708618599
+  },
+  {
+    "id": "1642f65b-aa8b-4555-ac4c-019439ee9e84",
+    "word": "patron",
+    "type": "Noun",
+    "meaning": "khách quen",
+    "example": "",
+    "timestamp": 1768708444807
+  },
+  {
+    "id": "1eab71f1-7cc2-4798-98be-2fe767685894",
+    "word": "insulation",
+    "type": "Noun",
+    "meaning": "cách ly (điện,nhiệt,...)",
+    "example": "",
+    "timestamp": 1768707458655
+  },
+  {
+    "id": "5546e09c-4d72-4197-b474-c7e0089a8ae8",
+    "word": "merchandise",
+    "type": "Noun",
+    "meaning": "hàng hoá",
+    "example": "",
+    "timestamp": 1768707202415
+  },
+  {
+    "id": "b4bc79ec-01d0-4497-88ac-1b0afb705497",
+    "word": "renovation",
+    "type": "Noun",
+    "meaning": "sự tân trang",
+    "example": "",
+    "timestamp": 1768707108362
+  },
+  {
+    "id": "5ceea0a6-120a-4063-bb01-2cb4e927ac90",
+    "word": "essentially",
+    "type": "Adverb",
+    "meaning": "cơ bản/ nhất thiết",
+    "example": "",
+    "timestamp": 1768639362062
+  },
+  {
+    "id": "08596038-2dfd-4f67-90d3-93229fba9692",
+    "word": "overwhelm",
+    "type": "Verb",
+    "meaning": "áp đảo",
+    "example": "",
+    "timestamp": 1768637547076
+  },
+  {
+    "id": "d99691b1-16fb-44c7-b094-df4db8575f60",
+    "word": "assurance",
+    "type": "Noun",
+    "meaning": "sự đoan chắc",
+    "example": "",
+    "timestamp": 1768637296087
+  },
+  {
+    "id": "2976fca7-0b8a-48e6-b5ba-af535d72a1ec",
+    "word": "reception",
+    "type": "Noun",
+    "meaning": "sự tiếp nhận",
+    "example": "",
+    "timestamp": 1768636781618
+  },
+  {
+    "id": "f49b6975-5279-46ae-afd5-3555f9a64615",
+    "word": "on behalf of",
+    "type": "Phrase",
+    "meaning": "Nhân danh",
+    "example": "",
+    "timestamp": 1768636703377
+  },
+  {
+    "id": "497b2f51-6760-4207-9854-d40529cef23f",
+    "word": "fivefold",
+    "type": "Adjective",
+    "meaning": "gấp 5 lần",
+    "example": "",
+    "timestamp": 1768636565200
+  },
+  {
+    "id": "b306c6a9-8fee-4739-9175-64695dec983c",
+    "word": "popularity",
+    "type": "Noun",
+    "meaning": "sự nổi tiếng trong dân chúng",
+    "example": "",
+    "timestamp": 1768636522491
+  },
+  {
+    "id": "32425043-a595-4111-afc8-714f1c87779c",
+    "word": "incomplete",
+    "type": "Adjective",
+    "meaning": "Không đầy đủ",
+    "example": "",
+    "timestamp": 1768636357682
+  },
+  {
+    "id": "dbf49590-702b-4728-8f06-aac7cd667ee2",
+    "word": "relatively",
+    "type": "Adverb",
+    "meaning": "một cách tương đối",
+    "example": "",
+    "timestamp": 1768618041805
+  },
+  {
+    "id": "c794d6f6-a1c3-45b4-9996-d02b9164e937",
+    "word": "devorce",
+    "type": "Verb",
+    "meaning": "Ly hôn",
+    "example": "",
+    "timestamp": 1768617858179
+  },
+  {
+    "id": "5a50720a-c88d-4ae2-b3f0-bd979e63d760",
+    "word": "revenue",
+    "type": "Noun",
+    "meaning": "Thu nhập",
+    "example": "",
+    "timestamp": 1768617684076
+  },
+  {
+    "id": "cc00f8cc-4e9a-4a8e-ad14-2bfb136fdafe",
+    "word": "Burglar",
+    "type": "Noun",
+    "meaning": "Kẻ trộm bẻ khoá",
+    "example": "",
+    "timestamp": 1768617559321
+  },
+  {
+    "id": "707ecb0e-507d-4a09-b418-dda3024e0eb1",
+    "word": "accomplish",
+    "type": "Verb",
+    "meaning": "hoàn thành",
+    "example": "",
+    "timestamp": 1768577782778
+  },
+  {
+    "id": "b9468995-d125-4282-b1fa-e6aaf68a540c",
+    "word": "tutor",
+    "type": "Noun",
+    "meaning": "gia sư",
+    "example": "",
+    "timestamp": 1768577392455
+  },
+  {
+    "id": "e66df736-8371-4e5d-b042-93d5f0fd27c4",
+    "word": "offender",
+    "type": "Noun",
+    "meaning": "người phạm tội",
+    "example": "",
+    "timestamp": 1768576999726
+  },
+  {
+    "id": "80110159-46da-4e04-bdbe-45a747df2cf0",
+    "word": "executive",
+    "type": "Noun",
+    "meaning": "ban điều hành",
+    "example": "",
+    "timestamp": 1768576675899
+  },
+  {
+    "id": "dcc259c8-4a55-495a-9691-0da0e040d4b9",
+    "word": "depart",
+    "type": "Verb",
+    "meaning": "Khởi hành",
+    "example": "",
+    "timestamp": 1768576588530
+  },
+  {
+    "id": "b98c12fb-8a31-4ebf-a853-1a377d80b490",
+    "word": "supervisor",
+    "type": "Noun",
+    "meaning": "Người giám sát",
+    "example": "",
+    "timestamp": 1768576087922
+  },
+  {
+    "id": "dffdd843-db38-480e-a651-87f8b75e79d4",
+    "word": "delighted",
+    "type": "Adjective",
+    "meaning": "Tỏ ra vui thích",
+    "example": "",
+    "timestamp": 1768575906865
+  },
+  {
+    "id": "8a160e52-edf3-4f22-9f56-216730664abd",
+    "word": "efficiently",
+    "type": "Adverb",
+    "meaning": "có năng lực",
+    "example": "",
+    "timestamp": 1768575375049
+  },
+  {
+    "id": "4a8d4178-9b5d-49a2-892e-5efc7bb9e071",
+    "word": "accidentally",
+    "type": "Adverb",
+    "meaning": "tình cờ",
+    "example": "",
+    "timestamp": 1768575091672
+  },
+  {
+    "id": "e6f63f49-0f50-4c82-94cc-c13d88679fcb",
+    "word": "assist",
+    "type": "Verb",
+    "meaning": "giúp đỡ/ có mặt",
+    "example": "",
+    "timestamp": 1768556579966
+  },
+  {
+    "id": "63d14a01-bf4d-46c0-8ea3-eea074d139eb",
+    "word": "delegate",
+    "type": "Noun",
+    "meaning": "người đại biểu/ đại diện",
+    "example": "",
+    "timestamp": 1768555485636
+  },
+  {
+    "id": "6a6d6d06-6693-4633-a52b-1c98975f4a3b",
+    "word": "massive",
+    "type": "Adjective",
+    "meaning": "đồ sộ/ rất lớn",
+    "example": "",
+    "timestamp": 1768552375949
+  },
+  {
+    "id": "a4003af7-d3f7-4199-9420-df8b2f5bd429",
+    "word": "obtain",
+    "type": "Verb",
+    "meaning": "đang tồn tại/ hiện hành",
+    "example": "",
+    "timestamp": 1768546584507
+  },
+  {
+    "id": "03d7ba2b-0312-43de-b51b-8fa8a808c1bf",
+    "word": "enthusiastic",
+    "type": "Adjective",
+    "meaning": "Nhiệt tình",
+    "example": "",
+    "timestamp": 1768546084230
+  },
+  {
+    "id": "9affc2bc-2213-4779-b9be-28ed0da544f7",
+    "word": "stationery",
+    "type": "Noun",
+    "meaning": "văn phòng phẩm",
+    "example": "",
+    "timestamp": 1768545975028
+  },
+  {
+    "id": "8b13b908-718f-46d7-8cd5-e89b269a1d74",
+    "word": "admittance",
+    "type": "Noun",
+    "meaning": "sự cho vào (nhà,...)",
+    "example": "",
+    "timestamp": 1768545468654
+  },
+  {
+    "id": "181e6cc0-b632-44e3-8446-6fe5c7428691",
+    "word": "manual",
+    "type": "Adjective",
+    "meaning": "làm bằng tay",
+    "example": "",
+    "timestamp": 1768545332452
+  },
+  {
+    "id": "cd689e3b-2316-4764-8811-229721113258",
+    "word": "modification",
+    "type": "Noun",
+    "meaning": "sự sửa đổi",
+    "example": "",
+    "timestamp": 1768545195176
+  },
+  {
+    "id": "ac7a1e86-3b43-4233-9286-b1c1a562afb8",
+    "word": "lease",
+    "type": "Noun",
+    "meaning": "hợp động cho thuê nhà đất",
+    "example": "",
+    "timestamp": 1768545148773
+  },
+  {
+    "id": "597fb1ec-6c33-4803-aeb7-72a32f250bc6",
+    "word": "implement",
+    "type": "Verb",
+    "meaning": "triển khai",
+    "example": "",
+    "timestamp": 1768544994751
+  },
+  {
+    "id": "0ddab2cf-bb54-4f67-a381-038d9b7eb356",
+    "word": "take place",
+    "type": "Phrase",
+    "meaning": "diễn ra trong dự định",
+    "example": "",
+    "timestamp": 1768544716876
+  },
+  {
+    "id": "df73d7ad-a204-4dcb-b226-3a435ff27fb5",
+    "word": "neglect",
+    "type": "Verb",
+    "meaning": "sao lãng/ lơ là",
+    "example": "",
+    "timestamp": 1768544634096
+  },
+  {
+    "id": "cfe566ec-fd45-4df7-9c26-a55bee37d885",
+    "word": "grant",
+    "type": "Verb",
+    "meaning": "cấp cho/ ban cho",
+    "example": "",
+    "timestamp": 1768544512426
+  },
+  {
+    "id": "95fbcc2e-e028-402a-982c-64310c650163",
+    "word": "conference",
+    "type": "Noun",
+    "meaning": "sự bàn bạc/ hội nghị",
+    "example": "",
+    "timestamp": 1768544352095
+  },
+  {
+    "id": "40444f27-0384-4bfa-bca8-77e84f149476",
+    "word": "attend",
+    "type": "Verb",
+    "meaning": "chú tâm/ để tâm vào",
+    "example": "",
+    "timestamp": 1768544310223
+  },
+  {
+    "id": "2573eb7c-4c4d-4e0d-b031-932aa0359869",
+    "word": "Annual",
+    "type": "Adjective",
+    "meaning": "Hằng năm/ từng năm",
+    "example": "",
+    "timestamp": 1768544284338
+  },
+  {
+    "id": "f222925f-a2dc-42a0-b9d1-6ee9b7d9c85a",
+    "word": "feature",
+    "type": "Verb",
+    "meaning": "đóng vai trò quan trọng",
+    "example": "",
+    "timestamp": 1768489649596
+  },
+  {
+    "id": "24644246-773d-4cae-bc1d-6804da1e02c4",
+    "word": "reimbursement",
+    "type": "Noun",
+    "meaning": "sự hoàn trả",
+    "example": "",
+    "timestamp": 1768489306635
+  },
+  {
+    "id": "07886d28-3a19-4d6f-9cf1-dd3c8eb852c5",
+    "word": "acknowledge",
+    "type": "Noun",
+    "meaning": "sự thừa nhận",
+    "example": "",
+    "timestamp": 1768488743013
+  },
+  {
+    "id": "37f9be98-4baa-4d21-b50e-a12838b89dfb",
+    "word": "demolition",
+    "type": "Noun",
+    "meaning": "sự đánh đổ, phá huỷ",
+    "example": "",
+    "timestamp": 1768488647500
+  },
+  {
+    "id": "5d5820b7-c438-4932-bc6c-9b27d59510c7",
+    "word": "operate",
+    "type": "Verb",
+    "meaning": "vận hành",
+    "example": "",
+    "timestamp": 1768488530212
+  },
+  {
+    "id": "93fd3b3c-2733-4829-8342-36c0f5fb7909",
+    "word": "furniture",
+    "type": "Noun",
+    "meaning": "đồ đạc",
+    "example": "",
+    "timestamp": 1768488328637
+  },
+  {
+    "id": "1a3a012f-d43f-4c59-9d34-8f8c6fe3c2ec",
+    "word": "seminar",
+    "type": "Noun",
+    "meaning": "cuộc thảo luận chuyên đề",
+    "example": "",
+    "timestamp": 1768487921724
+  },
+  {
+    "id": "2874c31e-d646-4fb1-b0cd-98cdaa023548",
+    "word": "maintenance",
+    "type": "Noun",
+    "meaning": "sự duy trì, bảo trì",
+    "example": "",
+    "timestamp": 1768487298154
+  },
+  {
+    "id": "30209b80-c3de-4944-bdad-54cf44737c57",
+    "word": "escalator",
+    "type": "Noun",
+    "meaning": "cầu thang máy",
+    "example": "",
+    "timestamp": 1768487249787
+  },
+  {
+    "id": "d08257d4-cc14-45d2-bed0-c2cee6c8c109",
+    "word": "practical",
+    "type": "Adjective",
+    "meaning": "thực tế, thực dụng, thiết thực",
+    "example": "",
+    "timestamp": 1768487186378
+  },
+  {
+    "id": "5da0e21c-c0f1-4e45-bf7b-8c68fda65d1a",
+    "word": "relevance",
+    "type": "Noun",
+    "meaning": "sự liên quan",
+    "example": "",
+    "timestamp": 1768482196580
+  },
+  {
+    "id": "991702b1-fe7c-4328-ac8a-fff89df50a67",
+    "word": "relevant",
+    "type": "Adjective",
+    "meaning": "có liên quan",
+    "example": "",
+    "timestamp": 1768482071628
+  },
+  {
+    "id": "a8498f3d-4784-4eef-84bf-53861aeb1be3",
+    "word": "process",
+    "type": "Verb",
+    "meaning": "Xử lý, chế biến",
+    "example": "",
+    "timestamp": 1768482038817
+  },
+  {
+    "id": "16fd260c-3d9e-4762-976d-7a4535b07735",
+    "word": "proposed",
+    "type": "Adjective",
+    "meaning": "Dự kiến, được đề xuất, được kiến nghị",
+    "example": "",
+    "timestamp": 1768481012885
+  },
+  {
+    "id": "abc5c463-666a-4409-af08-359a4f0539ec",
+    "word": "indicate",
+    "type": "Verb",
+    "meaning": "Chỉ ra",
+    "example": "",
+    "timestamp": 1768480675761
+  },
+  {
+    "id": "312f8ef5-0fc6-47f6-aad7-5a3bd3c96201",
+    "word": "negotiable",
+    "type": "Adjective",
+    "meaning": "Có thể điều chỉnh",
+    "example": "",
+    "timestamp": 1768480498874
+  },
+  {
+    "id": "ca198e77-a1d9-4d55-b78a-dca312ef2d61",
+    "word": "Hazardous",
+    "type": "Adjective",
+    "meaning": "Nguy hiểm",
+    "example": "",
+    "timestamp": 1768480463063
+  },
+  {
+    "id": "144e1304-aaf1-4c20-9eb7-de1d83f5931a",
+    "word": "cautious",
+    "type": "Adjective",
+    "meaning": "thận trọng",
+    "example": "",
+    "timestamp": 1768480428690
+  },
+  {
+    "id": "fd7020e1-30fb-476e-9676-78757339c4bb",
+    "word": "Representative",
+    "type": "Adjective",
+    "meaning": "Tiêu biểu, đại diện",
+    "example": "",
+    "timestamp": 1768480282049
+  },
+  {
+    "id": "96980e29-5fae-485b-9bbd-5c599b2a30c3",
+    "word": "Complimentary",
+    "type": "Adjective",
+    "meaning": "Ca ngợi",
+    "example": "",
+    "timestamp": 1768480042884
+  }
+]

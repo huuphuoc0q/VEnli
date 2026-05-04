@@ -1,0 +1,202 @@
+{
+  "name": "luutu",
+  "path": "e:\\DOWNLOAD\\luutu",
+  "type": "directory",
+  "children": [
+    {
+      "name": ".claude",
+      "type": "folder",
+      "icon": "📁",
+      "children": [
+        {
+          "name": "settings.local.json",
+          "type": "file",
+          "icon": "⚙️"
+        }
+      ]
+    },
+    {
+      "name": "assets",
+      "type": "folder",
+      "icon": "📁",
+      "children": [
+        {
+          "name": "t.html",
+          "type": "file",
+          "icon": "🌐"
+        }
+      ]
+    },
+    {
+      "name": "components",
+      "type": "folder",
+      "icon": "📁",
+      "children": [
+        {
+          "name": "FillBlankPlayer.tsx",
+          "type": "file",
+          "icon": "⚛️"
+        },
+        {
+          "name": "FlashcardPlayer.tsx",
+          "type": "file",
+          "icon": "⚛️"
+        },
+        {
+          "name": "FlashcardSetup.tsx",
+          "type": "file",
+          "icon": "⚛️"
+        },
+        {
+          "name": "ImportModal.tsx",
+          "type": "file",
+          "icon": "⚛️"
+        },
+        {
+          "name": "ListeningPlayer.tsx",
+          "type": "file",
+          "icon": "⚛️"
+        },
+        {
+          "name": "ManualVSTEPSetup.tsx",
+          "type": "file",
+          "icon": "⚛️"
+        },
+        {
+          "name": "ReadingPlayer.tsx",
+          "type": "file",
+          "icon": "⚛️"
+        },
+        {
+          "name": "ShortcutsGuide.tsx",
+          "type": "file",
+          "icon": "⚛️"
+        },
+        {
+          "name": "SpeakingPlayer.tsx",
+          "type": "file",
+          "icon": "⚛️"
+        },
+        {
+          "name": "StoryPlayer.tsx",
+          "type": "file",
+          "icon": "⚛️"
+        },
+        {
+          "name": "VSTEPScore.tsx",
+          "type": "file",
+          "icon": "⚛️"
+        },
+        {
+          "name": "VSTEPSetup.tsx",
+          "type": "file",
+          "icon": "⚛️"
+        },
+        {
+          "name": "VocabCard.tsx",
+          "type": "file",
+          "icon": "⚛️"
+        },
+        {
+          "name": "WritingPlayer.tsx",
+          "type": "file",
+          "icon": "⚛️"
+        }
+      ]
+    },
+    {
+      "name": "services",
+      "type": "folder",
+      "icon": "📁",
+      "children": [
+        {
+          "name": "aiService.ts",
+          "type": "file",
+          "icon": "📘"
+        },
+        {
+          "name": "geminiService.ts",
+          "type": "file",
+          "icon": "📘"
+        },
+        {
+          "name": "vstepService.ts",
+          "type": "file",
+          "icon": "📘"
+        }
+      ]
+    },
+    {
+      "name": ".gitignore",
+      "type": "file",
+      "icon": "📁"
+    },
+    {
+      "name": "App.tsx",
+      "type": "file",
+      "icon": "⚛️"
+    },
+    {
+      "name": "README.md",
+      "type": "file",
+      "icon": "📝"
+    },
+    {
+      "name": "huong phat trine.docx",
+      "type": "file",
+      "icon": "📄"
+    },
+    {
+      "name": "index.html",
+      "type": "file",
+      "icon": "🌐"
+    },
+    {
+      "name": "index.tsx",
+      "type": "file",
+      "icon": "⚛️"
+    },
+    {
+      "name": "metadata.json",
+      "type": "file",
+      "icon": "⚙️"
+    },
+    {
+      "name": "package-lock.json",
+      "type": "file",
+      "icon": "⚙️"
+    },
+    {
+      "name": "package.json",
+      "type": "file",
+      "icon": "📦"
+    },
+    {
+      "name": "tsconfig.json",
+      "type": "file",
+      "icon": "⚙️"
+    },
+    {
+      "name": "types.ts",
+      "type": "file",
+      "icon": "📘"
+    },
+    {
+      "name": "vite-env.d.ts",
+      "type": "file",
+      "icon": "📘"
+    },
+    {
+      "name": "vite.config.ts",
+      "type": "file",
+      "icon": "📘"
+    }
+  ],
+  "metadata": {
+    "generated": "2026-04-29T08:24:20.636Z",
+    "generator": "FileTree Pro Extension",
+    "version": "0.2.0",
+    "showIcons": true,
+    "maxDepth": 10
+  }
+}
