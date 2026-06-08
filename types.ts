@@ -6,6 +6,11 @@ export interface WordEntry {
   meaning: string;
   example: string;
   timestamp: number;
+  // Spaced Repetition System (SRS) fields
+  srsLevel?: number;       // Cấp độ từ 1 (quên hẳn) đến 5 (thuộc lòng)
+  nextReview?: number;     // Timestamp thời điểm cần ôn tập tiếp theo
+  srsInterval?: number;    // Khoảng thời gian ôn tập (ngày)
+  lastDifficulty?: 'again' | 'hard' | 'good' | 'easy'; // Đánh giá độ khó gần nhất
 }
 
 export interface FlashcardEntry {
@@ -32,7 +37,7 @@ export interface FillBlankEntry {
   hintVN: string;   // Gợi ý nghĩa tiếng Việt
 }
 
-export type StudyMode = 'flashcard' | 'story' | 'fillblank';
+export type StudyMode = 'flashcard' | 'story' | 'fillblank' | 'srs' | 'dashboard' | 'settings';
 
 // VSTEP Exam Types
 export type VSTEPLevel = 'B1' | 'B2' | 'C1' | 'C2';
@@ -172,4 +177,31 @@ export interface VSTEPScore {
     band: string;
     passed: boolean;
   };
+}
+
+// App Settings & Firebase Config
+export interface FirebaseConfig {
+  apiKey: string;
+  authDomain: string;
+  projectId: string;
+  storageBucket: string;
+  messagingSenderId: string;
+  appId: string;
+}
+
+export interface AppSettings {
+  geminiApiKey: string;
+  firebaseEnabled: boolean;
+  firebaseConfig: FirebaseConfig | null;
+  ttsRate: number; // Tốc độ đọc (0.5 to 2)
+  ttsPitch: number; // Cao độ (0.5 to 2)
+  ttsVoiceName?: string; // Tên giọng đọc được chọn
+}
+
+// Gamification Types
+export interface UserStats {
+  xp: number;
+  level: number;
+  streak: number;
+  lastDate?: string;
 }

@@ -1,45 +1,61 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ArrowRight, ArrowLeft, Volume2, Pause, Play, CheckCircle, XCircle, Clock } from 'lucide-react';
-import type { VSTEPExam, VSTEPListeningPart, VSTEPListeningQuestion } from '../types';
+import { ArrowRight, ArrowLeft, Volume2, Pause, Play, CheckCircle, XCircle, Clock, VolumeX } from 'lucide-react';
+import type { VSTEPExam, AppSettings } from '../types';
 
 interface ListeningPlayerProps {
   exam: VSTEPExam;
   onComplete: (answers: Record<number, number>) => void;
   onExit: () => void;
+  settings?: AppSettings;
 }
 
-export const ListeningPlayer: React.FC<ListeningPlayerProps> = ({ exam, onComplete, onExit }) => {
+export const ListeningPlayer: React.FC<ListeningPlayerProps> = ({ 
+  exam, 
+  onComplete, 
+  onExit,
+  settings 
+}) => {
   const [currentPartIndex, setCurrentPartIndex] = useState(0);
   const [showTranscript, setShowTranscript] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const [showResults, setShowResults] = useState(false);
   const [timeLeft, setTimeLeft] = useState(45 * 60); // 45 phút
 
- const currentPart = exam.sections.listening[currentPartIndex];
+  const currentPart = exam.sections.listening[currentPartIndex];
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
+
   useEffect(() => {
+    // Luôn giải phóng trạng thái pause trước khi hủy phát âm để tránh lock speech engine
+    window.speechSynthesis.resume();
     window.speechSynthesis.cancel();
     setIsPlaying(false);
+    setIsPaused(false);
 
     if (currentPart?.transcript) {
       const utterance = new SpeechSynthesisUtterance(currentPart.transcript);
       utterance.lang = 'en-US';
-      utterance.rate = 0.9;
-      // Chỉnh âm độ xuống một xíu nghe sẽ trầm và "người" hơn
-      utterance.pitch = 0.95; 
+      
+      utterance.rate = (settings?.ttsRate ?? 0.9);
+      utterance.pitch = (settings?.ttsPitch ?? 0.95); 
 
-      // Hàm chọn giọng xịn nhất
       const setBestVoice = () => {
         const voices = window.speechSynthesis.getVoices();
         
-        // Ưu tiên 1: Các giọng đọc online/premium của Google hoặc Microsoft (nghe rất tự nhiên)
+        if (settings?.ttsVoiceName) {
+          const userVoice = voices.find(v => v.name === settings.ttsVoiceName);
+          if (userVoice) {
+            utterance.voice = userVoice;
+            return;
+          }
+        }
+
         const bestVoice = voices.find(v => 
           v.lang.startsWith('en') && 
           (v.name.includes('Google') || v.name.includes('Natural') || v.name.includes('Premium'))
         );
 
-        // Ưu tiên 2: Bất kỳ giọng tiếng Anh Mỹ nào
         const fallbackVoice = voices.find(v => v.lang === 'en-US');
 
         if (bestVoice) {
@@ -49,19 +65,25 @@ export const ListeningPlayer: React.FC<ListeningPlayerProps> = ({ exam, onComple
         }
       };
 
-      // Do trình duyệt load danh sách giọng bất đồng bộ, phải bắt sự kiện này
       if (window.speechSynthesis.getVoices().length > 0) {
         setBestVoice();
       } else {
         window.speechSynthesis.onvoiceschanged = setBestVoice;
       }
 
-      utterance.onend = () => setIsPlaying(false);
+      utterance.onend = () => {
+        setIsPlaying(false);
+        setIsPaused(false);
+      };
       utteranceRef.current = utterance;
     }
 
-    return () => window.speechSynthesis.cancel();
-  }, [currentPartIndex, currentPart?.transcript]);
+    return () => {
+      window.speechSynthesis.resume();
+      window.speechSynthesis.cancel();
+    };
+  }, [currentPartIndex, currentPart?.transcript, settings]);
+
   // Timer
   useEffect(() => {
     if (timeLeft <= 0) {
@@ -105,68 +127,84 @@ export const ListeningPlayer: React.FC<ListeningPlayerProps> = ({ exam, onComple
   const handleSubmit = () => {
     onComplete(answers);
   };
-const toggleAudio = () => {
+
+  const toggleAudio = () => {
     if (!utteranceRef.current) return;
 
     if (isPlaying) {
-      // Đang phát thì tạm dừng
       window.speechSynthesis.pause();
       setIsPlaying(false);
+      setIsPaused(true);
     } else {
-      // Nếu đang bị pause thì cho chạy tiếp, ngược lại thì đọc từ đầu
-      if (window.speechSynthesis.paused) {
-        window.speechSynthesis.resume();
+      // Đảm bảo giải phóng trạng thái pause trên Chrome trước khi phát mới hoặc tiếp tục
+      window.speechSynthesis.resume();
+      
+      if (isPaused) {
+        setIsPaused(false);
       } else {
-        window.speechSynthesis.cancel(); // Xóa hàng đợi cũ để chắc chắn không bị kẹt
+        // Hủy phát âm hiện tại và phát lại từ đầu
+        window.speechSynthesis.cancel();
         window.speechSynthesis.speak(utteranceRef.current);
       }
       setIsPlaying(true);
     }
   };
+
   const allQuestions = exam.sections.listening.flatMap(p => p.questions);
   const answeredCount = Object.keys(answers).length;
-if (!currentPart) {
+
+  if (!currentPart) {
     return (
-      <div className="max-w-3xl mx-auto bg-white dark:bg-slate-800 rounded-2xl p-8 shadow-sm border border border-slate-200 dark:border-slate-700 text-center">
-        <h2 className="text-xl font-bold text-slate-800 dark:text-slate-100 mb-4">Không có dữ liệu phần Nghe</h2>
-        <p className="text-slate-500 dark:text-slate-400 mb-6">Bạn chưa nhập JSON cho phần thi này hoặc dữ liệu bị lỗi.</p>
+      <div className="max-w-3xl mx-auto bg-white dark:bg-slate-900 rounded-2xl p-6 md:p-8 shadow-sm border border-slate-200 dark:border-slate-800 text-center animate-in fade-in duration-300">
+        <div className="w-12 h-12 bg-rose-500/10 text-rose-500 rounded-xl flex items-center justify-center mx-auto mb-4">
+          <VolumeX size={32} />
+        </div>
+        <h2 className="text-2xl font-black text-slate-800 dark:text-white mb-4">Không có dữ liệu phần Nghe</h2>
+        <p className="text-slate-500 dark:text-slate-400 mb-8 leading-relaxed text-sm">Đề thi chưa có dữ liệu hợp lệ cho kỹ năng Nghe hoặc định dạng không đúng.</p>
         <button
           onClick={handleSubmit}
-          className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-medium transition-colors"
+          className="bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white px-8 py-3.5 rounded-2xl font-bold transition-all shadow-md active:scale-95 text-sm"
         >
-          Bỏ qua & Chuyển phần tiếp theo
+          Bỏ qua & Chuyển sang phần tiếp theo
         </button>
       </div>
     );
   }
+
   if (showResults) {
     return (
-      <div className="max-w-3xl mx-auto">
-        <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-lg border border-slate-200 dark:border-slate-600 mb-6">
-          <h2 className="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-4">Kết quả phần Nghe</h2>
+      <div className="max-w-3xl mx-auto space-y-6 animate-in fade-in duration-500">
+        <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-sm border border-slate-250 dark:border-slate-800 transition-colors">
+          <h2 className="text-xl font-black text-slate-800 dark:text-white mb-6">Kết quả phần thi Nghe</h2>
 
-          <div className="space-y-4">
+          <div className="space-y-5 max-h-[50vh] overflow-y-auto pr-2">
             {allQuestions.map((q, idx) => {
               const userAnswer = answers[idx];
               const isCorrect = userAnswer === q.correctAnswer;
 
               return (
-                <div key={idx} className={`p-4 rounded-xl ${isCorrect ? 'bg-green-50 dark:bg-green-900/20 border-green-200 dark:border-green-800' : 'bg-red-50 dark:bg-red-900/20 border-red-200 dark:border-red-800'} border`}>
+                <div key={idx} className={`p-5 rounded-2xl border transition-colors duration-300 ${
+                  isCorrect 
+                    ? 'bg-emerald-500/5 border-emerald-500/15 dark:border-emerald-500/20' 
+                    : 'bg-rose-500/5 border-rose-500/15 dark:border-rose-500/20'
+                }`}>
                   <div className="flex items-start gap-3">
                     {isCorrect ? (
-                      <CheckCircle className="text-green-500 dark:text-green-400 mt-0.5" size={20} />
+                      <CheckCircle className="text-emerald-500 dark:text-emerald-400 mt-0.5 flex-shrink-0" size={20} />
                     ) : (
-                      <XCircle className="text-red-500 dark:text-red-400 mt-0.5" size={20} />
+                      <XCircle className="text-rose-500 dark:text-rose-450 mt-0.5 flex-shrink-0" size={20} />
                     )}
                     <div className="flex-1">
-                      <p className="font-medium text-slate-800 dark:text-slate-100 mb-2">Câu {idx + 1}: {q.question}</p>
-                      <div className="space-y-1 text-sm">
-                        <p>✓ Đáp án đúng: <span className="font-semibold text-green-600 dark:text-green-400">{q.options[q.correctAnswer]}</span></p>
+                      <p className="font-extrabold text-slate-800 dark:text-slate-200 mb-3 leading-snug">Câu {idx + 1}: {q.question}</p>
+                      <div className="space-y-1.5 text-xs md:text-sm">
+                        <p className="text-slate-500 dark:text-slate-400">✓ Đáp án đúng: <span className="font-extrabold text-emerald-600 dark:text-emerald-400">{q.options[q.correctAnswer]}</span></p>
                         {userAnswer !== undefined && (
-                          <p>✗ Bạn chọn: <span className={`font-semibold ${isCorrect ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'}`}>{q.options[userAnswer]}</span></p>
+                          <p className="text-slate-500 dark:text-slate-400">✗ Lựa chọn của bạn: <span className={`font-extrabold ${isCorrect ? 'text-emerald-600 dark:text-emerald-400' : 'text-rose-600 dark:text-rose-400'}`}>{q.options[userAnswer]}</span></p>
                         )}
                         {q.explanation && (
-                          <p className="text-slate-500 dark:text-slate-400 mt-2">💡 {q.explanation}</p>
+                          <div className="bg-white dark:bg-slate-900/60 p-3.5 rounded-xl mt-3 text-slate-500 dark:text-slate-400 text-xs italic border border-slate-200 dark:border-slate-800">
+                            💡 Giải thích: {q.explanation}
+                          </div>
                         )}
                       </div>
                     </div>
@@ -176,18 +214,18 @@ if (!currentPart) {
             })}
           </div>
 
-          <div className="flex gap-4 mt-6">
+          <div className="flex flex-col sm:flex-row gap-3 mt-8 pt-4 border-t border-slate-100 dark:border-slate-800">
             <button
               onClick={() => setShowResults(false)}
-              className="flex-1 py-3 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 text-slate-700 dark:text-slate-300 dark:text-slate-200 rounded-xl font-medium transition-colors"
+              className="flex-1 py-3.5 border border-slate-250 dark:border-slate-800 text-slate-650 dark:text-slate-400 bg-slate-50 hover:bg-slate-100 dark:bg-slate-900/40 dark:hover:bg-slate-900/80 rounded-2xl font-bold transition-all duration-300 text-xs active:scale-95"
             >
-              Xem lại bài
+              Xem lại bài làm
             </button>
             <button
               onClick={handleSubmit}
-              className="flex-1 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-medium transition-colors"
+              className="flex-1 py-3.5 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white rounded-2xl font-bold transition-all duration-300 shadow-md hover:shadow-lg hover:shadow-indigo-500/10 active:scale-95 text-xs"
             >
-              Tiếp tục
+              Chuyển sang phần tiếp theo
             </button>
           </div>
         </div>
@@ -196,93 +234,144 @@ if (!currentPart) {
   }
 
   return (
-    <div className="max-w-3xl mx-auto">
+    <div className="max-w-3xl mx-auto space-y-6 animate-in fade-in duration-500">
+      <style>{`
+        @keyframes bounceBar {
+          0%, 100% { height: 4px; }
+          50% { height: 20px; }
+        }
+        .animate-bar-1 { animation: bounceBar 0.8s ease-in-out infinite; }
+        .animate-bar-2 { animation: bounceBar 0.8s ease-in-out infinite 0.15s; }
+        .animate-bar-3 { animation: bounceBar 0.8s ease-in-out infinite 0.3s; }
+        .animate-bar-4 { animation: bounceBar 0.8s ease-in-out infinite 0.45s; }
+      `}</style>
+
       {/* Header */}
-      <div className="bg-white dark:bg-slate-800 rounded-2xl p-4 shadow-sm border border-slate-200 dark:border-slate-600 mb-6">
+      <div className="bg-white dark:bg-slate-900 rounded-xl py-2.5 px-4 shadow-sm border border-slate-250 dark:border-slate-800 transition-colors">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <button onClick={onExit} className="text-slate-500 dark:text-slate-400 hover:text-slate-700 dark:text-slate-300">
+            <button onClick={onExit} className="text-slate-400 dark:text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 p-1.5 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
               ✕
             </button>
-            <h2 className="text-xl font-bold text-slate-800 dark:text-slate-100">Phần Nghe - Part {currentPart.partNumber}</h2>
+            <h2 className="text-base md:text-lg font-black text-slate-800 dark:text-white">
+              Nghe - Part {currentPart.partNumber}
+            </h2>
           </div>
-          <div className="flex items-center gap-4">
-            <span className="text-sm text-slate-500 dark:text-slate-400">
-              {answeredCount}/{allQuestions.length} câu
+          <div className="flex items-center gap-3">
+            <span className="text-xs font-bold text-slate-400">
+              Đã làm: {answeredCount}/{allQuestions.length} câu
             </span>
-            <div className={`flex items-center gap-2 px-3 py-1.5 rounded-full ${
-              timeLeft < 300 ? 'bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-300' : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 dark:text-slate-200'
+            <div className={`flex items-center gap-2 px-4 py-1.5 rounded-full border text-xs font-bold transition-colors ${
+              timeLeft < 300 
+                ? 'bg-rose-500/10 text-rose-600 dark:text-rose-400 border-rose-500/20' 
+                : 'bg-slate-50 dark:bg-slate-850 text-slate-700 dark:text-slate-350 border-slate-200/50 dark:border-slate-850'
             }`}>
-              <Clock size={16} />
-              <span className="font-mono font-semibold">{formatTime(timeLeft)}</span>
+              <Clock size={14} className={timeLeft < 300 ? 'animate-pulse' : ''} />
+              <span className="font-mono">{formatTime(timeLeft)}</span>
             </div>
           </div>
         </div>
       </div>
 
       {/* Instructions */}
-      <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-6">
-        <p className="text-blue-800 font-medium">{currentPart.instructions}</p>
+      <div className="bg-indigo-500/5 dark:bg-indigo-500/5 border border-indigo-500/15 dark:border-indigo-500/20 rounded-2xl p-4 text-xs md:text-sm">
+        <p className="text-indigo-850 dark:text-indigo-350 font-bold flex items-center gap-2 leading-relaxed">
+          <span>🔊</span> 
+          <span><strong>Hướng dẫn:</strong> {currentPart.instructions}</span>
+        </p>
       </div>
 
-      {/* Transcript (simulated audio) */}
-      <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-600 mb-6">
-        <div className="flex items-center justify-between mb-4">
-          <h3 className="font-semibold text-slate-700 dark:text-slate-300">Bảng nghe (Transcript)</h3>
-          <button
-            onClick={toggleAudio}
-            className="flex items-center gap-2 px-4 py-2 bg-indigo-100 dark:bg-indigo-900/30 hover:bg-indigo-200 dark:hover:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300 rounded-lg transition-colors"
-          >
-            {isPlaying ? <Pause size={18} /> : <Play size={18} />}
-            {isPlaying ? 'Tạm dừng' : 'Phát'}
-          </button>
+      {/* Media Player Card */}
+      <div className="bg-white dark:bg-slate-900 rounded-xl p-4 border border-slate-250 dark:border-slate-800 shadow-sm transition-colors space-y-4">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            {/* Play/Pause Button */}
+            <button
+              onClick={toggleAudio}
+              className={`w-12 h-12 rounded-full flex items-center justify-center text-white transition-all shadow-md active:scale-90 ${
+                isPlaying 
+                  ? 'bg-indigo-600 hover:bg-indigo-700 shadow-indigo-500/20' 
+                  : 'bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 shadow-indigo-500/20'
+              }`}
+            >
+              {isPlaying ? <Pause size={18} /> : <Play size={18} className="ml-0.5" />}
+            </button>
+            <div>
+              <h4 className="text-sm font-black text-slate-700 dark:text-slate-300">Bản ghi âm giả lập (AI)</h4>
+              <p className="text-[11px] text-slate-400 dark:text-slate-500 font-semibold italic mt-0.5">
+                {isPlaying ? 'Đang phát Audio thi thử...' : 'Nhấn nút để bắt đầu phát Audio'}
+              </p>
+            </div>
+          </div>
+
+          {/* Bouncing Audio Visualizer */}
+          <div className="flex items-end gap-1.5 h-7 px-3 bg-slate-50 dark:bg-slate-950/20 border border-slate-200 dark:border-slate-800 rounded-xl py-1.5 w-24 justify-center">
+            {isPlaying ? (
+              <>
+                <div className="w-1 bg-indigo-500 rounded-full animate-bar-1"></div>
+                <div className="w-1 bg-indigo-500 rounded-full animate-bar-2"></div>
+                <div className="w-1 bg-indigo-500 rounded-full animate-bar-3"></div>
+                <div className="w-1 bg-indigo-500 rounded-full animate-bar-4"></div>
+              </>
+            ) : (
+              <>
+                <div className="w-1 h-1 bg-slate-300 dark:bg-slate-700 rounded-full"></div>
+                <div className="w-1 h-1 bg-slate-300 dark:bg-slate-700 rounded-full"></div>
+                <div className="w-1 h-1 bg-slate-300 dark:bg-slate-700 rounded-full"></div>
+                <div className="w-1 h-1 bg-slate-300 dark:bg-slate-700 rounded-full"></div>
+              </>
+            )}
+          </div>
         </div>
 
-        <div className="bg-slate-50 dark:bg-slate-700 rounded-xl p-4 max-h-64 overflow-y-auto">
-          <p className="text-slate-700 dark:text-slate-300 leading-relaxed whitespace-pre-line">
-            {currentPart.transcript || 'Audio đang được phát...'}
+        {/* Scrollable Transcript Box */}
+        <div className="bg-slate-50 dark:bg-slate-950/20 rounded-2xl p-4 max-h-56 overflow-y-auto border border-slate-200 dark:border-slate-800">
+          <p className="text-slate-700 dark:text-slate-300 leading-relaxed whitespace-pre-line text-xs md:text-sm font-medium">
+            {currentPart.transcript || 'Audio đang được chuẩn bị phát...'}
           </p>
         </div>
-
-        {isPlaying && (
-          <div className="mt-4 flex items-center gap-2 text-indigo-600">
-            <Volume2 size={18} className="animate-pulse" />
-            <span className="text-sm font-medium">Đang phát...</span>
-          </div>
-        )}
       </div>
 
       {/* Questions */}
-      <div className="space-y-4 mb-6">
+      <div className="space-y-4">
         {currentPart.questions.map((q, idx) => {
-          // Tính global index cho answer - để tránh bị trùng giữa các part
-  const questionGlobalIdx = exam.sections.listening
-    .slice(0, currentPartIndex)
-    .reduce((acc, p) => acc + p.questions.length, 0) + currentPart.questions.indexOf(q);
+          const questionGlobalIdx = exam.sections.listening
+            .slice(0, currentPartIndex)
+            .reduce((acc, p) => acc + p.questions.length, 0) + currentPart.questions.indexOf(q);
           const currentAnswer = answers[questionGlobalIdx];
 
           return (
-            <div key={idx} className="bg-white dark:bg-slate-800 rounded-xl p-5 shadow-sm border border-slate-200 dark:border-slate-600">
-              <p className="font-medium text-slate-800 dark:text-slate-100 mb-4">
-                <span className="text-indigo-600 dark:text-indigo-400 font-bold">{questionGlobalIdx + 1}.</span> {q.question}
+            <div key={idx} className="bg-white dark:bg-slate-900 rounded-xl p-4 border border-slate-250 dark:border-slate-800 shadow-sm transition-colors space-y-4">
+              <p className="font-extrabold text-slate-800 dark:text-slate-200 leading-snug text-sm md:text-base">
+                <span className="text-indigo-600 dark:text-indigo-400 mr-2 font-black">{questionGlobalIdx + 1}.</span> 
+                {q.question}
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                {q.options.map((option, optIdx) => (
-                  <button
-                    key={optIdx}
-                    onClick={() => handleAnswer(questionGlobalIdx, optIdx)}
-                    className={`p-3 rounded-lg text-left transition-all border ${
-                      currentAnswer === optIdx
-                        ? 'bg-indigo-50 dark:bg-indigo-900/30 border-indigo-500 text-indigo-700 dark:text-indigo-300'
-                        : 'border-slate-200 dark:border-slate-600 hover:border-slate-300 dark:hover:border-slate-500 text-slate-700 dark:text-slate-300 bg-white dark:bg-slate-800'
-                    }`}
-                  >
-                    {/* <span className="font-semibold mr-2">
-                      {String.fromCharCode(65 + optIdx)}.
-                    </span> */}
-                    {option}
-                  </button>
-                ))}
+                {q.options.map((option, optIdx) => {
+                  const letter = String.fromCharCode(65 + optIdx); // A, B, C, D
+                  const isSelected = currentAnswer === optIdx;
+                  
+                  return (
+                    <button
+                      key={optIdx}
+                      onClick={() => handleAnswer(questionGlobalIdx, optIdx)}
+                      className={`py-2 px-3.5 rounded-xl text-left text-xs md:text-sm font-semibold transition-all duration-300 border flex items-center gap-3 active:scale-[0.98] ${
+                        isSelected
+                          ? 'bg-gradient-to-r from-indigo-500 to-indigo-600 text-white border-indigo-500 shadow-md shadow-indigo-500/10'
+                          : 'border-slate-200 dark:border-slate-800 hover:border-indigo-500/30 dark:hover:border-indigo-500/30 text-slate-700 dark:text-slate-300 bg-slate-50/50 dark:bg-slate-900/10'
+                      }`}
+                    >
+                      <span className={`w-6 h-6 rounded-lg flex items-center justify-center text-xs font-black transition-colors ${
+                        isSelected 
+                          ? 'bg-white/20 text-white' 
+                          : 'bg-slate-200/60 dark:bg-slate-800 text-slate-500 dark:text-slate-400'
+                      }`}>
+                        {letter}
+                      </span>
+                      <span className="flex-1">{option}</span>
+                    </button>
+                  );
+                })}
               </div>
             </div>
           );
@@ -294,19 +383,19 @@ if (!currentPart) {
         <button
           onClick={handlePrev}
           disabled={currentPartIndex === 0}
-          className="flex items-center gap-2 px-6 py-3 bg-slate-100 hover:bg-slate-200 text-slate-700 dark:text-slate-300 rounded-xl font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          className="flex items-center gap-2 px-4 py-2 border border-slate-250 dark:border-slate-800 text-slate-655 dark:text-slate-400 bg-slate-50 hover:bg-slate-100 dark:bg-slate-900/40 dark:hover:bg-slate-900/80 rounded-xl font-bold transition-all disabled:opacity-50 disabled:cursor-not-allowed text-xs active:scale-95"
         >
-          <ArrowLeft size={18} />
+          <ArrowLeft size={16} />
           Phần trước
         </button>
         <button
           onClick={handleNext}
-          className="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-medium transition-colors"
+          className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-bold transition-all shadow-md active:scale-95 text-xs"
         >
           {currentPartIndex < exam.sections.listening.length - 1 ? (
-            <>Phần tiếp theo <ArrowRight size={18} /></>
+            <>Tiếp tục phần sau <ArrowRight size={16} /></>
           ) : (
-            'Hoàn thành'
+            'Nộp bài phần thi Nghe'
           )}
         </button>
       </div>

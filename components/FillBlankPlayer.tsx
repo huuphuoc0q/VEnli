@@ -389,7 +389,7 @@ export const FillBlankPlayer: React.FC<FillBlankPlayerProps> = ({ questions, onE
                 className={`w-full p-4 rounded-xl border-2 outline-none font-bold text-lg transition-all bg-transparent dark:text-white
                   ${isCorrect === true ? 'border-green-500 bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-400' :
                   isCorrect === false ? 'border-red-500 bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-400' :
-                  'border-slate-200 dark:border-slate-700 focus:border-indigo-500 dark:focus:border-indigo-500 text-slate-800'}
+                  'border-slate-200 dark:border-slate-700 focus:border-indigo-500 dark:focus:border-indigo-500 text-slate-800 dark:text-slate-200'}
                 `}
               />
               {isCorrect === true && <CheckCircle2 className="absolute right-4 top-1/2 -translate-y-1/2 text-green-500" size={24} />}

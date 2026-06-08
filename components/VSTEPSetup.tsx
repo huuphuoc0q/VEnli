@@ -177,14 +177,14 @@ export const VSTEPSetup: React.FC<VSTEPSetupProps> = ({ onBack, onStartExam }) =
       )}
 
       {/* Buttons */}
-      <div className="space-y-4">
+      <div className="space-y-4 mt-8">
         {/* Nút dùng đề cũ (nếu có) */}
         {cachedExam && (
           <button
             onClick={handleUseCached}
-            className="w-full py-4 rounded-xl font-semibold text-lg transition-all bg-emerald-600 hover:bg-emerald-700 text-white shadow-lg shadow-emerald-200 flex items-center justify-center gap-2"
+            className="w-full py-4 rounded-2xl font-extrabold text-sm transition-all duration-300 bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/35 hover:-translate-y-0.5 active:translate-y-0 flex items-center justify-center gap-2.5 active:scale-[0.99]"
           >
-            <RefreshCw size={20} />
+            <RefreshCw size={18} className="animate-pulse" />
             Tiếp tục đề cũ (Miễn phí - Không cần API)
           </button>
         )}
@@ -193,33 +193,39 @@ export const VSTEPSetup: React.FC<VSTEPSetupProps> = ({ onBack, onStartExam }) =
         <button
           onClick={handleGenerate}
           disabled={!selectedLevel || isGenerating}
-          className={`w-full py-4 rounded-xl font-semibold text-lg transition-all ${
+          className={`w-full py-4 rounded-2xl font-extrabold text-sm transition-all duration-300 flex items-center justify-center gap-2.5 active:scale-[0.99] ${
             selectedLevel && !isGenerating
-              ? 'bg-indigo-600 hover:bg-indigo-700 text-white shadow-lg shadow-indigo-200'
-              : 'bg-slate-200 text-slate-400 cursor-not-allowed'
+              ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:from-indigo-600 hover:via-purple-600 hover:to-pink-600 text-white shadow-lg shadow-indigo-500/20 hover:shadow-indigo-500/35 hover:-translate-y-0.5 active:translate-y-0'
+              : 'bg-slate-100 dark:bg-slate-900/60 text-slate-400 dark:text-slate-600 cursor-not-allowed border border-slate-200/50 dark:border-slate-800/50'
           }`}
         >
           {isGenerating ? (
             <span className="flex items-center justify-center gap-2">
-              <Loader2 className="animate-spin" size={20} />
-              Đang tạo đề thi...
+              <Loader2 className="animate-spin text-white" size={18} />
+              Đang tạo đề thi mới...
             </span>
           ) : (
             'Tạo đề thi mới'
           )}
         </button>
 
+        <div className="flex items-center justify-center gap-2 py-1">
+          <div className="h-px bg-slate-200 dark:bg-slate-800 flex-1"></div>
+          <span className="text-[10px] font-extrabold text-slate-400 dark:text-slate-500 uppercase tracking-widest px-2">Hoặc</span>
+          <div className="h-px bg-slate-200 dark:bg-slate-800 flex-1"></div>
+        </div>
+
         {/* Button to switch to manual input */}
         <button
           onClick={() => setManualMode(true)}
-          className="w-full py-3 rounded-xl font-medium text-slate-600 border-2 border-dashed border-slate-300 hover:border-slate-400 transition-all flex items-center justify-center gap-2"
+          className="w-full py-3.5 rounded-2xl font-bold text-slate-600 dark:text-slate-400 bg-slate-50 hover:bg-slate-100 dark:bg-slate-900/40 dark:hover:bg-slate-900/80 border border-slate-200 dark:border-slate-800 hover:border-indigo-500/20 dark:hover:border-indigo-500/20 transition-all duration-300 flex items-center justify-center gap-2 text-xs hover:scale-[1.01] active:scale-[0.99]"
         >
-          <Keyboard size={18} />
+          <Keyboard size={16} />
           Hoặc nhập JSON thủ công
         </button>
       </div>
 
-      <p className="text-center text-slate-400 text-sm mt-4">
+      <p className="text-center text-slate-450 dark:text-slate-500 text-xs font-semibold italic mt-4">
         Đề thi sẽ được lưu để dùng lại sau (không tốn API)
       </p>
     </div>

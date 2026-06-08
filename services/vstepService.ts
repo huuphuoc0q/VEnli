@@ -18,7 +18,8 @@ export const VSTEP_TIME_LIMITS = {
 
 // ===== LOCAL STORAGE CACHE =====
 const EXAM_STORAGE_KEY = 'vstep-cached-exam';
-
+// Thêm hàm này ở đầu file vstepService.ts
+const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 // Lưu đề thi vào localStorage
 export const saveExamToStorage = (exam: VSTEPExam) => {
   try {
@@ -268,13 +269,26 @@ Trả về JSON theo cấu trúc:
 
 // Tạo toàn bộ đề thi VSTEP
 export const generateVSTEPExam = async (level: VSTEPLevel): Promise<VSTEPExam> => {
-  const [listening, reading, writing, speaking] = await Promise.all([
-    generateListeningPart(level),
-    generateReadingPart(level),
-    generateWritingTask(level),
-    generateSpeakingTask(level)
-  ]);
+  // const [listening, reading, writing, speaking] = await Promise.all([
+  //   generateListeningPart(level),
+  //   generateReadingPart(level),
+  //   generateWritingTask(level),
+  //   generateSpeakingTask(level)
+  // ]);
+console.log("Đang tạo phần Nghe...");
+const listening = await generateListeningPart(level);
+await delay(10000); // Dừng 10 giây
 
+console.log("Đang tạo phần Đọc...");
+const reading = await generateReadingPart(level);
+await delay(10000); // Dừng 10 giây
+
+console.log("Đang tạo phần Viết...");
+const writing = await generateWritingTask(level);
+await delay(10000); // Dừng 10 giây
+
+console.log("Đang tạo phần Nói...");
+const speaking = await generateSpeakingTask(level);
   const exam: VSTEPExam = {
     id: crypto.randomUUID(),
     level,
